@@ -1,10 +1,10 @@
 {
-  "id": "/secondbrain-v2",
+  "id": "/second_brain/",
   "name": "Second Brain • FM Sukhothai",
   "short_name": "SecondBrain",
   "description": "ระบบฐานข้อมูล Second Brain นพ.ธนวิชญ์ รพ.สุโขทัย",
-  "start_url": "./index.html?v=2",
-  "scope": "./",
+  "start_url": "/second_brain/?v=3",
+  "scope": "/second_brain/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#0f172a",

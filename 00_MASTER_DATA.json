@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์ (FM Sukhothai)",
-    "last_updated": "2026-10-14",
+    "last_updated": "2026-10-15T21:05:00+07:00",
     "schema_version": "2.0-JSON",
     "system_state": {
       "inbox_state": "inbox_last_scanned_date:2026-10-03"
@@ -446,15 +446,60 @@
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": 25,
       "pm_work": "IPD palliative",
-      "pm_volume": "",
+      "pm_volume": 2,
       "overtime": "ไม่มี",
-      "ot_volume": "",
+      "ot_volume": 0,
       "home_ward": "N",
       "palliative": "Y",
-      "issue": "",
-      "action": "",
-      "link_proj": "",
-      "doc_url": ""
+      "issue": "ออกตรวจโรคทั่วไปช่วงเช้า รพ.สต.บ้านสวน 25 ราย / บ่ายดูแลเคส IPD Palliative 2 ราย",
+      "action": "ติดตามอาการผู้ป่วยประคับประคองต่อเนื่อง",
+      "link_proj": "PAL-001",
+      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
+    },
+    {
+      "date": "2026-10-13",
+      "am_work": "Home ward",
+      "am_volume": 2,
+      "pm_work": "",
+      "pm_volume": 0,
+      "overtime": "ไม่มี",
+      "ot_volume": 0,
+      "home_ward": "Y",
+      "palliative": "N",
+      "issue": "ออกตรวจราวน์เวร Home ward วันหยุดนักขัตฤกษ์ 2 เคส เรียบร้อยดี",
+      "action": "ติดตามอาการผู้ป่วย Home ward ต่อเนื่อง",
+      "link_proj": "HW-001",
+      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
+    },
+    {
+      "date": "2026-10-14",
+      "am_work": "รพ.สต.ตาลเตี้ย",
+      "am_volume": 35,
+      "pm_work": "ตรวจสุขภาพ, IPD palliative",
+      "pm_volume": 19,
+      "overtime": "ไม่มี",
+      "ot_volume": 0,
+      "home_ward": "N",
+      "palliative": "Y",
+      "issue": "เช้า รพ.สต.ตาลเตี้ย เคสหนาแน่น (35 ราย) / บ่ายช่วยตรวจ OPD ตรวจสุขภาพ 17 ราย และดูเคส IPD Palliative 2 ราย (รวมบ่าย 19 ราย)",
+      "action": "1) ดูแลเคสตรวจสุขภาพและ IPD Palliative 2) ปรับสถาปัตยกรรม Second Brain เป็นระบบ JSON + WebApp Dashboard และ Living Weekly File สำเร็จ",
+      "link_proj": "SYS-001, PAL-001, PC-003",
+      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
+    },
+    {
+      "date": "2026-10-15",
+      "am_work": "OPD Fammed",
+      "am_volume": 32,
+      "pm_work": "IPD palliative",
+      "pm_volume": 3,
+      "overtime": "ไม่มี",
+      "ot_volume": 0,
+      "home_ward": "N",
+      "palliative": "Y",
+      "issue": "เช้าออกตรวจ OPD Fammed (PCU รพ.สท.) 32 ราย / บ่ายสอน Intern และราวน์ดูแลเคส IPD Palliative 3 ราย",
+      "action": "ดูแลผู้ป่วยประคับประคองต่อเนื่อง และติดตามงานพัฒนาระบบปฐมภูมิ (GER-001)",
+      "link_proj": "PAL-001, GER-001",
+      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
     }
   ],
   "project_board": [
@@ -7452,47 +7497,47 @@
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "25",
       "pm_work": "IPD palliative",
-      "pm_volume": "(รออัปเดต)",
+      "pm_volume": "2",
       "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "25+",
-      "issue_action": "ออกตรวจ รพ.สต.บ้านสวน ช่วงเช้า 25 ราย / บ่ายเวรรับปรึกษา IPD Palliative (รออัปเดตสรุปปิดวัน)"
+      "ot_volume": "0",
+      "total": "27",
+      "issue_action": "เช้าตรวจ รพ.สต.บ้านสวน 25 ราย / บ่ายดูแลเคสรับปรึกษา IPD Palliative 2 เคส (Palliative: Y)"
     },
     {
       "date": "2026-10-13",
-      "day_label": "อังคารที่ 13 ต.ค. 2569 (วันหยุดนักขัตฤกษ์)",
+      "day_label": "อังคารที่ 13 ต.ค. 2569 (วันหยุด)",
       "am_work": "Home ward (เวรวันหยุด)",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "2",
       "pm_work": "วันหยุดนักขัตฤกษ์",
-      "pm_volume": "-",
+      "pm_volume": "0",
       "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "เวรราวน์ Home ward วันหยุดนักขัตฤกษ์ (09:00–12:00 น.)"
+      "ot_volume": "0",
+      "total": "2",
+      "issue_action": "ออกตรวจราวน์เวร Home ward วันหยุดนักขัตฤกษ์ (09:00–12:00 น.) จำนวน 2 เคส เรียบร้อยดี (Home ward: Y)"
     },
     {
       "date": "2026-10-14",
       "day_label": "พุธที่ 14 ต.ค. 2569",
       "am_work": "รพ.สต.ตาลเตี้ย",
-      "am_volume": "(รออัปเดต)",
-      "pm_work": "IPD palliative / พัฒนางานระบบ",
-      "pm_volume": "(รออัปเดต)",
+      "am_volume": "35",
+      "pm_work": "OPD ตรวจสุขภาพ (17) / IPD palliative (2)",
+      "pm_volume": "19",
       "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "ปรับสถาปัตยกรรมระบบ Second Brain (เปลี่ยน Master Log เป็น JSON + WebApp Dashboard และระบบ Living Weekly File) / วิเคราะห์หุ้น BDMS"
+      "ot_volume": "0",
+      "total": "54",
+      "issue_action": "เช้า รพ.สต.ตาลเตี้ย 35 เคส / บ่ายช่วยตรวจสุขภาพ 17 เคส + IPD Palliative 2 เคส / อัปเกรดระบบ Second Brain WebApp"
     },
     {
       "date": "2026-10-15",
       "day_label": "พฤหัสบดีที่ 15 ต.ค. 2569",
       "am_work": "OPD Fammed (PCU รพ.สท.)",
-      "am_volume": "(รออัปเดต)",
-      "pm_work": "Academic (สอน Intern บ่าย) / IPD palliative",
-      "pm_volume": "(รออัปเดต)",
+      "am_volume": "32",
+      "pm_work": "Academic (สอน Intern) / IPD palliative",
+      "pm_volume": "3",
       "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "กำหนดส่งมอบร่างสื่อการออกกำลังกายสำหรับผู้สูงอายุ (GER-001 Due: 15 ต.ค. 2569)"
+      "ot_volume": "0",
+      "total": "35",
+      "issue_action": "เช้าตรวจ PCU รพ.สท. (OPD Fammed) 32 เคส / บ่ายสอน Intern และราวน์ดูแลเคส IPD Palliative 3 เคส"
     },
     {
       "date": "2026-10-16",
@@ -7529,6 +7574,107 @@
       "ot_volume": "-",
       "total": "(รออัปเดต)",
       "issue_action": "เวรราวน์ Home ward วันอาทิตย์ (09:00–12:00 น.)"
+    }
+  ],
+  "email_digest": [
+    {
+      "thread_id": "1a13f8e1d220aa07",
+      "date": "2026-10-15",
+      "time": "19:33 น.",
+      "digest_batch": "2026-10-15",
+      "category": "ธุรกรรมธนาคารและช้อปปิ้งออนไลน์",
+      "sender": "SCB Easy",
+      "subject": "แจ้งเตือนจากแอป SCB Easy: บริการอัตโนมัติแจ้งเตือนการทำธุรกรรม",
+      "summary": "แจ้งเตือนการทำรายการชำระค่าสินค้าและบริการผ่านแอป SCB Easy เมื่อ 15 ต.ค. 69 เวลา 18:53 น.",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13f8e1d220aa07"
+    },
+    {
+      "thread_id": "1a13f8aeaf1e654d",
+      "date": "2026-10-15",
+      "time": "19:30 น.",
+      "digest_batch": "2026-10-15",
+      "category": "การแจ้งเตือนความปลอดภัย",
+      "sender": "SCB Easy",
+      "subject": "แจ้งเตือนจากแอพ SCB Easy: บริการอัตโนมัติแจ้งเตือนการเข้าสู่ระบบ",
+      "summary": "แจ้งเตือนการเข้าสู่ระบบแอป SCB Easy ล่าสุดเมื่อ 15 ต.ค. 69 เวลา 18:51 น.",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13f8aeaf1e654d"
+    },
+    {
+      "thread_id": "1a13f8de148d0946",
+      "date": "2026-10-15",
+      "time": "19:03 น.",
+      "digest_batch": "2026-10-15",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": ".life (Dotlife)",
+      "subject": "ชัดทุกแสง สวยทุกระยะกับ Insta360 Luna Pro Co-Engineered with Leica",
+      "summary": "ประชาสัมพันธ์เปิด Pre-order กล้อง Insta360 Luna Pro เริ่มต้น 17,599 บาท ที่ร้าน .life",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13f8de148d0946"
+    },
+    {
+      "thread_id": "1a13f548033f3acf",
+      "date": "2026-10-15",
+      "time": "18:31 น.",
+      "digest_batch": "2026-10-15",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "Agoda",
+      "subject": "Thanawit, only 1 room remains",
+      "summary": "แจ้งเตือนห้องพักโรงแรม Solumie Boutique Hotel เหลือ 1 ห้องสุดท้าย พร้อมส่วนลดพิเศษ 7%",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13f548033f3acf"
+    },
+    {
+      "thread_id": "1a13ed26524d137e",
+      "date": "2026-10-15",
+      "time": "16:08 น.",
+      "digest_batch": "2026-10-15",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "WPS Office",
+      "subject": "You might have missed this, just a reminder!",
+      "summary": "แจ้งเตือนโปรโมชั่นส่วนลด 30% สำหรับการสมัครใช้งาน WPS Premium",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13ed26524d137e"
+    },
+    {
+      "thread_id": "1a13eb003b69f8a8",
+      "date": "2026-10-15",
+      "time": "15:31 น.",
+      "digest_batch": "2026-10-15",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "MIMS (Endocrinology)",
+      "subject": "Steroids, stress, BMI work together to hasten pubertal development in girls",
+      "summary": "บทความวิชาการแพทย์: อิทธิพลร่วมของสเตียรอยด์ ความเครียด และ BMI ต่อการเข้าสู่วัยหนุ่มสาวก่อนวัยในเด็กหญิง",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13eb003b69f8a8"
+    },
+    {
+      "thread_id": "1a13d50e831372be",
+      "date": "2026-10-15",
+      "time": "09:07 น.",
+      "digest_batch": "2026-10-15",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "MDPI",
+      "subject": "Nutrients, Volume 18, Issue 19 (October-1 2026) Table of Contents",
+      "summary": "สารบัญวารสารวิชาการ Nutrients ฉบับที่ 18 เล่มที่ 19 (ต.ค. 2026) รวบรวมงานวิจัยด้านโภชนาการล่าสุด",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13d50e831372be"
+    },
+    {
+      "thread_id": "1a13d36f243a140b",
+      "date": "2026-10-15",
+      "time": "08:39 น.",
+      "digest_batch": "2026-10-15",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "MIMS (Respirology)",
+      "subject": "SUNRISE supports tezepelumab in severe OCS-dependent asthma",
+      "summary": "รายงานผลการศึกษาทางคลินิกระยะที่ 3 (SUNRISE trial) ประสิทธิภาพของยาชีววัตถุ Tezepelumab ในผู้ป่วยโรคหืดรุนแรง",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13d36f243a140b"
+    },
+    {
+      "thread_id": "1a13b0ec38c3ebdb",
+      "date": "2026-10-14",
+      "time": "22:36 น.",
+      "digest_batch": "2026-10-15",
+      "category": "การแจ้งเตือนความปลอดภัย",
+      "sender": "Google Accounts",
+      "subject": "การแจ้งเตือนความปลอดภัย (Second_brain)",
+      "summary": "แจ้งเตือนความปลอดภัย: คุณอนุญาตให้แอปพลิเคชัน Second_brain เข้าถึงข้อมูลบางส่วนในบัญชี Google",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13b0ec38c3ebdb"
     }
   ]
 }
