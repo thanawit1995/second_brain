@@ -1,31 +1,48 @@
 {
-  "id": "/second_brain/",
+  "id": "/second_brain/fm-sukhothai-pwa-v4",
   "name": "Second Brain • FM Sukhothai",
   "short_name": "SecondBrain",
   "description": "ระบบฐานข้อมูล Second Brain นพ.ธนวิชญ์ รพ.สุโขทัย",
-  "start_url": "/second_brain/?v=3",
-  "scope": "/second_brain/",
+  "start_url": "./index.html?pwa=v4",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#0f172a",
   "theme_color": "#0f4c81",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "icon-512.png",
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "apple-touch-icon.png",
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./apple-touch-icon.png",
       "sizes": "180x180",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
+  ],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
   ]
 }
