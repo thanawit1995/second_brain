@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์ (FM Sukhothai)",
-    "last_updated": "2026-10-16T18:00:00+07:00",
+    "last_updated": "2026-10-16T23:09:00+07:00",
     "schema_version": "2.0-JSON",
     "system_state": {
       "inbox_state": "inbox_last_scanned_date:2026-10-03"
@@ -7508,7 +7508,7 @@
   "w42_living_schedule": [
     {
       "date": "2026-10-12",
-      "day_label": "จันทร์ที่ 12 ต.ค. 2569",
+      "day_label": "จันทร์ที่ 12 ต.ค. 2569 (2026-10-12)",
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "25",
       "pm_work": "IPD palliative",
@@ -7516,11 +7516,11 @@
       "overtime": "ไม่มี",
       "ot_volume": "0",
       "total": "27",
-      "issue_action": "เช้าตรวจ รพ.สต.บ้านสวน 25 ราย / บ่ายดูแลเคสรับปรึกษา IPD Palliative 2 เคส (Palliative: Y)"
+      "issue_action": "- ออกตรวจโรคทั่วไปช่วงเช้า ณ รพ.สต.บ้านสวน 25 ราย\n- ช่วงบ่ายดูแลเคสรับปรึกษา IPD Palliative 2 เคส (Palliative: Y)"
     },
     {
       "date": "2026-10-13",
-      "day_label": "อังคารที่ 13 ต.ค. 2569 (วันหยุด)",
+      "day_label": "อังคารที่ 13 ต.ค. 2569 (2026-10-13 — วันหยุด)",
       "am_work": "Home ward (เวรวันหยุด)",
       "am_volume": "2",
       "pm_work": "วันหยุดนักขัตฤกษ์",
@@ -7528,11 +7528,11 @@
       "overtime": "ไม่มี",
       "ot_volume": "0",
       "total": "2",
-      "issue_action": "ออกตรวจราวน์เวร Home ward วันหยุดนักขัตฤกษ์ (09:00–12:00 น.) จำนวน 2 เคส เรียบร้อยดี (Home ward: Y)"
+      "issue_action": "- ออกตรวจราวน์เวร Home ward วันหยุดนักขัตฤกษ์ (09:00–12:00 น.) จำนวน 2 เคส เรียบร้อยดี (Home ward: Y)"
     },
     {
       "date": "2026-10-14",
-      "day_label": "พุธที่ 14 ต.ค. 2569",
+      "day_label": "พุธที่ 14 ต.ค. 2569 (2026-10-14)",
       "am_work": "รพ.สต.ตาลเตี้ย",
       "am_volume": "35",
       "pm_work": "OPD ตรวจสุขภาพ (17) / IPD palliative (2)",
@@ -7540,23 +7540,23 @@
       "overtime": "ไม่มี",
       "ot_volume": "0",
       "total": "54",
-      "issue_action": "เช้า รพ.สต.ตาลเตี้ย 35 เคส / บ่ายช่วยตรวจสุขภาพ 17 เคส + IPD Palliative 2 เคส / อัปเกรดระบบ Second Brain WebApp"
+      "issue_action": "- ช่วงเช้าออกตรวจ ณ รพ.สต.ตาลเตี้ย 35 เคส (ผู้ป่วยหนาแน่นสูง)\n- ช่วงบ่ายช่วยตรวจ OPD ตรวจสุขภาพ 17 เคส และดูแลเคส IPD Palliative 2 เคส (รวมบ่าย 19 เคส, Palliative: Y)\n- ปรับปรุงสถาปัตยกรรมฐานข้อมูล Second Brain สู่ระบบ JSON Database + WebApp Dashboard และระบบ Living Weekly File สำเร็จ"
     },
     {
       "date": "2026-10-15",
-      "day_label": "พฤหัสบดีที่ 15 ต.ค. 2569",
+      "day_label": "พฤหัสบดีที่ 15 ต.ค. 2569 (2026-10-15)",
       "am_work": "OPD Fammed (PCU รพ.สท.)",
       "am_volume": "32",
-      "pm_work": "Academic (สอน Intern) / IPD palliative",
+      "pm_work": "Academic (สอน Intern บ่าย) / IPD palliative",
       "pm_volume": "3",
       "overtime": "ไม่มี",
       "ot_volume": "0",
       "total": "35",
-      "issue_action": "เช้าตรวจ PCU รพ.สท. (OPD Fammed) 32 เคส / บ่ายสอน Intern และราวน์ดูแลเคส IPD Palliative 3 เคส"
+      "issue_action": "- ช่วงเช้าออกตรวจ PCU รพ.สท. (OPD Fammed) 32 เคส\n- ช่วงบ่ายสอน Intern และราวน์ดูแลเคส IPD Palliative 3 เคส (Palliative: Y)\n- กำหนดส่งมอบร่างสื่อการออกกำลังกายสำหรับผู้สูงอายุ (GER-001)"
     },
     {
       "date": "2026-10-16",
-      "day_label": "ศุกร์ที่ 16 ต.ค. 2569",
+      "day_label": "ศุกร์ที่ 16 ต.ค. 2569 (2026-10-16)",
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "15",
       "pm_work": "ตรวจสมุดสุขภาพ (15) / เยี่ยมบ้าน (3) / IPD PC (3)",
@@ -7564,11 +7564,11 @@
       "overtime": "ไม่มี",
       "ot_volume": "0",
       "total": "36",
-      "issue_action": "ช่วงเช้าตรวจ รพ.สต.บ้านสวน 15 ราย / บ่ายตรวจสมุดสุขภาพ 15 ราย + เยี่ยมบ้าน 3 ราย + IPD PC 3 ราย (รวมบ่าย 21 ราย, Home ward: Y, Palliative: Y)"
+      "issue_action": "- ช่วงเช้าออกตรวจ ณ รพ.สต.บ้านสวน 15 ราย\n- ช่วงบ่ายตรวจสมุดสุขภาพ 15 ราย, ออกเยี่ยมบ้าน 3 ราย, และดูแลผู้ป่วย IPD PC 3 ราย (รวมบ่าย 21 ราย, Home ward: Y, Palliative: Y)"
     },
     {
       "date": "2026-10-17",
-      "day_label": "เสาร์ที่ 17 ต.ค. 2569",
+      "day_label": "เสาร์ที่ 17 ต.ค. 2569 (2026-10-17 — วันหยุด)",
       "am_work": "Home ward (เวรวันหยุด)",
       "am_volume": "(รออัปเดต)",
       "pm_work": "-",
@@ -7576,11 +7576,11 @@
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "(รออัปเดต)",
-      "issue_action": "เวรราวน์ Home ward วันเสาร์ (09:00–12:00 น.)"
+      "issue_action": "- เวรราวน์ Home ward วันเสาร์ (09:00–12:00 น.)"
     },
     {
       "date": "2026-10-18",
-      "day_label": "อาทิตย์ที่ 18 ต.ค. 2569",
+      "day_label": "อาทิตย์ที่ 18 ต.ค. 2569 (2026-10-18 — วันหยุด)",
       "am_work": "Home ward (เวรวันหยุด)",
       "am_volume": "(รออัปเดต)",
       "pm_work": "-",
@@ -7588,108 +7588,559 @@
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "(รออัปเดต)",
-      "issue_action": "เวรราวน์ Home ward วันอาทิตย์ (09:00–12:00 น.)"
+      "issue_action": "- เวรราวน์ Home ward วันอาทิตย์ (09:00–12:00 น.)"
     }
   ],
   "email_digest": [
     {
+      "thread_id": "1a1449e9bad4cf13",
+      "date": "2026-10-16",
+      "time": "19:10 น.",
+      "digest_batch": "2026-10-16",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "Traveloka",
+      "subject": "✈️ ยังหาเที่ยวบินไป Bangkok อยู่หรอ?",
+      "summary": "แจ้งเตือนโปรโมชั่นและที่นั่งตั๋วเครื่องบินราคาพิเศษเส้นทางสู่กรุงเทพฯ",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1449e9bad4cf13"
+    },
+    {
+      "thread_id": "1a1449bed8007b4e",
+      "date": "2026-10-16",
+      "time": "19:01 น.",
+      "digest_batch": "2026-10-16",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "iStudio",
+      "subject": "iPhone Duo พับได้ จัดท่าได้ ตั้งได้   สั่งซื้อล่วงหน้าได้แล้ววันนี้📱",
+      "summary": "เปิดรับจองล่วงหน้า iPhone Duo สมาร์ทโฟนจอพับรุ่นใหม่ จัดท่าตั้งวางได้สะดวก",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1449bed8007b4e"
+    },
+    {
+      "thread_id": "1a14447ea811aa3c",
+      "date": "2026-10-16",
+      "time": "17:35 น.",
+      "digest_batch": "2026-10-16",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "Seeking Alpha",
+      "subject": "See what's moving the markets this week",
+      "summary": "สรุปภาพรวมข่าวเศรษฐกิจและการเคลื่อนไหวสำคัญของตลาดหุ้นสหรัฐฯ ประจำสัปดาห์",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a14447ea811aa3c"
+    },
+    {
+      "thread_id": "1a144330e2f26c2f",
+      "date": "2026-10-16",
+      "time": "17:12 น.",
+      "digest_batch": "2026-10-16",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "Anker",
+      "subject": "✨ Coming Soon: A Better Shopping Experience on Anker Australia",
+      "summary": "ประชาสัมพันธ์ปรับปรุงประสบการณ์ช้อปปิ้งออนไลน์ใหม่บน Anker Store",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a144330e2f26c2f"
+    },
+    {
+      "thread_id": "1a144289cbca2b53",
+      "date": "2026-10-16",
+      "time": "17:01 น.",
+      "digest_batch": "2026-10-16",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "Agoda",
+      "subject": "Thanawit, prices are cheaper than usual",
+      "summary": "แจ้งเตือนห้องพัก Solumie Boutique Hotel เหลือ 1 ห้องสุดท้าย พร้อมส่วนลด 7%",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a144289cbca2b53"
+    },
+    {
+      "thread_id": "1a143e8d3800b604",
+      "date": "2026-10-16",
+      "time": "15:51 น.",
+      "digest_batch": "2026-10-16",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "Agoda",
+      "subject": "Thanawit, top price drops in Phitsanulok, selected for you\\\\!",
+      "summary": "รวมดีลลดราคาพิเศษสำหรับโรงแรมและที่พักยอดนิยมในจังหวัดพิษณุโลก",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a143e8d3800b604"
+    },
+    {
+      "thread_id": "1a14388397c6ddf0",
+      "date": "2026-10-16",
+      "time": "14:06 น.",
+      "digest_batch": "2026-10-16",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "Agoda",
+      "subject": "✈️ Thanawit, flight prices to Bangkok have risen by 10% on Agoda\\\\! Book now before prices go higher\\\\!",
+      "summary": "แจ้งเตือนราคาตั๋วเครื่องบินสุโขทัย-กรุงเทพฯ ปรับขึ้น 10% แนะนำจองล่วงหน้า",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a14388397c6ddf0"
+    },
+    {
+      "thread_id": "1a143601e0eb3689",
+      "date": "2026-10-16",
+      "time": "13:22 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: Yoga ในวัน ศุกร์ 30 ต.ค. 2026 6pm - 7pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: Yoga ในวัน ศุกร์ 30 ต.ค. 2026 6pm - 7pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a143601e0eb3689"
+    },
+    {
+      "thread_id": "1a1435e14c5c7b2b",
+      "date": "2026-10-16",
+      "time": "13:20 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: OPD PC ในวัน จันทร์ 30 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: OPD PC ในวัน จันทร์ 30 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435e14c5c7b2b"
+    },
+    {
+      "thread_id": "1a1435d6082291ab",
+      "date": "2026-10-16",
+      "time": "13:19 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: PCU รพ ในวัน ศุกร์ 20 พ.ย. 9am - ศุกร์ 27 พ.ย. 2026 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: PCU รพ ในวัน ศุกร์ 20 พ.ย. 9am - ศุกร์ 27 พ.ย. 2026 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435d6082291ab"
+    },
+    {
+      "thread_id": "1a1435d2151a31d4",
+      "date": "2026-10-16",
+      "time": "13:18 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: P: บ้านหลุม ในวัน พฤหัส 26 พ.ย. 2026 8:30am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: P: บ้านหลุม ในวัน พฤหัส 26 พ.ย. 2026 8:30am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435d2151a31d4"
+    },
+    {
+      "thread_id": "1a1435c88e83201f",
+      "date": "2026-10-16",
+      "time": "13:18 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: P: ปากแคว ในวัน พุธ 18 พ.ย. 8:30am - พุธ 25 พ.ย. 2026 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: P: ปากแคว ในวัน พุธ 18 พ.ย. 8:30am - พุธ 25 พ.ย. 2026 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435c88e83201f"
+    },
+    {
+      "thread_id": "1a1435c39f0dc669",
+      "date": "2026-10-16",
+      "time": "13:17 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: PCU ริมน้ำ ในวัน อังคาร 24 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: PCU ริมน้ำ ในวัน อังคาร 24 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435c39f0dc669"
+    },
+    {
+      "thread_id": "1a1435bc434419eb",
+      "date": "2026-10-16",
+      "time": "13:17 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: OPD PC ในวัน จันทร์ 23 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: OPD PC ในวัน จันทร์ 23 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435bc434419eb"
+    },
+    {
+      "thread_id": "1a1435b94ca5c6a4",
+      "date": "2026-10-16",
+      "time": "13:17 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: PCU รพ ในวัน ศุกร์ 20 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: PCU รพ ในวัน ศุกร์ 20 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435b94ca5c6a4"
+    },
+    {
+      "thread_id": "1a1435af459a390f",
+      "date": "2026-10-16",
+      "time": "13:16 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: P: บ้านหลุม ในวัน พฤหัส 19 พ.ย. 2026 8:30am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: P: บ้านหลุม ในวัน พฤหัส 19 พ.ย. 2026 8:30am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435af459a390f"
+    },
+    {
+      "thread_id": "1a1435a9d9ab6cc4",
+      "date": "2026-10-16",
+      "time": "13:16 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: P: ปากแคว ในวัน พุธ 18 พ.ย. 2026 8:30am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: P: ปากแคว ในวัน พุธ 18 พ.ย. 2026 8:30am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435a9d9ab6cc4"
+    },
+    {
+      "thread_id": "1a1435a66237b8dd",
+      "date": "2026-10-16",
+      "time": "13:16 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: P: OPD GP ในวัน อังคาร 17 พ.ย. 2026 1pm - 4pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: P: OPD GP ในวัน อังคาร 17 พ.ย. 2026 1pm - 4pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435a66237b8dd"
+    },
+    {
+      "thread_id": "1a1435a18630ea6e",
+      "date": "2026-10-16",
+      "time": "13:15 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: PCU ริมน้ำ ในวัน อังคาร 17 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: PCU ริมน้ำ ในวัน อังคาร 17 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435a18630ea6e"
+    },
+    {
+      "thread_id": "1a14359efa493dd2",
+      "date": "2026-10-16",
+      "time": "13:15 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: OPD PC ในวัน จันทร์ 16 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: OPD PC ในวัน จันทร์ 16 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a14359efa493dd2"
+    },
+    {
+      "thread_id": "1a1435972861d164",
+      "date": "2026-10-16",
+      "time": "13:14 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: P: ปากแคว ในวัน พุธ 11 พ.ย. 2026 8:30am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: P: ปากแคว ในวัน พุธ 11 พ.ย. 2026 8:30am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435972861d164"
+    },
+    {
+      "thread_id": "1a143594523e3dcb",
+      "date": "2026-10-16",
+      "time": "13:14 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: PCU ริมน้ำ ในวัน อังคาร 10 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: PCU ริมน้ำ ในวัน อังคาร 10 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a143594523e3dcb"
+    },
+    {
+      "thread_id": "1a14358d00ecc6c0",
+      "date": "2026-10-16",
+      "time": "13:14 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: P: OPD GP ในวัน จันทร์ 9 พ.ย. 2026 1pm - 4pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: P: OPD GP ในวัน จันทร์ 9 พ.ย. 2026 1pm - 4pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a14358d00ecc6c0"
+    },
+    {
+      "thread_id": "1a143587cdd2b33d",
+      "date": "2026-10-16",
+      "time": "13:13 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: OPD PC ในวัน จันทร์ 9 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: OPD PC ในวัน จันทร์ 9 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a143587cdd2b33d"
+    },
+    {
+      "thread_id": "1a14358304840955",
+      "date": "2026-10-16",
+      "time": "13:13 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: P-Homeward ในวัน เสาร์ 7 พ.ย. - อาทิตย์ 8 พ.ย. 2026 (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: P-Homeward ในวัน เสาร์ 7 พ.ย. - อาทิตย์ 8 พ.ย. 2026 (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a14358304840955"
+    },
+    {
+      "thread_id": "1a14357d515a92e3",
+      "date": "2026-10-16",
+      "time": "13:13 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: PCU รพ ในวัน ศุกร์ 6 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: PCU รพ ในวัน ศุกร์ 6 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a14357d515a92e3"
+    },
+    {
+      "thread_id": "1a1435696a98c713",
+      "date": "2026-10-16",
+      "time": "13:11 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: P: ปากแคว ในวัน พุธ 4 พ.ย. 2026 8:30am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: P: ปากแคว ในวัน พุธ 4 พ.ย. 2026 8:30am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435696a98c713"
+    },
+    {
+      "thread_id": "1a1435623d2a03ca",
+      "date": "2026-10-16",
+      "time": "13:11 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: PCU ริมน้ำ ในวัน อังคาร 3 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: PCU ริมน้ำ ในวัน อังคาร 3 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1435623d2a03ca"
+    },
+    {
+      "thread_id": "1a14355c374b1a40",
+      "date": "2026-10-16",
+      "time": "13:10 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: P: รับ consult PC ในวัน จันทร์ 2 พ.ย. 9am - ศุกร์ 6 พ.ย. 2026 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: P: รับ consult PC ในวัน จันทร์ 2 พ.ย. 9am - ศุกร์ 6 พ.ย. 2026 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a14355c374b1a40"
+    },
+    {
+      "thread_id": "1a143554ef47cb61",
+      "date": "2026-10-16",
+      "time": "13:10 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Google Calendar",
+      "subject": "กิจกรรมใหม่: OPD PC ในวัน จันทร์ 2 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "summary": "นัดหมายปฏิทินงาน: OPD PC ในวัน จันทร์ 2 พ.ย. 2026 9am - 12pm (GMT+7) (Pealpeal-JOB)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a143554ef47cb61"
+    },
+    {
+      "thread_id": "1a1434ced52bc7c1",
+      "date": "2026-10-16",
+      "time": "13:01 น.",
+      "digest_batch": "2026-10-16",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "ELSA Speak",
+      "subject": "✨ พูดไม่มั่นใจ กลัวออกเสียงผิด? สปีดความเป๊ะด้วย Premium 1 ปี เพียง ฿2,275\\\\!",
+      "summary": "ข้อเสนอพิเศษแพ็กเกจ ELSA Premium 1 ปี ฝึกออกเสียงภาษาอังกฤษมั่นใจยิ่งขึ้น",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1434ced52bc7c1"
+    },
+    {
+      "thread_id": "1a14312cfcec9249",
+      "date": "2026-10-16",
+      "time": "11:57 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Webull Financial",
+      "subject": "เปิดลงทะเบียนแล้ว\\\\! รอบส่งท้าย Webull Master Class: The Power of Options​",
+      "summary": "คำเชิญเข้าร่วมสัมมนาออนไลน์ Webull Master Class: Technical Analysis",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a14312cfcec9249"
+    },
+    {
+      "thread_id": "1a142db9a7e4d0c3",
+      "date": "2026-10-16",
+      "time": "10:57 น.",
+      "digest_batch": "2026-10-16",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "Quora Digest",
+      "subject": "SSC CGL RESULT 2025",
+      "summary": "จดหมายข่าวกระทู้เด่น Quora: SSC CGL RESULT 2025",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a142db9a7e4d0c3"
+    },
+    {
+      "thread_id": "1a142cd9c7b2d369",
+      "date": "2026-10-16",
+      "time": "10:41 น.",
+      "digest_batch": "2026-10-16",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "Samsung Thailand",
+      "subject": "เฉพาะพนักงานคู่ค้า Samsung\\\\! ทีวี Mini LED ลดเพิ่มสูงสุด 44% 💥",
+      "summary": "โปรโมชั่นเก่าแลกใหม่ลดเพิ่มสูงสุด 7,000 บาท เมื่อซื้อ Galaxy Z Fold8 Ultra",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a142cd9c7b2d369"
+    },
+    {
+      "thread_id": "1a142ba833631cce",
+      "date": "2026-10-16",
+      "time": "10:21 น.",
+      "digest_batch": "2026-10-16",
+      "category": "การแจ้งเตือนความปลอดภัย",
+      "sender": "SCB Easy",
+      "subject": "แจ้งเตือนจากแอพ SCB Easy: บริการอัตโนมัติแจ้งเตือนการเข้าสู่ระบบ",
+      "summary": "แจ้งเตือนความปลอดภัย: บัญชีมีการเข้าสู่ระบบแอปพลิเคชัน SCB Easy",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a142ba833631cce"
+    },
+    {
+      "thread_id": "1a142b8f893b1d20",
+      "date": "2026-10-16",
+      "time": "10:19 น.",
+      "digest_batch": "2026-10-16",
+      "category": "ธุรกรรมธนาคารและช้อปปิ้งออนไลน์",
+      "sender": "SCB Easy",
+      "subject": "แจ้งเตือนจากแอพ SCB Easy: บริการอัตโนมัติแจ้งเตือนการทำธุรกรรม",
+      "summary": "แจ้งเตือนการทำรายการชำระค่าสินค้าและบริการผ่านแอปพลิเคชัน SCB Easy",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a142b8f893b1d20"
+    },
+    {
+      "thread_id": "1a142b3c9d1aeb63",
+      "date": "2026-10-16",
+      "time": "10:13 น.",
+      "digest_batch": "2026-10-16",
+      "category": "สิ่งที่ต้องดำเนินการ",
+      "sender": "สปสช. (NHSO)",
+      "subject": "ปรับปรุงบัญชีของคุณ",
+      "summary": "กำหนดรหัสผ่านเข้าใช้งานระบบ NHSO IAM บัญชี thanawit1995 (ลิงก์หมดอายุใน 12 ชม.)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a142b3c9d1aeb63"
+    },
+    {
+      "thread_id": "1a142b2f4a6ee121",
+      "date": "2026-10-16",
+      "time": "10:13 น.",
+      "digest_batch": "2026-10-16",
+      "category": "การแจ้งเตือนความปลอดภัย",
+      "sender": "Google Accounts",
+      "subject": "การแจ้งเตือนความปลอดภัย",
+      "summary": "แจ้งเตือนความปลอดภัย: มีการลงชื่อเข้าใช้งานใหม่ในบัญชี Google บนอุปกรณ์ Windows",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a142b2f4a6ee121"
+    },
+    {
+      "thread_id": "1a142ac338f7b889",
+      "date": "2026-10-16",
+      "time": "10:05 น.",
+      "digest_batch": "2026-10-16",
+      "category": "สิ่งที่ต้องดำเนินการ",
+      "sender": "สปสช. (NHSO)",
+      "subject": "สร้างบัญชีผู้ใช้ ด้วยการยืนยันตัวตนผ่าน ThaID",
+      "summary": "สร้างบัญชีผู้ใช้และยืนยันตัวตนผ่าน ThaID สำหรับหน่วยบริการ 07368 (รพ.สต.บ้านสวน)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a142ac338f7b889"
+    },
+    {
+      "thread_id": "1a14273089fae691",
+      "date": "2026-10-16",
+      "time": "09:03 น.",
+      "digest_batch": "2026-10-16",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "Google One",
+      "subject": "ทดลองใช้ก่อนเปิดตัว: ลองใช้ Gemini 4 Argon เลยวันนี้",
+      "summary": "แนะนำฟีเจอร์ AI ใหม่ล่าสุด Gemini 4 Argon Advanced สำหรับสมาชิก Google One",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a14273089fae691"
+    },
+    {
+      "thread_id": "1a14169ffc3c64e8",
+      "date": "2026-10-16",
+      "time": "03:56 น.",
+      "digest_batch": "2026-10-16",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "NVIDIA GeForce",
+      "subject": "Celebrate the launch of NVIDIA RTX Spark",
+      "summary": "แนะนำนวัตกรรมและการ์ดจอ GeForce RTX Series สถาปัตยกรรม Spark รุ่นใหม่",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a14169ffc3c64e8"
+    },
+    {
+      "thread_id": "1a1412d3a9e45999",
+      "date": "2026-10-16",
+      "time": "03:07 น.",
+      "digest_batch": "2026-10-16",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "Seeking Alpha",
+      "subject": "Micron: Buy The China Panic",
+      "summary": "บทวิเคราะห์เจาะลึกทิศทางตลาดและหุ้นเด่นรายตัวจากนักวิเคราะห์ Seeking Alpha",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1412d3a9e45999"
+    },
+    {
+      "thread_id": "1a141214a0a30231",
+      "date": "2026-10-16",
+      "time": "02:54 น.",
+      "digest_batch": "2026-10-16",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "James Clear",
+      "subject": "3-2-1: On refusing to give up, the refrains of nature, and making things fun",
+      "summary": "จดหมายข่าว 3-2-1 Thursday: 3 ข้อคิด, 2 คำคม, และ 1 คำถามเพื่อการพัฒนาตนเอง",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a141214a0a30231"
+    },
+    {
+      "thread_id": "1a14109dae37e3de",
+      "date": "2026-10-16",
+      "time": "02:28 น.",
+      "digest_batch": "2026-10-16",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "Postman",
+      "subject": "Last chance to shape the State of the API with your API, agent, and security perspectives. Take the survey today.",
+      "summary": "อัปเดตฟีเจอร์ใหม่ในการจัดการและทดสอบ API บน Postman Workspace",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a14109dae37e3de"
+    },
+    {
+      "thread_id": "1a141131270f4bbf",
+      "date": "2026-10-16",
+      "time": "02:10 น.",
+      "digest_batch": "2026-10-16",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "Razer",
+      "subject": "🎧Just Dropped: Razer Barracuda V2 Pro",
+      "summary": "เปิดตัวอุปกรณ์เกมมิ่งเกียร์และหูฟังไร้สายรุ่นใหม่ล่าสุดจาก Razer",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a141131270f4bbf"
+    },
+    {
+      "thread_id": "1a140cc35d84b8f9",
+      "date": "2026-10-16",
+      "time": "01:21 น.",
+      "digest_batch": "2026-10-16",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "Quora Digest",
+      "subject": "What drinks lower cholesterol?",
+      "summary": "จดหมายข่าวกระทู้เด่น Quora: What drinks lower cholesterol?",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a140cc35d84b8f9"
+    },
+    {
+      "thread_id": "1a1404da0f6f25ca",
+      "date": "2026-10-15",
+      "time": "23:02 น.",
+      "digest_batch": "2026-10-16",
+      "category": "อัปเดตปฏิทิน",
+      "sender": "Forte Labs",
+      "subject": "Join the Annual Review Virtual Summit on Nov. 4",
+      "summary": "คำเชิญเข้าร่วมสัมมนาออนไลน์ Annual Review Virtual Summit ประจำปี",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1404da0f6f25ca"
+    },
+    {
       "thread_id": "1a13f8e1d220aa07",
       "date": "2026-10-15",
       "time": "19:33 น.",
-      "digest_batch": "2026-10-15",
+      "digest_batch": "2026-10-16",
       "category": "ธุรกรรมธนาคารและช้อปปิ้งออนไลน์",
       "sender": "SCB Easy",
       "subject": "แจ้งเตือนจากแอป SCB Easy: บริการอัตโนมัติแจ้งเตือนการทำธุรกรรม",
-      "summary": "แจ้งเตือนการทำรายการชำระค่าสินค้าและบริการผ่านแอป SCB Easy เมื่อ 15 ต.ค. 69 เวลา 18:53 น.",
+      "summary": "แจ้งเตือนการทำรายการชำระค่าสินค้าและบริการผ่านแอปพลิเคชัน SCB Easy",
       "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13f8e1d220aa07"
     },
     {
       "thread_id": "1a13f8aeaf1e654d",
       "date": "2026-10-15",
       "time": "19:30 น.",
-      "digest_batch": "2026-10-15",
+      "digest_batch": "2026-10-16",
       "category": "การแจ้งเตือนความปลอดภัย",
       "sender": "SCB Easy",
       "subject": "แจ้งเตือนจากแอพ SCB Easy: บริการอัตโนมัติแจ้งเตือนการเข้าสู่ระบบ",
-      "summary": "แจ้งเตือนการเข้าสู่ระบบแอป SCB Easy ล่าสุดเมื่อ 15 ต.ค. 69 เวลา 18:51 น.",
+      "summary": "แจ้งเตือนความปลอดภัย: บัญชีมีการเข้าสู่ระบบแอปพลิเคชัน SCB Easy",
       "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13f8aeaf1e654d"
     },
     {
       "thread_id": "1a13f8de148d0946",
       "date": "2026-10-15",
       "time": "19:03 น.",
-      "digest_batch": "2026-10-15",
+      "digest_batch": "2026-10-16",
       "category": "โฆษณาและโปรโมชั่น",
       "sender": ".life (Dotlife)",
       "subject": "ชัดทุกแสง สวยทุกระยะกับ Insta360 Luna Pro Co-Engineered with Leica",
-      "summary": "ประชาสัมพันธ์เปิด Pre-order กล้อง Insta360 Luna Pro เริ่มต้น 17,599 บาท ที่ร้าน .life",
+      "summary": "เปิดพรีออเดอร์กล้อง Insta360 Luna Pro ชัดทุกแสง สวยทุกระยะ เริ่ม 17,599 บาท",
       "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13f8de148d0946"
-    },
-    {
-      "thread_id": "1a13f548033f3acf",
-      "date": "2026-10-15",
-      "time": "18:31 น.",
-      "digest_batch": "2026-10-15",
-      "category": "โฆษณาและโปรโมชั่น",
-      "sender": "Agoda",
-      "subject": "Thanawit, only 1 room remains",
-      "summary": "แจ้งเตือนห้องพักโรงแรม Solumie Boutique Hotel เหลือ 1 ห้องสุดท้าย พร้อมส่วนลดพิเศษ 7%",
-      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13f548033f3acf"
-    },
-    {
-      "thread_id": "1a13ed26524d137e",
-      "date": "2026-10-15",
-      "time": "16:08 น.",
-      "digest_batch": "2026-10-15",
-      "category": "โฆษณาและโปรโมชั่น",
-      "sender": "WPS Office",
-      "subject": "You might have missed this, just a reminder!",
-      "summary": "แจ้งเตือนโปรโมชั่นส่วนลด 30% สำหรับการสมัครใช้งาน WPS Premium",
-      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13ed26524d137e"
-    },
-    {
-      "thread_id": "1a13eb003b69f8a8",
-      "date": "2026-10-15",
-      "time": "15:31 น.",
-      "digest_batch": "2026-10-15",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "MIMS (Endocrinology)",
-      "subject": "Steroids, stress, BMI work together to hasten pubertal development in girls",
-      "summary": "บทความวิชาการแพทย์: อิทธิพลร่วมของสเตียรอยด์ ความเครียด และ BMI ต่อการเข้าสู่วัยหนุ่มสาวก่อนวัยในเด็กหญิง",
-      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13eb003b69f8a8"
-    },
-    {
-      "thread_id": "1a13d50e831372be",
-      "date": "2026-10-15",
-      "time": "09:07 น.",
-      "digest_batch": "2026-10-15",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "MDPI",
-      "subject": "Nutrients, Volume 18, Issue 19 (October-1 2026) Table of Contents",
-      "summary": "สารบัญวารสารวิชาการ Nutrients ฉบับที่ 18 เล่มที่ 19 (ต.ค. 2026) รวบรวมงานวิจัยด้านโภชนาการล่าสุด",
-      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13d50e831372be"
-    },
-    {
-      "thread_id": "1a13d36f243a140b",
-      "date": "2026-10-15",
-      "time": "08:39 น.",
-      "digest_batch": "2026-10-15",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "MIMS (Respirology)",
-      "subject": "SUNRISE supports tezepelumab in severe OCS-dependent asthma",
-      "summary": "รายงานผลการศึกษาทางคลินิกระยะที่ 3 (SUNRISE trial) ประสิทธิภาพของยาชีววัตถุ Tezepelumab ในผู้ป่วยโรคหืดรุนแรง",
-      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13d36f243a140b"
-    },
-    {
-      "thread_id": "1a13b0ec38c3ebdb",
-      "date": "2026-10-14",
-      "time": "22:36 น.",
-      "digest_batch": "2026-10-15",
-      "category": "การแจ้งเตือนความปลอดภัย",
-      "sender": "Google Accounts",
-      "subject": "การแจ้งเตือนความปลอดภัย (Second_brain)",
-      "summary": "แจ้งเตือนความปลอดภัย: คุณอนุญาตให้แอปพลิเคชัน Second_brain เข้าถึงข้อมูลบางส่วนในบัญชี Google",
-      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a13b0ec38c3ebdb"
     }
   ],
   "w42_summary_3x3": {
@@ -7697,44 +8148,44 @@
     "subtitle": "ประจำสัปดาห์ที่ 42 (12–18 ต.ค. 2569) • สังเคราะห์จาก Living Weekly File",
     "bottlenecks": [
       {
-        "title": "ปัญหาล็อกสิทธิ์ Google Sheets (00_MASTER_INDEX)",
-        "desc": "แก้ไขสำเร็จในสัปดาห์นี้ด้วยระบบ Living Weekly File (Weekly-Work-Wxx) และฐานข้อมูลกลาง 00_MASTER_LOG_DB ทำให้การบันทึกงานรายวันลื่นไหลและตัดปัญหา PERMISSION_DENIED เบ็ดเสร็จ 100%"
+        "title": "ปัญหาการเขียนข้อมูลลง Google Sheets (00_MASTER_INDEX) ติดล็อกสิทธิ์",
+        "desc": "ได้รับการแก้ไขสำเร็จในสัปดาห์นี้โดยยกระดับสู่ระบบ Living Weekly File (Weekly-Work-Wxx) และฐานข้อมูลกลาง 00_MASTER_LOG_DB ทำให้การบันทึกงานรายวันลื่นไหลและตัดปัญหา PERMISSION_DENIED ได้เบ็ดเสร็จ"
       },
       {
-        "title": "ปริมาณผู้ป่วยนอกช่วงเช้าหนาแน่นสูง (32–35 ราย/วัน)",
-        "desc": "รพ.สต.ตาลเตี้ย (35 รายในวันพุธ) และ OPD Fammed (32 รายในวันพฤหัสบดี) สะท้อนความจำเป็นเร่งด่วนในการจัดทำเกณฑ์คัดกรอง (Triage Criteria & Standing Order) ร่วมกับพยาบาล รพ.สต. (PC-003)"
+        "title": "ปริมาณผู้ป่วยนอกช่วงเช้าที่ รพ.สต.ตาลเตี้ย และ OPD Fammed หนาแน่นสูง (35 เคสในวันพุธ และ 32 เคสในวันพฤหัสบดี)",
+        "desc": "สะท้อนความจำเป็นเร่งด่วนในการจัดทำเกณฑ์คัดกรอง (Triage Criteria & Standing Order) ร่วมกับพยาบาล รพ.สต. (PC-003) เพื่อลดภาระการตรวจเคสคงที่"
       },
       {
-        "title": "ภาระงานช่วงบ่ายหลากหลายหลายมิติ",
-        "desc": "ตรวจสุขภาพและสมุดสุขภาพยอดสูง (17 และ 15 รายตามลำดับ), เยี่ยมบ้าน 3 ราย, ราวน์ IPD Palliative Consult รวม 10 รายตลอดสัปดาห์ และสอน Intern ต้องจัดสรรเวลาให้ลงตัว"
+        "title": "ภาระงานช่วงบ่ายหลากหลายทั้งงานคลินิกเฉพาะทาง ตรวจสมุดสุขภาพ เยี่ยมบ้าน และงานสอน",
+        "desc": "บ่ายวันพุธและศุกร์มียอดเคสตรวจสุขภาพและตรวจสมุดสุขภาพสูง (17 และ 15 รายตามลำดับ) ประกอบกับภารกิจสอน Intern และเคส Palliative Care ที่ต้องดูแลต่อเนื่อง จำเป็นต้องจัดสรรเวลาและกรอบงานพัฒนาระบบให้ชัดเจน"
       }
     ],
     "wins": [
       {
-        "title": "ยกระดับสถาปัตยกรรม Second Brain สู่ Living Weekly & Master Log (SYS-001)",
-        "desc": "รวมศูนย์ข้อมูลสะสมตลอดสัปดาห์ในไฟล์เดียว ลดการสร้างไฟล์ Daily Doc แยกได้ 100% พร้อมเชื่อมโยงฐานข้อมูลกลาง 00_MASTER_LOG_DB และอัปเกรด WebApp Dashboard"
+        "title": "ยกระดับสถาปัตยกรรม Second Brain สู่ระบบ Living Weekly File & Master Log DB (SYS-001)",
+        "desc": "แก้ปัญหาคอขวดการบันทึกงานรายวัน รวมศูนย์ข้อมูลตลอดสัปดาห์ไว้ในไฟล์เดียว ลดการสร้างไฟล์ Daily Doc แยกได้ 100% พร้อมเชื่อมโยงกับฐานข้อมูลกลาง 00_MASTER_LOG_DB"
       },
       {
-        "title": "ขับเคลื่อนสื่อออกกำลังกายผู้สูงอายุ (GER-001) & ติดตาม Webapp ยาเด็ก (PED-001)",
-        "desc": "ร่างสื่อแนะนำท่าออกกำลังกายกลุ่มเปราะบาง (Chair-based / Fall prevention) คืบหน้าตามกำหนด (Due: 15 ต.ค.) และ Webapp ยาเด็กสนับสนุนการตรวจจริงหน้างานคล่องตัว"
+        "title": "ขับเคลื่อนโครงการสื่อการออกกำลังกายสำหรับผู้สูงอายุ (GER-001) และติดตามการใช้ Webapp ยาเด็ก (PED-001)",
+        "desc": "ร่างสื่อท่าออกกำลังกายกลุ่มเปราะบาง (Chair-based exercise / Fall prevention) ร่วมกับทีมกายภาพบำบัดคืบหน้าตามกำหนด (Due: 15 ต.ค.) และ Webapp ยาเด็กใช้งานสนับสนุนการตรวจได้อย่างมีประสิทธิภาพ"
       },
       {
-        "title": "รักษาคุณภาพบริบาลครอบคลุมทั้งงานเชิงรุกและผู้ป่วยระยะท้าย (PAL-001, HW-001)",
-        "desc": "ดูแลเคส IPD Palliative Consult ต่อเนื่องตลอดสัปดาห์รวม 10 ราย พร้อมทั้งออกตรวจราวน์ Home ward วันหยุด 2 ราย และออกเยี่ยมบ้านเชิงรุกในชุมชนอีก 3 ราย"
+        "title": "รักษาคุณภาพบริการครอบคลุมทั้งงานเชิงรุกและผู้ป่วยระยะท้าย (PAL-001, HW-001)",
+        "desc": "ให้การดูแลเคส IPD Palliative Consult ต่อเนื่องตลอดสัปดาห์รวม 10 ราย พร้อมทั้งออกตรวจราวน์ Home ward วันหยุด 2 ราย และออกเยี่ยมบ้านเชิงรุกในชุมชนอีก 3 รายในบ่ายวันศุกร์"
       }
     ],
     "actions": [
       {
-        "title": "ยกร่าง Triage Criteria & Nurse-Led Protocol (PC-003)",
-        "desc": "ประสานทีมพยาบาลประจำ รพ.สต.ตาลเตี้ยและบ้านสวน เพื่อจัดทำเกณฑ์คัดกรองผู้ป่วยโรคเรื้อรังอาการคงที่ ช่วยลดความแออัดหน้าห้องตรวจ"
+        "title": "ยกร่าง Triage Criteria & Nurse-Led Protocol สำหรับ รพ.สต.ตาลเตี้ยและบ้านสวน (PC-003)",
+        "desc": "ประสานทีมพยาบาลประจำ รพ.สต. เพื่อจัดทำเกณฑ์คัดกรองผู้ป่วยโรคเรื้อรังอาการคงที่ ช่วยลดความแออัดหน้าห้องตรวจ"
       },
       {
         "title": "สรุปและส่งมอบร่างสื่อการออกกำลังกายผู้สูงอายุฉบับสมบูรณ์ (GER-001)",
-        "desc": "จัดทำรูปเล่มหรือไฟล์สื่อแนะนำท่าออกกำลังกายสำหรับผู้สูงอายุกลุ่มเปราะบางเพื่อนำร่องใช้ในคลินิกผู้สูงอายุ โรงพยาบาลสุโขทัย"
+        "desc": "จัดทำรูปเล่มหรือไฟล์สื่อแนะนำท่าออกกำลังกายสำหรับผู้สูงอายุกลุ่มเปราะบางเพื่อนำร่องใช้ในคลินิกผู้สูงอายุ รพ.สุโขทัย"
       },
       {
-        "title": "เปิดไฟล์ Living Weekly ประจำสัปดาห์ที่ 43 (W43) ล่วงหน้า",
-        "desc": "จัดเตรียมตารางโครงร่างภาระงานของสัปดาห์ถัดไปในเช้าวันจันทร์เพื่อรองรับการบันทึกสะสมรายวันอย่างต่อเนื่อง"
+        "title": "เปิดไฟล์ Living Weekly ประจำสัปดาห์ที่ 43 (2026-10-23_SYS_Weekly-Work-W43) ล่วงหน้า",
+        "desc": "จัดเตรียมตารางโครงร่างภาระงานของสัปดาห์ถัดไปในเช้าวันจันทร์เพื่อรองรับการบันทึกรายวันอย่างต่อเนื่อง"
       }
     ]
   }
