@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="th">
 <head>
@@ -675,7 +676,7 @@
       </div>
       <div class="header-actions">
         <button class="sync-pill-btn" id="btn-toggle-view" onclick="toggleViewMode()" title="สลับมุมมอง การ์ด/ตาราง">📱/📊 มุมมอง</button>
-        <button class="sync-pill-btn" onclick="autoSyncFromCloud()">🔄 ซิงก์</button>
+        <button class="sync-pill-btn" onclick="autoSyncFromCloud(true)" id="btn-sync-pill">🔄 ซิงก์</button>
       </div>
     </div>
     <div class="chip-bar">
@@ -10909,107 +10910,153 @@ function renderAll() {
 
 const DEFAULT_GAS_WEBAPP_URL = "";
 
-async function autoSyncFromCloud() {
+async function autoSyncFromCloud(isManual = false) {
   const statusEl = document.getElementById('sync-status');
   const headerSub = document.getElementById('header-sub-status');
+  const syncBtn = document.getElementById('btn-sync-pill') || document.querySelector('.sync-pill-btn');
   let gasUrl = DEFAULT_GAS_WEBAPP_URL;
   try {
     const urlParams = new URLSearchParams(window.location.search);
     gasUrl = urlParams.get('gas') || localStorage.getItem('SB_GAS_WEBAPP_URL') || DEFAULT_GAS_WEBAPP_URL;
   } catch(e) {}
 
-  if (gasUrl) {
-    try {
-      const inp = document.getElementById('gas-url-input');
-      if (inp) inp.value = gasUrl;
-      if (headerSub) headerSub.textContent = 'กำลังดึงข้อมูลสดจาก 00_MASTER_LOG_DB...';
-      const res = await fetch(gasUrl + (gasUrl.includes('?') ? '&' : '?') + 't=' + Date.now());
-      if (res.ok) {
-        const liveData = await res.json();
-        if (liveData && liveData.brief_log && liveData.brief_log.length) {
+  if (!gasUrl) return;
+
+  const inp = document.getElementById('gas-url-input');
+  if (inp && !inp.value) inp.value = gasUrl;
+
+  // Stale-While-Revalidate UX: ไม่บล็อกหน้าจอ หากเป็นการโหลดพื้นหลัง
+  if (isManual) {
+    if (syncBtn) {
+      syncBtn.disabled = true;
+      syncBtn.textContent = '🔄 กำลังซิงก์...';
+    }
+    if (headerSub) headerSub.textContent = 'กำลังดึงข้อมูลสดจาก 00_MASTER_LOG_DB...';
+  } else {
+    // โหลดพื้นหลังแบบเงียบๆ ไม่ขึ้นข้อความหน่วง ผู้ใช้เห็นหน้าจอและใช้งานได้ทันที 100%
+    if (headerSub && !headerSub.textContent.includes('อัปเดต')) {
+      const savedTime = (DB && DB.metadata && DB.metadata.last_updated) || '';
+      if (savedTime) headerSub.textContent = 'ข้อมูลล่าสุด: ' + savedTime.replace('T', ' ').substring(0, 16);
+    }
+  }
+
+  try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 12000); // 12s timeout
+
+    const fetchUrl = gasUrl + (gasUrl.includes('?') ? '&' : '?') + (isManual ? 'force=1&' : '') + 't=' + Date.now();
+    const res = await fetch(fetchUrl, { signal: controller.signal });
+    clearTimeout(timeoutId);
+
+    if (res.ok) {
+      const liveData = await res.json();
+      if (liveData) {
+        if (liveData.brief_log && liveData.brief_log.length) {
           DB.brief_log = liveData.brief_log;
-          if (liveData.project_board && liveData.project_board.length) DB.project_board = liveData.project_board;
-          if (liveData.stock_master && liveData.stock_master.length) DB.stock_master = liveData.stock_master;
-          if (liveData.watchlist && liveData.watchlist.length) DB.watchlist = liveData.watchlist;
-          
-          const incomingSched = liveData.weekly_living_schedule || liveData.w42_living_schedule;
-          if (incomingSched && incomingSched.length) {
-            DB.w42_living_schedule = incomingSched.map((inRow, idx) => {
-              const defRow = (INITIAL_DB.w42_living_schedule && INITIAL_DB.w42_living_schedule[idx]) ? INITIAL_DB.w42_living_schedule[idx] : {};
-              const am = resolveClinicName(inRow, 'am');
-              const pm = resolveClinicName(inRow, 'pm');
-              return {
-                ...defRow,
-                ...inRow,
-                am_work: am !== '-' ? am : (defRow.am_work || '-'),
-                pm_work: pm !== '-' ? pm : (defRow.pm_work || '-')
-              };
-            });
-            DB.weekly_living_schedule = DB.w42_living_schedule;
-          }
-          if (liveData.weekly_summary_3x3 || liveData.w42_summary_3x3) {
-            DB.w42_summary_3x3 = ensureValid3x3(liveData.weekly_summary_3x3 || liveData.w42_summary_3x3 || DB.w42_summary_3x3);
-          }
-          if (liveData.email_digest && liveData.email_digest.length) {
-            DB.email_digest = liveData.email_digest;
-          }
-          if (liveData.note_inbox_recent && liveData.note_inbox_recent.length) {
-            const existingFiles = new Set(DB.note_inbox.map(x => x.source_file));
-            liveData.note_inbox_recent.forEach(item => {
-              if (!existingFiles.has(item.source_file)) DB.note_inbox.unshift(item);
-            });
-          }
-          if (liveData.weekly_meta || liveData.weekly_week_code || liveData.weekly_doc_url) {
-            const meta = liveData.weekly_meta || {};
-            const weekCode = meta.week_code || meta.week_num || liveData.weekly_week_code || 'W45';
-            const docUrl = meta.doc_url || liveData.weekly_doc_url || liveData.w42_doc_url || 'https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit';
-            const dateRange = meta.date_range_short || meta.date_range || '2 พ.ย. – 8 พ.ย.';
-
-            DB.weekly_meta = {
-              ...meta,
-              week_code: weekCode,
-              week_num: weekCode,
-              doc_url: docUrl,
-              date_range: dateRange,
-              date_range_short: dateRange
-            };
-
-            const chipW = document.getElementById('chip-weekly');
-            const cardTitleW = document.getElementById('weekly-card-title');
-            const btnDocW = document.getElementById('btn-weekly-doc');
-            const btn3x3W = document.getElementById('btn-weekly-3x3');
-
-            if (chipW) {
-              chipW.textContent = '📅 ' + weekCode;
-              chipW.href = docUrl;
-            }
-            if (cardTitleW) {
-              cardTitleW.textContent = '📅 สัปดาห์นี้ (' + weekCode + ': ' + dateRange + ')';
-            }
-            if (btnDocW) {
-              btnDocW.href = docUrl;
-              btnDocW.textContent = '📄 ' + weekCode + ' Doc';
-            }
-            if (btn3x3W) {
-              btn3x3W.href = docUrl;
-              btn3x3W.textContent = '📄 ' + weekCode;
-            }
-          }
-          try { localStorage.setItem('SECOND_BRAIN_MASTER_DB_V4_1', JSON.stringify(DB)); } catch(e) {}
-          initFilters();
-          renderAll();
-          const ts = liveData.last_updated || 'ล่าสุด';
-          if (statusEl) statusEl.textContent = '⚡ ซิงก์ข้อมูลสดจาก 00_MASTER_LOG_DB สำเร็จ (' + ts + ')';
-          if (headerSub) headerSub.textContent = 'อัปเดต: ' + ts;
         }
+        if (liveData.project_board && liveData.project_board.length) DB.project_board = liveData.project_board;
+        if (liveData.stock_master && liveData.stock_master.length) DB.stock_master = liveData.stock_master;
+        if (liveData.watchlist && liveData.watchlist.length) DB.watchlist = liveData.watchlist;
+
+        const incomingSched = liveData.weekly_living_schedule || liveData.w42_living_schedule;
+        if (incomingSched && incomingSched.length) {
+          DB.w42_living_schedule = incomingSched.map((inRow, idx) => {
+            const defRow = (INITIAL_DB.w42_living_schedule && INITIAL_DB.w42_living_schedule[idx]) ? INITIAL_DB.w42_living_schedule[idx] : {};
+            const am = resolveClinicName(inRow, 'am');
+            const pm = resolveClinicName(inRow, 'pm');
+            return {
+              ...defRow,
+              ...inRow,
+              am_work: am !== '-' ? am : (defRow.am_work || '-'),
+              pm_work: pm !== '-' ? pm : (defRow.pm_work || '-')
+            };
+          });
+          DB.weekly_living_schedule = DB.w42_living_schedule;
+        }
+
+        if (liveData.weekly_summary_3x3 || liveData.w42_summary_3x3) {
+          DB.w42_summary_3x3 = ensureValid3x3(liveData.weekly_summary_3x3 || liveData.w42_summary_3x3 || DB.w42_summary_3x3);
+          DB.weekly_summary_3x3 = DB.w42_summary_3x3;
+        }
+
+        if (liveData.email_digest && liveData.email_digest.length) {
+          DB.email_digest = liveData.email_digest;
+        }
+
+        if (liveData.note_inbox_recent && liveData.note_inbox_recent.length) {
+          const existingFiles = new Set((DB.note_inbox || []).map(x => x.source_file));
+          liveData.note_inbox_recent.forEach(item => {
+            if (!existingFiles.has(item.source_file)) {
+              DB.note_inbox.unshift(item);
+            }
+          });
+        }
+
+        if (liveData.weekly_meta || liveData.weekly_week_code || liveData.weekly_doc_url) {
+          const meta = liveData.weekly_meta || {};
+          const weekCode = meta.week_code || meta.week_num || liveData.weekly_week_code || 'W45';
+          const docUrl = meta.doc_url || liveData.weekly_doc_url || liveData.w42_doc_url || 'https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit';
+          const dateRange = meta.date_range_short || meta.date_range || '2 พ.ย. – 8 พ.ย.';
+
+          DB.weekly_meta = {
+            ...meta,
+            week_code: weekCode,
+            week_num: weekCode,
+            doc_url: docUrl,
+            date_range: dateRange,
+            date_range_short: dateRange
+          };
+
+          const chipW = document.getElementById('chip-weekly');
+          const cardTitleW = document.getElementById('weekly-card-title');
+          const btnDocW = document.getElementById('btn-weekly-doc');
+          const btn3x3W = document.getElementById('btn-weekly-3x3');
+
+          if (chipW) {
+            chipW.textContent = '📅 ' + weekCode;
+            chipW.href = docUrl;
+          }
+          if (cardTitleW) {
+            cardTitleW.textContent = '📅 สัปดาห์นี้ (' + weekCode + ': ' + dateRange + ')';
+          }
+          if (btnDocW) {
+            btnDocW.href = docUrl;
+            btnDocW.textContent = '📄 ' + weekCode + ' Doc';
+          }
+          if (btn3x3W) {
+            btn3x3W.href = docUrl;
+            btn3x3W.textContent = '📄 ' + weekCode;
+          }
+        }
+
+        if (liveData.last_updated) {
+          if (!DB.metadata) DB.metadata = {};
+          DB.metadata.last_updated = liveData.last_updated;
+        }
+
+        try { localStorage.setItem('SECOND_BRAIN_MASTER_DB_V4_1', JSON.stringify(DB)); } catch(e) {}
+        initFilters();
+        renderAll();
+
+        const ts = liveData.last_updated || 'ล่าสุด';
+        if (statusEl) statusEl.textContent = '⚡ ซิงก์ข้อมูลสดจาก 00_MASTER_LOG_DB สำเร็จ (' + ts + ')';
+        if (headerSub) headerSub.textContent = 'อัปเดต: ' + ts;
       }
-    } catch (e) {
-      if (statusEl) statusEl.textContent = '⚠️ ไม่สามารถดึงข้อมูลจาก Apps Script URL ได้: ' + e.message;
-      if (headerSub) headerSub.textContent = 'โหมดออฟไลน์ (ใช้ข้อมูลในเครื่อง)';
+    } else {
+      if (isManual && headerSub) headerSub.textContent = 'ซิงก์ไม่สำเร็จ (รหัส ' + res.status + ')';
+    }
+  } catch(err) {
+    if (isManual) {
+      if (headerSub) headerSub.textContent = 'การเชื่อมต่อหมดเวลา (ใช้ข้อมูลแคชล่าสุด)';
+      if (statusEl) statusEl.textContent = '⚠️ การดึงข้อมูลสดใช้เวลานานเกินกำหนด ระบบใช้งานข้อมูลแคชในเครื่องแทน';
+    }
+  } finally {
+    if (syncBtn) {
+      syncBtn.disabled = false;
+      syncBtn.textContent = '🔄 ซิงก์';
     }
   }
 }
-
 
 function saveGasUrl() {
   const inp = document.getElementById('gas-url-input');
@@ -11081,8 +11128,9 @@ function triggerPwaInstall() {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  autoSyncFromCloud();
+  autoSyncFromCloud(false);
 });
 </script>
 </body>
 </html>
+```
