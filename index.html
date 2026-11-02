@@ -680,7 +680,7 @@
     </div>
     <div class="chip-bar">
       <a class="chip-link" href="https://docs.google.com/document/d/1YfVLmthxbEobQolf4ejXpSw91NBYiade2OatBMjeaO8/edit" target="_blank">🗄️ Master DB</a>
-      <a class="chip-link" id="chip-weekly" href="https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit" target="_blank">📅 W44</a>
+      <a class="chip-link" id="chip-weekly" href="https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit" target="_blank">📅 W45</a>
       <a class="chip-link" href="https://drive.google.com/drive/folders/1D-oCpEx6JXGSpf2qEpx-x4BBvibJgoTN" target="_blank">📂 Weekly</a>
       <a class="chip-link" href="https://docs.google.com/document/d/1GIDMD2eewys27z4-MGpc0leYDUEwSx1tofT6ZjDSLA0/edit" target="_blank">⚙️ Sys Log</a>
       <a class="chip-link" href="https://docs.google.com/document/d/1TNI4IgchHbbEwcVVUuG1Uo_Uwa7VuYqFJA-2Uwqi8ps/edit" target="_blank">📈 Stock Log</a>
@@ -724,14 +724,14 @@
     <!-- W42 Current Week Card -->
     <div class="card" style="border-left: 4px solid var(--secondary);">
       <div class="card-header">
-        <div class="card-title" id="weekly-card-title">📅 สัปดาห์นี้ (W44: 26 ต.ค. – 1 พ.ย.)</div>
+        <div class="card-title" id="weekly-card-title">📅 สัปดาห์นี้ (W45: 2 พ.ย. – 8 พ.ย.)</div>
         <div style="display:flex; gap:5px; align-items:center;">
           <select id="w42-filter" onchange="renderW42()" style="height:28px; font-size:0.74rem; padding:2px 6px; width:auto;">
             <option value="all">ครบ 7 วัน</option>
             <option value="recorded">เฉพาะวันที่มีบันทึกแล้ว</option>
             <option value="pending">เฉพาะวันรออัปเดต</option>
           </select>
-          <a class="btn btn-secondary" id="btn-weekly-3x3" href="https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit" target="_blank">📄 W44</a>
+          <a class="btn btn-secondary" id="btn-weekly-3x3" href="https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit" target="_blank">📄 W45</a>
         </div>
       </div>
       <div class="m-list" id="w42-mlist"></div>
@@ -752,12 +752,12 @@
             <span class="tag tag-info" style="font-size:0.68rem;">The 3x3 Core Summary</span>
           </div>
           <div style="font-size:0.72rem; color:var(--muted); margin-top:2px;">
-            ประจำสัปดาห์ที่ 44 (26 ต.ค. – 1 พ.ย. 2569) • สังเคราะห์จาก Living Weekly File
+            ประจำสัปดาห์ที่ 45 (2 – 8 พ.ย. 2569) • สังเคราะห์จาก Living Weekly File
           </div>
         </div>
         <div style="display:flex; gap:5px; align-items:center;">
           <button class="btn btn-outline" style="font-size:0.72rem; padding:3px 8px;" onclick="toggle3x3View()" id="btn-toggle-3x3">📂 ย่อ</button>
-          <a class="btn btn-secondary" id="btn-weekly-doc" href="https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit" target="_blank">📄 W44 Doc</a>
+          <a class="btn btn-secondary" id="btn-weekly-doc" href="https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit" target="_blank">📄 W45 Doc</a>
         </div>
       </div>
       <div id="w42-3x3-container"></div>
@@ -1044,7 +1044,7 @@ const INITIAL_DB = {
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์ (FM Sukhothai)",
-    "last_updated": "2026-10-27T14:45:00+07:00",
+    "last_updated": "2026-11-02T18:20:00+07:00",
     "schema_version": "2.0-JSON",
     "system_state": {
       "inbox_state": "inbox_last_scanned_date:2026-10-03"
@@ -1617,6 +1617,21 @@ const INITIAL_DB = {
       "action": "บันทึกยอดผู้ป่วยลง Living Weekly W44 เรียบร้อยแล้ว",
       "link_proj": "-",
       "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+    },
+    {
+      "date": "2026-11-02",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": 20,
+      "pm_work": "พัฒนางานระบบ",
+      "pm_volume": 0,
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายร่วมประชุม SAR PCT NCD กับพี่จา (ไม่มีผู้ป่วย OPD บ่าย)",
+      "action": "บันทึกสรุปเวิร์กโฟลว์ NCD และระบบข้อมูลลง Living Weekly W45 เรียบร้อยแล้ว",
+      "link_proj": "SYS-001",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     }
   ],
   "project_board": [
@@ -8609,129 +8624,129 @@ const INITIAL_DB = {
   ],
   "w42_living_schedule": [
     {
-      "date": "2026-10-26",
-      "day_label": "จันทร์ที่ 26 ต.ค. 2569 (2026-10-26)",
-      "short_day": "จ. 26 ต.ค.",
+      "date": "2026-11-02",
+      "day_label": "จันทร์ที่ 2 พ.ย. 2569 (2026-11-02)",
+      "short_day": "จ. 2 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
       "am": "รพ.สต.บ้านสวน",
       "morning_work": "รพ.สต.บ้านสวน",
       "am_clinic": "รพ.สต.บ้านสวน",
       "am_volume": "20",
       "am_vol": "20",
-      "pm_work": "OPD GP",
-      "pm": "OPD GP",
-      "afternoon_work": "OPD GP",
-      "pm_clinic": "OPD GP",
-      "pm_volume": "6",
-      "pm_vol": "6",
+      "pm_work": "พัฒนางานระบบ (ประชุม SAR PCT NCD กับพี่จา)",
+      "pm": "พัฒนางานระบบ (ประชุม SAR PCT NCD กับพี่จา)",
+      "afternoon_work": "พัฒนางานระบบ (ประชุม SAR PCT NCD กับพี่จา)",
+      "pm_clinic": "พัฒนางานระบบ (ประชุม SAR PCT NCD กับพี่จา)",
+      "pm_volume": "0",
+      "pm_vol": "0",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "26",
-      "issue_action": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 6 ราย (รวมทั้งวัน 26 ราย)",
-      "note": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 6 ราย (รวมทั้งวัน 26 ราย)",
-      "summary": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 6 ราย (รวมทั้งวัน 26 ราย)",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "total": "20",
+      "issue_action": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายร่วมประชุม SAR PCT NCD กับพี่จา (รวมทั้งวัน 20 ราย)",
+      "note": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายร่วมประชุม SAR PCT NCD กับพี่จา (รวมทั้งวัน 20 ราย)",
+      "summary": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายร่วมประชุม SAR PCT NCD กับพี่จา (รวมทั้งวัน 20 ราย)",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-10-27",
-      "day_label": "อังคารที่ 27 ต.ค. 2569 (2026-10-27)",
-      "short_day": "อ. 27 ต.ค.",
+      "date": "2026-11-03",
+      "day_label": "อังคารที่ 3 พ.ย. 2569 (2026-11-03)",
+      "short_day": "อ. 3 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
       "am": "รพ.สต.บ้านสวน",
       "morning_work": "รพ.สต.บ้านสวน",
       "am_clinic": "รพ.สต.บ้านสวน",
-      "am_volume": "10",
-      "am_vol": "10",
-      "pm_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "afternoon_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm_clinic": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm_volume": "(รออัปเดต)",
-      "pm_vol": "(รออัปเดต)",
+      "am_volume": "-",
+      "am_vol": "-",
+      "pm_work": "OPD GP",
+      "pm": "OPD GP",
+      "afternoon_work": "OPD GP",
+      "pm_clinic": "OPD GP",
+      "pm_volume": "-",
+      "pm_vol": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "10+",
-      "issue_action": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 10 ราย (รออัปเดตภารกิจช่วงบ่าย)",
-      "note": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 10 ราย (รออัปเดตภารกิจช่วงบ่าย)",
-      "summary": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 10 ราย (รออัปเดตภารกิจช่วงบ่าย)",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "total": "-",
+      "issue_action": "เช้า: รพ.สต.บ้านสวน / บ่าย: OPD GP",
+      "note": "เช้า: รพ.สต.บ้านสวน / บ่าย: OPD GP",
+      "summary": "เช้า: รพ.สต.บ้านสวน / บ่าย: OPD GP",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-10-28",
-      "day_label": "พุธที่ 28 ต.ค. 2569 (2026-10-28)",
-      "short_day": "พ. 28 ต.ค.",
+      "date": "2026-11-04",
+      "day_label": "พุธที่ 4 พ.ย. 2569 (2026-11-04)",
+      "short_day": "พ. 4 พ.ย.",
       "am_work": "รพ.สต.บ้านคลองด่าน",
       "am": "รพ.สต.บ้านคลองด่าน",
       "morning_work": "รพ.สต.บ้านคลองด่าน",
       "am_clinic": "รพ.สต.บ้านคลองด่าน",
       "am_volume": "-",
       "am_vol": "-",
-      "pm_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "afternoon_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm_clinic": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
+      "pm_work": "Telemed เรือนจำ",
+      "pm": "Telemed เรือนจำ",
+      "afternoon_work": "Telemed เรือนจำ",
+      "pm_clinic": "Telemed เรือนจำ",
       "pm_volume": "-",
       "pm_vol": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "รอบันทึกข้อมูลประจำวัน",
-      "note": "รอบันทึกข้อมูลประจำวัน",
-      "summary": "รอบันทึกข้อมูลประจำวัน",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "issue_action": "เช้า: รพ.สต.บ้านคลองด่าน / บ่าย: Telemed เรือนจำ",
+      "note": "เช้า: รพ.สต.บ้านคลองด่าน / บ่าย: Telemed เรือนจำ",
+      "summary": "เช้า: รพ.สต.บ้านคลองด่าน / บ่าย: Telemed เรือนจำ",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-10-29",
-      "day_label": "พฤหัสบดีที่ 29 ต.ค. 2569 (2026-10-29)",
-      "short_day": "พฤ. 29 ต.ค.",
-      "am_work": "OPD Fammed (PCU รพ.สท.)",
-      "am": "OPD Fammed (PCU รพ.สท.)",
-      "morning_work": "OPD Fammed (PCU รพ.สท.)",
-      "am_clinic": "OPD Fammed (PCU รพ.สท.)",
+      "date": "2026-11-05",
+      "day_label": "พฤหัสบดีที่ 5 พ.ย. 2569 (2026-11-05)",
+      "short_day": "พฤ. 5 พ.ย.",
+      "am_work": "PCU รพ.สท.",
+      "am": "PCU รพ.สท.",
+      "morning_work": "PCU รพ.สท.",
+      "am_clinic": "PCU รพ.สท.",
       "am_volume": "-",
       "am_vol": "-",
-      "pm_work": "คลินิกเวชศาสตร์วิถีชีวิต (OPD LM)",
-      "pm": "คลินิกเวชศาสตร์วิถีชีวิต (OPD LM)",
-      "afternoon_work": "คลินิกเวชศาสตร์วิถีชีวิต (OPD LM)",
-      "pm_clinic": "คลินิกเวชศาสตร์วิถีชีวิต (OPD LM)",
+      "pm_work": "Academic In-service",
+      "pm": "Academic In-service",
+      "afternoon_work": "Academic In-service",
+      "pm_clinic": "Academic In-service",
       "pm_volume": "-",
       "pm_vol": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "รอบันทึกข้อมูลประจำวัน",
-      "note": "รอบันทึกข้อมูลประจำวัน",
-      "summary": "รอบันทึกข้อมูลประจำวัน",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "issue_action": "เช้า: PCU รพ.สท. / บ่าย: Academic In-service",
+      "note": "เช้า: PCU รพ.สท. / บ่าย: Academic In-service",
+      "summary": "เช้า: PCU รพ.สท. / บ่าย: Academic In-service",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-10-30",
-      "day_label": "ศุกร์ที่ 30 ต.ค. 2569 (2026-10-30)",
-      "short_day": "ศ. 30 ต.ค.",
+      "date": "2026-11-06",
+      "day_label": "ศุกร์ที่ 6 พ.ย. 2569 (2026-11-06)",
+      "short_day": "ศ. 6 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
       "am": "รพ.สต.บ้านสวน",
       "morning_work": "รพ.สต.บ้านสวน",
       "am_clinic": "รพ.สต.บ้านสวน",
       "am_volume": "-",
       "am_vol": "-",
-      "pm_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "afternoon_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm_clinic": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
+      "pm_work": "สอบสวนพิษตะกั่ว",
+      "pm": "สอบสวนพิษตะกั่ว",
+      "afternoon_work": "สอบสวนพิษตะกั่ว",
+      "pm_clinic": "สอบสวนพิษตะกั่ว",
       "pm_volume": "-",
       "pm_vol": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "รอบันทึกข้อมูลประจำวัน",
-      "note": "รอบันทึกข้อมูลประจำวัน",
-      "summary": "รอบันทึกข้อมูลประจำวัน",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "issue_action": "เช้า: รพ.สต.บ้านสวน / บ่าย: สอบสวนพิษตะกั่ว",
+      "note": "เช้า: รพ.สต.บ้านสวน / บ่าย: สอบสวนพิษตะกั่ว",
+      "summary": "เช้า: รพ.สต.บ้านสวน / บ่าย: สอบสวนพิษตะกั่ว",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-10-31",
-      "day_label": "เสาร์ที่ 31 ต.ค. 2569 (2026-10-31 — วันหยุด)",
-      "short_day": "ส. 31 ต.ค.",
+      "date": "2026-11-07",
+      "day_label": "เสาร์ที่ 7 พ.ย. 2569 (2026-11-07)",
+      "short_day": "ส. 7 พ.ย.",
       "am_work": "วันหยุดสุดสัปดาห์",
       "am": "วันหยุดสุดสัปดาห์",
       "morning_work": "วันหยุดสุดสัปดาห์",
@@ -8747,15 +8762,15 @@ const INITIAL_DB = {
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "-",
-      "note": "-",
-      "summary": "-",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "issue_action": "วันหยุดสุดสัปดาห์",
+      "note": "วันหยุดสุดสัปดาห์",
+      "summary": "วันหยุดสุดสัปดาห์",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-11-01",
-      "day_label": "อาทิตย์ที่ 1 พ.ย. 2569 (2026-11-01 — วันหยุด)",
-      "short_day": "อา. 1 พ.ย.",
+      "date": "2026-11-08",
+      "day_label": "อาทิตย์ที่ 8 พ.ย. 2569 (2026-11-08)",
+      "short_day": "อา. 8 พ.ย.",
       "am_work": "วันหยุดสุดสัปดาห์",
       "am": "วันหยุดสุดสัปดาห์",
       "morning_work": "วันหยุดสุดสัปดาห์",
@@ -8771,10 +8786,10 @@ const INITIAL_DB = {
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "-",
-      "note": "-",
-      "summary": "-",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "issue_action": "วันหยุดสุดสัปดาห์",
+      "note": "วันหยุดสุดสัปดาห์",
+      "summary": "วันหยุดสุดสัปดาห์",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     }
   ],
   "email_digest": [
@@ -9330,149 +9345,176 @@ const INITIAL_DB = {
     }
   ],
   "w42_summary_3x3": {
-    "title": "🎯 สรุปประเด็นสำคัญประจำสัปดาห์ W44 (26 ต.ค. – 1 พ.ย. 2569)",
-    "subtitle": "สังเคราะห์จาก Living Weekly File W44 • ข้อมูล 26–27 ต.ค. 2569",
+    "title": "🎯 สรุปประเด็นสำคัญประจำสัปดาห์ W45 (2 พ.ย. – 8 พ.ย. 2569)",
+    "subtitle": "สังเคราะห์จาก Living Weekly File W45 • ข้อมูล 2 พ.ย. 2569",
     "bottlenecks": [
-      "1. นัดตรวจสมุดสุขภาพข้ามปี 2570 และระบบคิวเช้า รพ.สต.บ้านสวน แน่น 20 ราย",
-      "2. ติดตามยา NCDs ขาดสต็อก และการส่งต่อเคส Palliative Home Ward",
-      "3. การประสานงานระบบ Telemed ชุมชนและ flow การบันทึกเวชระเบียน"
+      {
+        "title": "1. การเตรียมเอกสารและข้อมูล SAR PCT NCD",
+        "desc": "ร่วมกับทีมสหวิชาชีพและพี่จาเพื่อรับการประเมินคุณภาพและพัฒนาระบบข้อมูล"
+      },
+      {
+        "title": "2. การติดตามเคส Palliative และ Home Ward",
+        "desc": "การจัดการ flow ส่งต่อผู้ป่วยประคับประคองและติดตามเยี่ยมบ้านในชุมชน"
+      },
+      {
+        "title": "3. การบริหารคิวบริการผู้ป่วยปฐมภูมิ",
+        "desc": "คลินิกบริการ รพ.สต.บ้านสวน และ Telemed เรือนจำให้สอดคล้องกับอัตรากำลัง"
+      }
     ],
     "wins": [
-      "1. ออกตรวจโรคทั่วไป รพ.สต.บ้านสวน 20 ราย + OPD GP 6 ราย รวม 26 ราย สำเร็จราบรื่น",
-      "2. ออกตรวจ รพ.สต.บ้านสวน วันที่ 27 ต.ค. ต่อเนื่อง 10 ราย",
-      "3. ระบบซิงก์ฐานข้อมูล Second Brain 00_MASTER_DATA เชื่อมต่อ Google Drive & GitHub Pages ได้สมบูรณ์"
+      {
+        "title": "1. ตรวจโรคทั่วไป รพ.สต.บ้านสวน ช่วงเช้า",
+        "desc": "ออกตรวจสำเร็จราบรื่นยอดผู้ป่วย 20 ราย พร้อมบันทึกเวชระเบียนเรียบร้อย"
+      },
+      {
+        "title": "2. ประชุม SAR PCT NCD กับพี่จา",
+        "desc": "ร่วมวางแผนทบทวนแนวทางเวชปฏิบัติและระบบรายงานตัวชี้วัด NCD"
+      },
+      {
+        "title": "3. เชื่อมโยงฐานข้อมูล Living Weekly W45",
+        "desc": "อัปเดตระบบฐานข้อมูลกลาง 00_MASTER_LOG_DB และเตรียมพร้อมข้อมูลประจำสัปดาห์"
+      }
     ],
     "actions": [
-      "1. วางแผนสล็อตตรวจสมุดสุขภาพล่วงหน้าและจัดสรรคิวคลินิก NCDs",
-      "2. บันทึกและสรุปภาระงานรายวันลง Living Weekly W44 อย่างต่อเนื่อง",
-      "3. พัฒนาระบบปฐมภูมิร่วมกับทีมสหวิชาชีพและเตรียมตรวจ PCU / LM สัปดาห์นี้"
+      {
+        "title": "1. เตรียมตรวจ Telemed เรือนจำ",
+        "desc": "เตรียมรายชื่อและประวัติผู้ต้องขังเพื่อตรวจคลินิกออนไลน์วันพุธบ่าย"
+      },
+      {
+        "title": "2. ออกตรวจ PCU รพ.สท. และ In-service",
+        "desc": "เตรียมการตรวจปฐมภูมิวันพฤหัสเช้าและประชุมวิชาการช่วงบ่าย"
+      },
+      {
+        "title": "3. ร่วมสอบสวนพิษตะกั่วในพื้นที่",
+        "desc": "ลงพื้นที่ตรวจคัดกรองและสอบสวนร่วมกับทีมระบาดวิทยาในวันศุกร์บ่าย"
+      }
     ]
   },
   "weekly_living_schedule": [
     {
-      "date": "2026-10-26",
-      "day_label": "จันทร์ที่ 26 ต.ค. 2569 (2026-10-26)",
-      "short_day": "จ. 26 ต.ค.",
+      "date": "2026-11-02",
+      "day_label": "จันทร์ที่ 2 พ.ย. 2569 (2026-11-02)",
+      "short_day": "จ. 2 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
       "am": "รพ.สต.บ้านสวน",
       "morning_work": "รพ.สต.บ้านสวน",
       "am_clinic": "รพ.สต.บ้านสวน",
       "am_volume": "20",
       "am_vol": "20",
-      "pm_work": "OPD GP",
-      "pm": "OPD GP",
-      "afternoon_work": "OPD GP",
-      "pm_clinic": "OPD GP",
-      "pm_volume": "6",
-      "pm_vol": "6",
+      "pm_work": "พัฒนางานระบบ (ประชุม SAR PCT NCD กับพี่จา)",
+      "pm": "พัฒนางานระบบ (ประชุม SAR PCT NCD กับพี่จา)",
+      "afternoon_work": "พัฒนางานระบบ (ประชุม SAR PCT NCD กับพี่จา)",
+      "pm_clinic": "พัฒนางานระบบ (ประชุม SAR PCT NCD กับพี่จา)",
+      "pm_volume": "0",
+      "pm_vol": "0",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "26",
-      "issue_action": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 6 ราย (รวมทั้งวัน 26 ราย)",
-      "note": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 6 ราย (รวมทั้งวัน 26 ราย)",
-      "summary": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 6 ราย (รวมทั้งวัน 26 ราย)",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "total": "20",
+      "issue_action": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายร่วมประชุม SAR PCT NCD กับพี่จา (รวมทั้งวัน 20 ราย)",
+      "note": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายร่วมประชุม SAR PCT NCD กับพี่จา (รวมทั้งวัน 20 ราย)",
+      "summary": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายร่วมประชุม SAR PCT NCD กับพี่จา (รวมทั้งวัน 20 ราย)",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-10-27",
-      "day_label": "อังคารที่ 27 ต.ค. 2569 (2026-10-27)",
-      "short_day": "อ. 27 ต.ค.",
+      "date": "2026-11-03",
+      "day_label": "อังคารที่ 3 พ.ย. 2569 (2026-11-03)",
+      "short_day": "อ. 3 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
       "am": "รพ.สต.บ้านสวน",
       "morning_work": "รพ.สต.บ้านสวน",
       "am_clinic": "รพ.สต.บ้านสวน",
-      "am_volume": "10",
-      "am_vol": "10",
-      "pm_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "afternoon_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm_clinic": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm_volume": "(รออัปเดต)",
-      "pm_vol": "(รออัปเดต)",
+      "am_volume": "-",
+      "am_vol": "-",
+      "pm_work": "OPD GP",
+      "pm": "OPD GP",
+      "afternoon_work": "OPD GP",
+      "pm_clinic": "OPD GP",
+      "pm_volume": "-",
+      "pm_vol": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "10+",
-      "issue_action": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 10 ราย (รออัปเดตภารกิจช่วงบ่าย)",
-      "note": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 10 ราย (รออัปเดตภารกิจช่วงบ่าย)",
-      "summary": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 10 ราย (รออัปเดตภารกิจช่วงบ่าย)",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "total": "-",
+      "issue_action": "เช้า: รพ.สต.บ้านสวน / บ่าย: OPD GP",
+      "note": "เช้า: รพ.สต.บ้านสวน / บ่าย: OPD GP",
+      "summary": "เช้า: รพ.สต.บ้านสวน / บ่าย: OPD GP",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-10-28",
-      "day_label": "พุธที่ 28 ต.ค. 2569 (2026-10-28)",
-      "short_day": "พ. 28 ต.ค.",
+      "date": "2026-11-04",
+      "day_label": "พุธที่ 4 พ.ย. 2569 (2026-11-04)",
+      "short_day": "พ. 4 พ.ย.",
       "am_work": "รพ.สต.บ้านคลองด่าน",
       "am": "รพ.สต.บ้านคลองด่าน",
       "morning_work": "รพ.สต.บ้านคลองด่าน",
       "am_clinic": "รพ.สต.บ้านคลองด่าน",
       "am_volume": "-",
       "am_vol": "-",
-      "pm_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "afternoon_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm_clinic": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
+      "pm_work": "Telemed เรือนจำ",
+      "pm": "Telemed เรือนจำ",
+      "afternoon_work": "Telemed เรือนจำ",
+      "pm_clinic": "Telemed เรือนจำ",
       "pm_volume": "-",
       "pm_vol": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "รอบันทึกข้อมูลประจำวัน",
-      "note": "รอบันทึกข้อมูลประจำวัน",
-      "summary": "รอบันทึกข้อมูลประจำวัน",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "issue_action": "เช้า: รพ.สต.บ้านคลองด่าน / บ่าย: Telemed เรือนจำ",
+      "note": "เช้า: รพ.สต.บ้านคลองด่าน / บ่าย: Telemed เรือนจำ",
+      "summary": "เช้า: รพ.สต.บ้านคลองด่าน / บ่าย: Telemed เรือนจำ",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-10-29",
-      "day_label": "พฤหัสบดีที่ 29 ต.ค. 2569 (2026-10-29)",
-      "short_day": "พฤ. 29 ต.ค.",
-      "am_work": "OPD Fammed (PCU รพ.สท.)",
-      "am": "OPD Fammed (PCU รพ.สท.)",
-      "morning_work": "OPD Fammed (PCU รพ.สท.)",
-      "am_clinic": "OPD Fammed (PCU รพ.สท.)",
+      "date": "2026-11-05",
+      "day_label": "พฤหัสบดีที่ 5 พ.ย. 2569 (2026-11-05)",
+      "short_day": "พฤ. 5 พ.ย.",
+      "am_work": "PCU รพ.สท.",
+      "am": "PCU รพ.สท.",
+      "morning_work": "PCU รพ.สท.",
+      "am_clinic": "PCU รพ.สท.",
       "am_volume": "-",
       "am_vol": "-",
-      "pm_work": "คลินิกเวชศาสตร์วิถีชีวิต (OPD LM)",
-      "pm": "คลินิกเวชศาสตร์วิถีชีวิต (OPD LM)",
-      "afternoon_work": "คลินิกเวชศาสตร์วิถีชีวิต (OPD LM)",
-      "pm_clinic": "คลินิกเวชศาสตร์วิถีชีวิต (OPD LM)",
+      "pm_work": "Academic In-service",
+      "pm": "Academic In-service",
+      "afternoon_work": "Academic In-service",
+      "pm_clinic": "Academic In-service",
       "pm_volume": "-",
       "pm_vol": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "รอบันทึกข้อมูลประจำวัน",
-      "note": "รอบันทึกข้อมูลประจำวัน",
-      "summary": "รอบันทึกข้อมูลประจำวัน",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "issue_action": "เช้า: PCU รพ.สท. / บ่าย: Academic In-service",
+      "note": "เช้า: PCU รพ.สท. / บ่าย: Academic In-service",
+      "summary": "เช้า: PCU รพ.สท. / บ่าย: Academic In-service",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-10-30",
-      "day_label": "ศุกร์ที่ 30 ต.ค. 2569 (2026-10-30)",
-      "short_day": "ศ. 30 ต.ค.",
+      "date": "2026-11-06",
+      "day_label": "ศุกร์ที่ 6 พ.ย. 2569 (2026-11-06)",
+      "short_day": "ศ. 6 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
       "am": "รพ.สต.บ้านสวน",
       "morning_work": "รพ.สต.บ้านสวน",
       "am_clinic": "รพ.สต.บ้านสวน",
       "am_volume": "-",
       "am_vol": "-",
-      "pm_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "afternoon_work": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
-      "pm_clinic": "พัฒนางานระบบ / ภารกิจช่วงบ่าย",
+      "pm_work": "สอบสวนพิษตะกั่ว",
+      "pm": "สอบสวนพิษตะกั่ว",
+      "afternoon_work": "สอบสวนพิษตะกั่ว",
+      "pm_clinic": "สอบสวนพิษตะกั่ว",
       "pm_volume": "-",
       "pm_vol": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "รอบันทึกข้อมูลประจำวัน",
-      "note": "รอบันทึกข้อมูลประจำวัน",
-      "summary": "รอบันทึกข้อมูลประจำวัน",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "issue_action": "เช้า: รพ.สต.บ้านสวน / บ่าย: สอบสวนพิษตะกั่ว",
+      "note": "เช้า: รพ.สต.บ้านสวน / บ่าย: สอบสวนพิษตะกั่ว",
+      "summary": "เช้า: รพ.สต.บ้านสวน / บ่าย: สอบสวนพิษตะกั่ว",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-10-31",
-      "day_label": "เสาร์ที่ 31 ต.ค. 2569 (2026-10-31 — วันหยุด)",
-      "short_day": "ส. 31 ต.ค.",
+      "date": "2026-11-07",
+      "day_label": "เสาร์ที่ 7 พ.ย. 2569 (2026-11-07)",
+      "short_day": "ส. 7 พ.ย.",
       "am_work": "วันหยุดสุดสัปดาห์",
       "am": "วันหยุดสุดสัปดาห์",
       "morning_work": "วันหยุดสุดสัปดาห์",
@@ -9488,15 +9530,15 @@ const INITIAL_DB = {
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "-",
-      "note": "-",
-      "summary": "-",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "issue_action": "วันหยุดสุดสัปดาห์",
+      "note": "วันหยุดสุดสัปดาห์",
+      "summary": "วันหยุดสุดสัปดาห์",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "date": "2026-11-01",
-      "day_label": "อาทิตย์ที่ 1 พ.ย. 2569 (2026-11-01 — วันหยุด)",
-      "short_day": "อา. 1 พ.ย.",
+      "date": "2026-11-08",
+      "day_label": "อาทิตย์ที่ 8 พ.ย. 2569 (2026-11-08)",
+      "short_day": "อา. 8 พ.ย.",
       "am_work": "วันหยุดสุดสัปดาห์",
       "am": "วันหยุดสุดสัปดาห์",
       "morning_work": "วันหยุดสุดสัปดาห์",
@@ -9512,35 +9554,65 @@ const INITIAL_DB = {
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "-",
-      "note": "-",
-      "summary": "-",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "issue_action": "วันหยุดสุดสัปดาห์",
+      "note": "วันหยุดสุดสัปดาห์",
+      "summary": "วันหยุดสุดสัปดาห์",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     }
   ],
   "weekly_meta": {
-    "week_num": "W44",
-    "date_range": "26 ต.ค. – 1 พ.ย. 2569",
-    "doc_id": "17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q",
-    "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+    "week_code": "W45",
+    "week_num": "W45",
+    "date_range": "2 พ.ย. – 8 พ.ย. 2569",
+    "date_range_short": "2 พ.ย. – 8 พ.ย.",
+    "doc_id": "1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw",
+    "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit",
+    "doc_title": "2026-11-06_SYS_Weekly-Work-W45"
   },
   "weekly_summary_3x3": {
-    "title": "🎯 สรุปประเด็นสำคัญประจำสัปดาห์ W44 (26 ต.ค. – 1 พ.ย. 2569)",
-    "subtitle": "สังเคราะห์จาก Living Weekly File W44 • ข้อมูล 26–27 ต.ค. 2569",
+    "title": "🎯 สรุปประเด็นสำคัญประจำสัปดาห์ W45 (2 พ.ย. – 8 พ.ย. 2569)",
+    "subtitle": "สังเคราะห์จาก Living Weekly File W45 • ข้อมูล 2 พ.ย. 2569",
     "bottlenecks": [
-      "1. นัดตรวจสมุดสุขภาพข้ามปี 2570 และระบบคิวเช้า รพ.สต.บ้านสวน แน่น 20 ราย",
-      "2. ติดตามยา NCDs ขาดสต็อก และการส่งต่อเคส Palliative Home Ward",
-      "3. การประสานงานระบบ Telemed ชุมชนและ flow การบันทึกเวชระเบียน"
+      {
+        "title": "1. การเตรียมเอกสารและข้อมูล SAR PCT NCD",
+        "desc": "ร่วมกับทีมสหวิชาชีพและพี่จาเพื่อรับการประเมินคุณภาพและพัฒนาระบบข้อมูล"
+      },
+      {
+        "title": "2. การติดตามเคส Palliative และ Home Ward",
+        "desc": "การจัดการ flow ส่งต่อผู้ป่วยประคับประคองและติดตามเยี่ยมบ้านในชุมชน"
+      },
+      {
+        "title": "3. การบริหารคิวบริการผู้ป่วยปฐมภูมิ",
+        "desc": "คลินิกบริการ รพ.สต.บ้านสวน และ Telemed เรือนจำให้สอดคล้องกับอัตรากำลัง"
+      }
     ],
     "wins": [
-      "1. ออกตรวจโรคทั่วไป รพ.สต.บ้านสวน 20 ราย + OPD GP 6 ราย รวม 26 ราย สำเร็จราบรื่น",
-      "2. ออกตรวจ รพ.สต.บ้านสวน วันที่ 27 ต.ค. ต่อเนื่อง 10 ราย",
-      "3. ระบบซิงก์ฐานข้อมูล Second Brain 00_MASTER_DATA เชื่อมต่อ Google Drive & GitHub Pages ได้สมบูรณ์"
+      {
+        "title": "1. ตรวจโรคทั่วไป รพ.สต.บ้านสวน ช่วงเช้า",
+        "desc": "ออกตรวจสำเร็จราบรื่นยอดผู้ป่วย 20 ราย พร้อมบันทึกเวชระเบียนเรียบร้อย"
+      },
+      {
+        "title": "2. ประชุม SAR PCT NCD กับพี่จา",
+        "desc": "ร่วมวางแผนทบทวนแนวทางเวชปฏิบัติและระบบรายงานตัวชี้วัด NCD"
+      },
+      {
+        "title": "3. เชื่อมโยงฐานข้อมูล Living Weekly W45",
+        "desc": "อัปเดตระบบฐานข้อมูลกลาง 00_MASTER_LOG_DB และเตรียมพร้อมข้อมูลประจำสัปดาห์"
+      }
     ],
     "actions": [
-      "1. วางแผนสล็อตตรวจสมุดสุขภาพล่วงหน้าและจัดสรรคิวคลินิก NCDs",
-      "2. บันทึกและสรุปภาระงานรายวันลง Living Weekly W44 อย่างต่อเนื่อง",
-      "3. พัฒนาระบบปฐมภูมิร่วมกับทีมสหวิชาชีพและเตรียมตรวจ PCU / LM สัปดาห์นี้"
+      {
+        "title": "1. เตรียมตรวจ Telemed เรือนจำ",
+        "desc": "เตรียมรายชื่อและประวัติผู้ต้องขังเพื่อตรวจคลินิกออนไลน์วันพุธบ่าย"
+      },
+      {
+        "title": "2. ออกตรวจ PCU รพ.สท. และ In-service",
+        "desc": "เตรียมการตรวจปฐมภูมิวันพฤหัสเช้าและประชุมวิชาการช่วงบ่าย"
+      },
+      {
+        "title": "3. ร่วมสอบสวนพิษตะกั่วในพื้นที่",
+        "desc": "ลงพื้นที่ตรวจคัดกรองและสอบสวนร่วมกับทีมระบาดวิทยาในวันศุกร์บ่าย"
+      }
     ]
   }
 };
@@ -9548,15 +9620,23 @@ let DB = JSON.parse(JSON.stringify(INITIAL_DB));
 
 function sanitize3x3List(arr, fallbackList) {
   if (!Array.isArray(arr) || arr.length === 0) return JSON.parse(JSON.stringify(fallbackList));
-  const cleaned = arr.filter(it => {
-    if (!it || typeof it !== 'object') return false;
-    const t = String(it.title || '').trim();
-    const d = String(it.desc || '').trim();
-    if (!t) return false;
-    // ตัดรายการที่เป็นเพียงชื่อหัวข้อในวงเล็บ เช่น "(ปัญหาคอขวดและอุปสรรคหน้างาน)" หรือ "(ความก้าวหน้างานพัฒนาระบบปฐมภูมิ)"
-    if (/^\(.*\)$/.test(t)) return false;
-    if (!d && /(ปัญหาคอขวดและอุปสรรคหน้างาน|ความก้าวหน้างานพัฒนาระบบปฐมภูมิ|ก้าวถัดไปสำหรับสัปดาห์หน้า|3 Bottlenecks|3 Systems Wins|3 Next Actions)/.test(t)) return false;
-    if (t.includes('เอกสารนี้จัดทำและอัปเดต')) return false;
+  const cleaned = arr.map(it => {
+    if (typeof it === 'string') {
+      const colonIdx = it.indexOf(':');
+      if (colonIdx !== -1) {
+        return { title: it.substring(0, colonIdx).trim(), desc: it.substring(colonIdx + 1).trim() };
+      }
+      return { title: it.trim(), desc: '' };
+    }
+    if (it && typeof it === 'object') {
+      return { title: String(it.title || '').trim(), desc: String(it.desc || '').trim() };
+    }
+    return null;
+  }).filter(it => {
+    if (!it || !it.title) return false;
+    if (/^\(.*\)$/.test(it.title)) return false;
+    if (!it.desc && /(ปัญหาคอขวดและอุปสรรคหน้างาน|ความก้าวหน้างานพัฒนาระบบปฐมภูมิ|ก้าวถัดไปสำหรับสัปดาห์หน้า|3 Bottlenecks|3 Systems Wins|3 Next Actions)/.test(it.title)) return false;
+    if (it.title.includes('เอกสารนี้จัดทำและอัปเดต')) return false;
     return true;
   }).map(it => ({
     title: String(it.title || '').trim(),
@@ -9565,14 +9645,15 @@ function sanitize3x3List(arr, fallbackList) {
 
   if (cleaned.length === 0) return JSON.parse(JSON.stringify(fallbackList));
 
-  // หากสคริปต์ GAS เดิมตัดข้อที่ 3 ตกไปเพราะนับหัวข้อเป็นข้อที่ 1 ให้เติมข้อที่หายไปจากฐานข้อมูลหลักให้ครบ 3 ข้อ
   if (cleaned.length < 3 && Array.isArray(fallbackList)) {
     for (const fb of fallbackList) {
       if (cleaned.length >= 3) break;
-      const prefix = fb.title.substring(0, 14);
-      const exists = cleaned.some(c => c.title.includes(prefix) || fb.title.includes(c.title.substring(0, 14)));
+      const fbTitle = typeof fb === 'string' ? fb : (fb && fb.title ? fb.title : '');
+      const prefix = fbTitle.substring(0, 14);
+      const exists = cleaned.some(c => c.title.includes(prefix) || (prefix && fbTitle.includes(c.title.substring(0, 14))));
       if (!exists) {
-        cleaned.push(JSON.parse(JSON.stringify(fb)));
+        const itemObj = typeof fb === 'string' ? { title: fb, desc: '' } : JSON.parse(JSON.stringify(fb));
+        cleaned.push(itemObj);
       }
     }
   }
@@ -9592,7 +9673,7 @@ function ensureValid3x3(s) {
 }
 
 try {
-  const saved = localStorage.getItem('SECOND_BRAIN_MASTER_DB_V4');
+  const saved = localStorage.getItem('SECOND_BRAIN_MASTER_DB_V4_1');
   if (saved) {
     const parsed = JSON.parse(saved);
     const savedTime = parsed && parsed.metadata && parsed.metadata.last_updated;
@@ -9602,7 +9683,7 @@ try {
       DB.w42_summary_3x3 = ensureValid3x3(DB.w42_summary_3x3);
     } else {
       DB = JSON.parse(JSON.stringify(INITIAL_DB));
-      localStorage.setItem('SECOND_BRAIN_MASTER_DB_V4', JSON.stringify(DB));
+      localStorage.setItem('SECOND_BRAIN_MASTER_DB_V4_1', JSON.stringify(DB));
     }
   }
 } catch(e) {}
@@ -9878,14 +9959,14 @@ function cleanMobileBriefAction(raw) {
 }
 
 
-const DEFAULT_W44_CLINIC_SCHEDULE = [
-  { date: '2026-10-26', dow: 'จันทร์', am: 'รพ.สต.บ้านสวน', pm: 'OPD GP' },
-  { date: '2026-10-27', dow: 'อังคาร', am: 'รพ.สต.บ้านสวน', pm: 'พัฒนางานระบบ / ภารกิจช่วงบ่าย' },
-  { date: '2026-10-28', dow: 'พุธ', am: 'รพ.สต.บ้านคลองด่าน', pm: 'พัฒนางานระบบ / ภารกิจช่วงบ่าย' },
-  { date: '2026-10-29', dow: 'พฤหัสบดี', am: 'OPD Fammed (PCU รพ.สท.)', pm: 'คลินิกเวชศาสตร์วิถีชีวิต (OPD LM)' },
-  { date: '2026-10-30', dow: 'ศุกร์', am: 'รพ.สต.บ้านสวน', pm: 'พัฒนางานระบบ / ภารกิจช่วงบ่าย' },
-  { date: '2026-10-31', dow: 'เสาร์', am: 'วันหยุดสุดสัปดาห์', pm: 'วันหยุดสุดสัปดาห์' },
-  { date: '2026-11-01', dow: 'อาทิตย์', am: 'วันหยุดสุดสัปดาห์', pm: 'วันหยุดสุดสัปดาห์' }
+const DEFAULT_WEEKLY_CLINIC_SCHEDULE = [
+  { date: '2026-11-02', dow: 'จันทร์', am: 'รพ.สต.บ้านสวน', pm: 'พัฒนางานระบบ' },
+  { date: '2026-11-03', dow: 'อังคาร', am: 'รพ.สต.บ้านสวน', pm: 'OPD GP' },
+  { date: '2026-11-04', dow: 'พุธ', am: 'รพ.สต.บ้านคลองด่าน', pm: 'Telemed เรือนจำ' },
+  { date: '2026-11-05', dow: 'พฤหัสบดี', am: 'PCU รพ.สท.', pm: 'Academic In-service' },
+  { date: '2026-11-06', dow: 'ศุกร์', am: 'รพ.สต.บ้านสวน', pm: 'สอบสวนพิษตะกั่ว' },
+  { date: '2026-11-07', dow: 'เสาร์', am: 'วันหยุดสุดสัปดาห์', pm: 'วันหยุดสุดสัปดาห์' },
+  { date: '2026-11-08', dow: 'อาทิตย์', am: 'วันหยุดสุดสัปดาห์', pm: 'วันหยุดสุดสัปดาห์' }
 ];
 
 function resolveClinicName(r, period) {
@@ -9902,8 +9983,12 @@ function resolveClinicName(r, period) {
   }
   
   const dateStr = String(r.date || r.day_label || '').toLowerCase();
-  for (const item of DEFAULT_W44_CLINIC_SCHEDULE) {
-    if (dateStr.includes(item.date) || dateStr.includes(item.dow)) {
+  if (dateStr.includes('เสาร์') || dateStr.includes('อาทิตย์') || dateStr.includes('วันหยุด')) {
+    return 'วันหยุดสุดสัปดาห์';
+  }
+
+  for (const item of DEFAULT_WEEKLY_CLINIC_SCHEDULE) {
+    if (dateStr.includes(item.date)) {
       return period === 'am' ? item.am : item.pm;
     }
   }
@@ -9911,16 +9996,7 @@ function resolveClinicName(r, period) {
   const dObj = new Date(r.date);
   if (!isNaN(dObj.getTime())) {
     const day = dObj.getDay();
-    const mapDay = [
-      { am: 'วันหยุดสุดสัปดาห์', pm: 'วันหยุดสุดสัปดาห์' },
-      { am: 'รพ.สต.บ้านสวน', pm: 'OPD GP' },
-      { am: 'รพ.สต.บ้านสวน', pm: 'พัฒนางานระบบ / ภารกิจช่วงบ่าย' },
-      { am: 'รพ.สต.บ้านคลองด่าน', pm: 'พัฒนางานระบบ / ภารกิจช่วงบ่าย' },
-      { am: 'OPD Fammed (PCU รพ.สท.)', pm: 'คลินิกเวชศาสตร์วิถีชีวิต (OPD LM)' },
-      { am: 'รพ.สต.บ้านสวน', pm: 'พัฒนางานระบบ / ภารกิจช่วงบ่าย' },
-      { am: 'วันหยุดสุดสัปดาห์', pm: 'วันหยุดสุดสัปดาห์' }
-    ];
-    if (mapDay[day]) return period === 'am' ? mapDay[day].am : mapDay[day].pm;
+    if (day === 0 || day === 6) return 'วันหยุดสุดสัปดาห์';
   }
   return '-';
 }
@@ -10725,7 +10801,7 @@ function exportBriefCsv() {
 }
 
 function resetToEmbedded() {
-  try { localStorage.removeItem('SECOND_BRAIN_MASTER_DB_V4'); } catch(e) {}
+  try { localStorage.removeItem('SECOND_BRAIN_MASTER_DB_V4_1'); } catch(e) {}
   DB = JSON.parse(JSON.stringify(INITIAL_DB));
   initFilters();
   renderAll();
@@ -10791,7 +10867,36 @@ function renderW42Summary3x3() {
   `;
 }
 
+function renderWeeklyMeta() {
+  const meta = DB.weekly_meta || {};
+  const weekCode = meta.week_code || meta.week_num || DB.weekly_week_code || 'W45';
+  const docUrl = meta.doc_url || DB.weekly_doc_url || 'https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit';
+  const dateRange = meta.date_range_short || meta.date_range || '2 พ.ย. – 8 พ.ย.';
+
+  const chipW = document.getElementById('chip-weekly');
+  const cardTitleW = document.getElementById('weekly-card-title');
+  const btnDocW = document.getElementById('btn-weekly-doc');
+  const btn3x3W = document.getElementById('btn-weekly-3x3');
+
+  if (chipW) {
+    chipW.textContent = '📅 ' + weekCode;
+    chipW.href = docUrl;
+  }
+  if (cardTitleW) {
+    cardTitleW.textContent = '📅 สัปดาห์นี้ (' + weekCode + ': ' + dateRange + ')';
+  }
+  if (btnDocW) {
+    btnDocW.href = docUrl;
+    btnDocW.textContent = '📄 ' + weekCode + ' Doc';
+  }
+  if (btn3x3W) {
+    btn3x3W.href = docUrl;
+    btn3x3W.textContent = '📄 ' + weekCode;
+  }
+}
+
 function renderAll() {
+  renderWeeklyMeta();
   renderW42Summary3x3();
   renderW42();
   renderBriefLog();
@@ -10854,27 +10959,43 @@ async function autoSyncFromCloud() {
               if (!existingFiles.has(item.source_file)) DB.note_inbox.unshift(item);
             });
           }
-          if (liveData.weekly_meta) {
-            DB.weekly_meta = liveData.weekly_meta;
+          if (liveData.weekly_meta || liveData.weekly_week_code || liveData.weekly_doc_url) {
+            const meta = liveData.weekly_meta || {};
+            const weekCode = meta.week_code || meta.week_num || liveData.weekly_week_code || 'W45';
+            const docUrl = meta.doc_url || liveData.weekly_doc_url || liveData.w42_doc_url || 'https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit';
+            const dateRange = meta.date_range_short || meta.date_range || '2 พ.ย. – 8 พ.ย.';
+
+            DB.weekly_meta = {
+              ...meta,
+              week_code: weekCode,
+              week_num: weekCode,
+              doc_url: docUrl,
+              date_range: dateRange,
+              date_range_short: dateRange
+            };
+
             const chipW = document.getElementById('chip-weekly');
             const cardTitleW = document.getElementById('weekly-card-title');
             const btnDocW = document.getElementById('btn-weekly-doc');
             const btn3x3W = document.getElementById('btn-weekly-3x3');
-            if (chipW && liveData.weekly_meta.week_num) chipW.textContent = '📅 ' + liveData.weekly_meta.week_num;
-            if (chipW && liveData.weekly_meta.doc_url) chipW.href = liveData.weekly_meta.doc_url;
-            if (cardTitleW && liveData.weekly_meta.week_num && liveData.weekly_meta.date_range) {
-              cardTitleW.textContent = '📅 สัปดาห์นี้ (' + liveData.weekly_meta.week_num + ': ' + liveData.weekly_meta.date_range + ')';
+
+            if (chipW) {
+              chipW.textContent = '📅 ' + weekCode;
+              chipW.href = docUrl;
             }
-            if (btnDocW && liveData.weekly_meta.doc_url) {
-              btnDocW.href = liveData.weekly_meta.doc_url;
-              btnDocW.textContent = '📄 ' + liveData.weekly_meta.week_num + ' Doc';
+            if (cardTitleW) {
+              cardTitleW.textContent = '📅 สัปดาห์นี้ (' + weekCode + ': ' + dateRange + ')';
             }
-            if (btn3x3W && liveData.weekly_meta.doc_url) {
-              btn3x3W.href = liveData.weekly_meta.doc_url;
-              btn3x3W.textContent = '📄 ' + liveData.weekly_meta.week_num;
+            if (btnDocW) {
+              btnDocW.href = docUrl;
+              btnDocW.textContent = '📄 ' + weekCode + ' Doc';
+            }
+            if (btn3x3W) {
+              btn3x3W.href = docUrl;
+              btn3x3W.textContent = '📄 ' + weekCode;
             }
           }
-          try { localStorage.setItem('SECOND_BRAIN_MASTER_DB_V4', JSON.stringify(DB)); } catch(e) {}
+          try { localStorage.setItem('SECOND_BRAIN_MASTER_DB_V4_1', JSON.stringify(DB)); } catch(e) {}
           initFilters();
           renderAll();
           const ts = liveData.last_updated || 'ล่าสุด';
