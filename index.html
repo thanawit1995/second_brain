@@ -1044,7 +1044,7 @@ const INITIAL_DB = {
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์ (FM Sukhothai)",
-    "last_updated": "2026-11-02T18:20:00+07:00",
+    "last_updated": "2026-11-03 21:45",
     "schema_version": "2.0-JSON",
     "system_state": {
       "inbox_state": "inbox_last_scanned_date:2026-10-03"
@@ -1606,16 +1606,76 @@ const INITIAL_DB = {
     {
       "date": "2026-10-26",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "20",
+      "am_volume": 20,
       "pm_work": "OPD GP",
-      "pm_volume": "6",
+      "pm_volume": 6,
       "overtime": "ไม่มี",
-      "ot_volume": "0",
+      "ot_volume": "",
       "home_ward": "N",
       "palliative": "N",
-      "issue": "ออกตรวจโรคทั่วไปช่วงเช้า ณ รพ.สต.บ้านสวน 20 ราย และช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 6 ราย (รวม 26 ราย) เรียบร้อยดี ไม่พบปัญหาคอขวดหน้างาน",
-      "action": "บันทึกยอดผู้ป่วยลง Living Weekly W44 เรียบร้อยแล้ว",
-      "link_proj": "-",
+      "issue": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 6 ราย (รวม 26 ราย)",
+      "action": "บันทึกข้อมูลยอดผู้ป่วยลง Living Weekly W44 เรียบร้อยแล้ว",
+      "link_proj": "SYS-001",
+      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+    },
+    {
+      "date": "2026-10-27",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": 10,
+      "pm_work": "พัฒนางานระบบ",
+      "pm_volume": 0,
+      "overtime": "ไม่มี",
+      "ot_volume": "",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 10 ราย - ช่วงบ่ายไม่มีตรวจ (งานพัฒนาระบบ: วางแผนอัปเดต NCD Guideline และออกแบบระบบบริการ SMC สุโขทัย SMC-001)",
+      "action": "วางแผนอัปเดต NCD Guideline และยกร่างระบบบริการศูนย์การแพทย์พิเศษ SMC สุโขทัย (SMC-001)",
+      "link_proj": "SMC-001, NCD-002",
+      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+    },
+    {
+      "date": "2026-10-28",
+      "am_work": "รพ.สต.บ้านคลองด่าน",
+      "am_volume": 20,
+      "pm_work": "พัฒนางานระบบ",
+      "pm_volume": 0,
+      "overtime": "ไม่มี",
+      "ot_volume": "",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "ช่วงเช้าตรวจ รพ.สต.บ้านคลองด่าน 20 ราย / บ่ายพัฒนางานระบบ: ระบบ Import Excel ผลแล็บเข้า HosXP สำเร็จและใช้งานจริงได้ผลดี (ทีมเวชกรรมเตรียมไฟล์ส่ง IT import) | สื่อออกกำลังกายผู้สูงอายุ GER-001 และคลินิก SMC-001 ยังไม่เสร็จ",
+      "action": "1) ทีมเวชกรรมเตรียมไฟล์แล็บส่ง IT import 2) เตรียมร่าง NCD Flow (HT/DLP) 3) รวบรวมข้อมูลเชื่อมโยง Service Plan Sepsis/STEMI/Stroke กับเวชกรรมสังคมและพยาบาลชุมชน ก่อนประชุมทีม 2 พ.ย. 69",
+      "link_proj": "PC-003, GER-001, SMC-001, NCD-002, SYS-002",
+      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+    },
+    {
+      "date": "2026-10-29",
+      "am_work": "OPD Fammed",
+      "am_volume": 20,
+      "pm_work": "Lifestyle clinic",
+      "pm_volume": 6,
+      "overtime": "ไม่มี",
+      "ot_volume": "",
+      "home_ward": "N",
+      "palliative": "Y",
+      "issue": "บ่ายตรวจ OPD LM และคุยเคส PC-ESRD รวม 6 ราย (Palliative: Y) | ปัญหาคลินิก Telemed บ่ายอังคาร: สปสช.ปรับเกณฑ์ต้องรับยาภายในวัน ทำให้ห้องยาส่งร้านยาใกล้บ้านไม่ทัน ไม่สามารถส่งคนไข้รับยาที่ร้านยาได้แล้ว",
+      "action": "วางแผนปรับ Flow นัดหมาย Telemed ใหม่: นัดผู้ป่วยตามโซน รพ.สต. เดียวกันมาพร้อมกัน แล้วให้เวชกรรมสังคมรับยาไปส่ง รพ.สต. ให้คนไข้มารับที่อนามัยแทน (TM-001)",
+      "link_proj": "PAL-001, PC-003, TM-001",
+      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+    },
+    {
+      "date": "2026-10-30",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": 45,
+      "pm_work": "ตรวจสุขภาพ",
+      "pm_volume": 1,
+      "overtime": "ไม่มี",
+      "ot_volume": "",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "ช่วงเช้าตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน หนาแน่นสูง 45 ราย / ช่วงบ่ายช่วยตรวจสุขภาพก่อนเริ่มงาน 1 ราย (รวม 46 ราย)",
+      "action": "ประเมินผล Fit for Work และบันทึกปิดวันศุกร์สัปดาห์ที่ 44 สมบูรณ์",
+      "link_proj": "PC-003",
       "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
     },
     {
@@ -1625,12 +1685,27 @@ const INITIAL_DB = {
       "pm_work": "พัฒนางานระบบ",
       "pm_volume": 0,
       "overtime": "ไม่มี",
-      "ot_volume": "-",
+      "ot_volume": "",
       "home_ward": "N",
       "palliative": "N",
       "issue": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายร่วมประชุม SAR PCT NCD กับพี่จา (ไม่มีผู้ป่วย OPD บ่าย)",
-      "action": "บันทึกสรุปเวิร์กโฟลว์ NCD และระบบข้อมูลลง Living Weekly W45 เรียบร้อยแล้ว",
-      "link_proj": "SYS-001",
+      "action": "บันทึกข้อมูลผู้ป่วยลง Living Weekly W45 เรียบร้อยแล้ว",
+      "link_proj": "DM-001, NCD-002, HA-001",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+    },
+    {
+      "date": "2026-11-03",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": 20,
+      "pm_work": "OPD GP",
+      "pm_volume": 13,
+      "overtime": "ไม่มี",
+      "ot_volume": "",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย, ช่วงบ่ายตรวจห้องตรวจโรคทั่วไป (OPD GP) 13 ราย (รวมทั้งวัน 33 ราย) การตรวจราบรื่น",
+      "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
+      "link_proj": "-",
       "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     }
   ],
@@ -9673,7 +9748,7 @@ function ensureValid3x3(s) {
 }
 
 try {
-  const saved = localStorage.getItem('SECOND_BRAIN_MASTER_DB_V4_1');
+  const saved = localStorage.getItem('SECOND_BRAIN_MASTER_DB_V4_2');
   if (saved) {
     const parsed = JSON.parse(saved);
     const savedTime = parsed && parsed.metadata && parsed.metadata.last_updated;
@@ -9683,7 +9758,7 @@ try {
       DB.w42_summary_3x3 = ensureValid3x3(DB.w42_summary_3x3);
     } else {
       DB = JSON.parse(JSON.stringify(INITIAL_DB));
-      localStorage.setItem('SECOND_BRAIN_MASTER_DB_V4_1', JSON.stringify(DB));
+      localStorage.setItem('SECOND_BRAIN_MASTER_DB_V4_2', JSON.stringify(DB));
     }
   }
 } catch(e) {}
@@ -10801,7 +10876,7 @@ function exportBriefCsv() {
 }
 
 function resetToEmbedded() {
-  try { localStorage.removeItem('SECOND_BRAIN_MASTER_DB_V4_1'); } catch(e) {}
+  try { localStorage.removeItem('SECOND_BRAIN_MASTER_DB_V4_2'); } catch(e) {}
   DB = JSON.parse(JSON.stringify(INITIAL_DB));
   initFilters();
   renderAll();
@@ -10941,7 +11016,7 @@ async function autoSyncFromCloud(isManual = false) {
 
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 12000); // 12s timeout
+    const timeoutId = setTimeout(() => controller.abort(), 35000); // 35s timeout สำหรับรองรับ Cold Start ของ Google Apps Script
 
     const fetchUrl = gasUrl + (gasUrl.includes('?') ? '&' : '?') + (isManual ? 'force=1&' : '') + 't=' + Date.now();
     const res = await fetch(fetchUrl, { signal: controller.signal });
@@ -11033,7 +11108,7 @@ async function autoSyncFromCloud(isManual = false) {
           DB.metadata.last_updated = liveData.last_updated;
         }
 
-        try { localStorage.setItem('SECOND_BRAIN_MASTER_DB_V4_1', JSON.stringify(DB)); } catch(e) {}
+        try { localStorage.setItem('SECOND_BRAIN_MASTER_DB_V4_2', JSON.stringify(DB)); } catch(e) {}
         initFilters();
         renderAll();
 
@@ -11046,8 +11121,13 @@ async function autoSyncFromCloud(isManual = false) {
     }
   } catch(err) {
     if (isManual) {
-      if (headerSub) headerSub.textContent = 'การเชื่อมต่อหมดเวลา (ใช้ข้อมูลแคชล่าสุด)';
-      if (statusEl) statusEl.textContent = '⚠️ การดึงข้อมูลสดใช้เวลานานเกินกำหนด ระบบใช้งานข้อมูลแคชในเครื่องแทน';
+      if (err.name === 'AbortError') {
+        if (headerSub) headerSub.textContent = 'การเชื่อมต่อหมดเวลา (>35 วิ) — กำลังใช้ข้อมูลแคช';
+        if (statusEl) statusEl.textContent = '⚠️ Google Apps Script ใช้เวลาตอบสนองนานเกิน 35 วินาที กรุณาลองกดซิงก์ใหม่อีกครั้ง';
+      } else {
+        if (headerSub) headerSub.textContent = 'เชื่อมต่อ Web App ไม่สำเร็จ (ใช้ข้อมูลแคช)';
+        if (statusEl) statusEl.textContent = '⚠️ เชื่อมต่อ Web App ไม่สำเร็จ: โปรดตรวจสอบว่าตั้งค่า "Who has access" เป็น "Anyone" หรือยัง และ URL ลงท้ายด้วย /exec';
+      }
     }
   } finally {
     if (syncBtn) {
