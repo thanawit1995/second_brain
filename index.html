@@ -42,8 +42,7 @@ header { background: var(--primary); color: white; padding: 14px 16px 16px; posi
 .brand { display: flex; align-items: center; gap: 10px; }
 .app-logo { width: 38px; height: 38px; border-radius: 10px; background: white; object-fit: cover; box-shadow: 0 2px 4px rgba(0,0,0,0.15); }
 .brand-text h1 { font-size: 19px; font-weight: 700; letter-spacing: -0.3px; line-height: 1.2; }
-.brand-text p { font-size: 11px; opacity: 0.9; font-weight: 400; }
-.status-pill { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; padding: 2px 8px; border-radius: 12px; background: rgba(255,255,255,0.18); }
+.status-pill { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; padding: 2px 8px; border-radius: 12px; background: rgba(255,255,255,0.18); margin-top: 2px; }
 .status-dot { width: 7px; height: 7px; border-radius: 50%; background: #4ade80; display: inline-block; animation: pulse 2s infinite; }
 @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
 
@@ -86,9 +85,27 @@ header { background: var(--primary); color: white; padding: 14px 16px 16px; posi
 
 /* SECTIONS */
 .section-card { background: white; border-radius: var(--radius); border: 1px solid var(--border); box-shadow: var(--shadow-sm); margin-bottom: 16px; overflow: hidden; }
-.section-header { padding: 12px 16px; background: white; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.section-header { padding: 12px 16px; background: white; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
 .section-title { font-size: 15px; font-weight: 700; color: var(--primary-dark); display: flex; align-items: center; gap: 8px; }
 .section-actions { display: flex; align-items: center; gap: 8px; }
+
+/* FILTER BARS & CATEGORY BARS */
+.category-bar { display: flex; gap: 8px; overflow-x: auto; padding: 10px 14px; background: #f8fafc; border-bottom: 1px solid var(--border); scrollbar-width: none; }
+.category-bar::-webkit-scrollbar { display: none; }
+.cat-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 20px; background: white; border: 1px solid var(--border); color: var(--text-muted); font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all 0.15s ease; user-select: none; }
+.cat-chip:hover { border-color: var(--primary); color: var(--primary); background: var(--primary-light); }
+.cat-chip.active { background: var(--primary); color: white; border-color: var(--primary); box-shadow: 0 2px 4px rgba(15,76,129,0.25); }
+.cat-chip-badge { background: rgba(0,0,0,0.08); padding: 1px 6px; border-radius: 10px; font-size: 11px; }
+.cat-chip.active .cat-chip-badge { background: rgba(255,255,255,0.25); color: white; }
+
+.filter-bar { display: flex; gap: 8px; padding: 10px 14px; border-bottom: 1px solid var(--border); background: #fafbfc; flex-wrap: wrap; align-items: center; }
+.input-search { flex: 1; min-width: 180px; padding: 7px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 13px; outline: none; transition: border-color 0.2s; }
+.input-search:focus { border-color: var(--primary); background: white; }
+.select-filter { padding: 7px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 13px; background: white; outline: none; cursor: pointer; }
+.select-filter:focus { border-color: var(--primary); }
+.btn-reset { padding: 7px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 12px; font-weight: 500; background: white; color: var(--text-muted); cursor: pointer; transition: all 0.15s; }
+.btn-reset:hover { background: #f1f5f9; color: var(--danger); border-color: #cbd5e1; }
+.filter-info { font-size: 12px; color: var(--text-muted); margin-left: auto; white-space: nowrap; }
 
 /* TABLES */
 .table-responsive { overflow-x: auto; max-width: 100%; }
@@ -128,11 +145,11 @@ body.view-mobile .mobile-cards-wrap { display: flex; flex-direction: column; }
 .clinic-slot { background: #f8fafc; border-radius: 6px; padding: 6px 8px; margin-bottom: 6px; font-size: 12px; display: flex; justify-content: space-between; }
 .card-issue { font-size: 12px; color: #475569; background: #fffbeb; border: 1px solid #fef3c7; border-radius: 6px; padding: 6px 8px; margin-top: 6px; }
 
-/* CONTROLS */
-.search-bar { display: flex; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--border); background: #fafbfc; }
-.input-search { flex: 1; padding: 8px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 13px; outline: none; }
-.input-search:focus { border-color: var(--primary); }
-.select-filter { padding: 8px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 13px; background: white; }
+/* PAGINATION */
+.pagination-bar { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; background: #f8fafc; border-top: 1px solid var(--border); }
+.btn-page { background: white; border: 1px solid var(--border); border-radius: 6px; padding: 5px 12px; font-size: 12px; font-weight: 600; cursor: pointer; color: var(--text); }
+.btn-page:hover:not(:disabled) { background: var(--primary-light); color: var(--primary); border-color: var(--primary); }
+.btn-page:disabled { opacity: 0.5; cursor: not-allowed; }
 
 /* TOAST */
 #toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%) translateY(100px); background: #1e293b; color: white; padding: 10px 20px; border-radius: 30px; font-size: 13px; font-weight: 500; box-shadow: var(--shadow-lg); transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28); z-index: 1000; display: flex; align-items: center; gap: 8px; }
@@ -195,11 +212,11 @@ body.view-mobile .mobile-cards-wrap { display: flex; flex-direction: column; }
             <tr>
               <th onclick="sortTbl('tbl-weekly', 0)">วัน ▲▼</th>
               <th onclick="sortTbl('tbl-weekly', 1)">งานเช้า ▲▼</th>
-              <th onclick="sortTbl('tbl-weekly', 2)">เช้า</th>
+              <th onclick="sortTbl('tbl-weekly', 2)">เช้า ▲▼</th>
               <th onclick="sortTbl('tbl-weekly', 3)">งานบ่าย ▲▼</th>
-              <th onclick="sortTbl('tbl-weekly', 4)">บ่าย</th>
-              <th onclick="sortTbl('tbl-weekly', 5)">OT</th>
-              <th onclick="sortTbl('tbl-weekly', 6)">รวม</th>
+              <th onclick="sortTbl('tbl-weekly', 4)">บ่าย ▲▼</th>
+              <th>OT</th>
+              <th onclick="sortTbl('tbl-weekly', 6)">รวม ▲▼</th>
               <th>ประเด็น / การดำเนินการ</th>
             </tr>
           </thead>
@@ -215,13 +232,25 @@ body.view-mobile .mobile-cards-wrap { display: flex; flex-direction: column; }
     <!-- BRIEF LOG HISTORY -->
     <div class="section-card">
       <div class="section-header">
-        <div class="section-title">📋 ประวัติภาระงานสะสม (<span id="count-history">0</span> วัน)</div>
+        <div class="section-title">📋 ประวัติภาระงานสะสม</div>
+        <div class="filter-info" id="brief-filter-info">แสดง 0 รายการ</div>
       </div>
-      <div class="search-bar">
-        <input type="text" id="search-brief" class="input-search" placeholder="🔍 ค้นหาวันที่, รพ.สต., หรือประเด็นปัญหา..." oninput="filterBriefLog()">
-        <select id="filter-site" class="select-filter" onchange="filterBriefLog()">
-          <option value="">ทุกสถานที่ตรวจ</option>
+      <!-- FILTER BAR: CLINICAL -->
+      <div class="filter-bar">
+        <input type="text" id="brief-search" class="input-search" placeholder="🔍 ค้นหาวันที่, รพ.สต., หรือประเด็นปัญหา..." oninput="filterBriefLog()">
+        <select id="brief-am-filter" class="select-filter" onchange="filterBriefLog()">
+          <option value="">ทุกสถานที่ตรวจเช้า (am_work)</option>
         </select>
+        <select id="brief-pm-filter" class="select-filter" onchange="filterBriefLog()">
+          <option value="">ทุกภาระงานบ่าย (pm_work)</option>
+        </select>
+        <select id="brief-spec-filter" class="select-filter" onchange="filterBriefLog()">
+          <option value="">ทุกประเภทบริการ</option>
+          <option value="hw">เฉพาะเคส Home Ward</option>
+          <option value="pal">เฉพาะเคส Palliative Care</option>
+          <option value="ot">เฉพาะมีเวรนอกเวลา (OT)</option>
+        </select>
+        <button class="btn-reset" onclick="resetBriefFilters()">ล้างตัวกรอง</button>
       </div>
       <div class="table-responsive">
         <table id="tbl-brief">
@@ -229,9 +258,9 @@ body.view-mobile .mobile-cards-wrap { display: flex; flex-direction: column; }
             <tr>
               <th onclick="sortTbl('tbl-brief', 0)">วันที่ ▲▼</th>
               <th onclick="sortTbl('tbl-brief', 1)">งานเช้า ▲▼</th>
-              <th>เช้า</th>
+              <th onclick="sortTbl('tbl-brief', 2)">เช้า ▲▼</th>
               <th onclick="sortTbl('tbl-brief', 3)">งานบ่าย ▲▼</th>
-              <th>บ่าย</th>
+              <th onclick="sortTbl('tbl-brief', 4)">บ่าย ▲▼</th>
               <th>OT</th>
               <th onclick="sortTbl('tbl-brief', 6)">รวม ▲▼</th>
               <th>HW/Pal</th>
@@ -250,7 +279,28 @@ body.view-mobile .mobile-cards-wrap { display: flex; flex-direction: column; }
   <div id="tab-project" class="tab-panel">
     <div class="section-card">
       <div class="section-header">
-        <div class="section-title">🚀 กระดานติดตามงานพัฒนาระบบปฐมภูมิ (<span id="count-proj">0</span> โครงการ)</div>
+        <div class="section-title">🚀 กระดานติดตามงานพัฒนาระบบปฐมภูมิ</div>
+        <div class="filter-info" id="proj-filter-info">แสดง 0 รายการ</div>
+      </div>
+      <!-- FILTER BAR: PROJECTS -->
+      <div class="filter-bar">
+        <input type="text" id="proj-search" class="input-search" placeholder="🔍 ค้นหารหัส, ชื่อโครงการ, หรือปัญหาคอขวด..." oninput="filterProjects()">
+        <select id="proj-domain-filter" class="select-filter" onchange="filterProjects()">
+          <option value="">ทุกกลุ่มงาน (Domain)</option>
+        </select>
+        <select id="proj-phase-filter" class="select-filter" onchange="filterProjects()">
+          <option value="">ทุกสถานะ (Phase)</option>
+          <option value="in-progress">in-progress (กำลังดำเนินงาน)</option>
+          <option value="pilot">pilot (นำร่องทดสอบ)</option>
+          <option value="done">done (เสร็จสมบูรณ์)</option>
+        </select>
+        <select id="proj-impact-filter" class="select-filter" onchange="filterProjects()">
+          <option value="">ทุกระดับ Impact</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+        <button class="btn-reset" onclick="resetProjFilters()">ล้างตัวกรอง</button>
       </div>
       <div class="table-responsive">
         <table id="tbl-proj">
@@ -260,7 +310,7 @@ body.view-mobile .mobile-cards-wrap { display: flex; flex-direction: column; }
               <th onclick="sortTbl('tbl-proj', 1)">ชื่อโครงการ ▲▼</th>
               <th onclick="sortTbl('tbl-proj', 2)">กลุ่มงาน ▲▼</th>
               <th onclick="sortTbl('tbl-proj', 3)">สถานะ ▲▼</th>
-              <th onclick="sortTbl('tbl-proj', 4)">ความสำคัญ ▲▼</th>
+              <th onclick="sortTbl('tbl-proj', 4)">Impact ▲▼</th>
               <th>ปัญหาคอขวด (Blocker)</th>
               <th>ก้าวถัดไป (Next Action)</th>
               <th onclick="sortTbl('tbl-proj', 7)">กำหนดส่ง ▲▼</th>
@@ -277,7 +327,33 @@ body.view-mobile .mobile-cards-wrap { display: flex; flex-direction: column; }
   <div id="tab-stock" class="tab-panel">
     <div class="section-card">
       <div class="section-header">
-        <div class="section-title">📈 ทะเบียนวิเคราะห์หุ้นเชิงลึก (Deep Dive: <span id="count-stock">0</span> ตัว)</div>
+        <div class="section-title">📈 ทะเบียนวิเคราะห์หุ้นเชิงลึก (Deep Dive)</div>
+        <div class="filter-info" id="stock-filter-info">แสดง 0 รายการ</div>
+      </div>
+      <!-- FILTER BAR: STOCKS -->
+      <div class="filter-bar">
+        <input type="text" id="stock-search" class="input-search" placeholder="🔍 ค้นหา Ticker หรือชื่อหุ้น..." oninput="filterStocks()">
+        <select id="stock-market-filter" class="select-filter" onchange="filterStocks()">
+          <option value="">ทุกตลาด (SET / mai / US / ETF)</option>
+          <option value="SET">SET</option>
+          <option value="mai">mai</option>
+          <option value="US">US (NYSE/NASDAQ)</option>
+          <option value="ETF">ETF</option>
+        </select>
+        <select id="stock-verdict-filter" class="select-filter" onchange="filterStocks()">
+          <option value="">ทุกคำแนะนำ (Verdict)</option>
+          <option value="buy">BUY (ทยอยสะสม)</option>
+          <option value="watch">WATCH (เฝ้าติดตาม)</option>
+          <option value="pass">PASS</option>
+          <option value="exit">EXIT</option>
+        </select>
+        <select id="stock-conviction-filter" class="select-filter" onchange="filterStocks()">
+          <option value="">ทุกระดับ Conviction</option>
+          <option value="high">High</option>
+          <option value="medium">Medium</option>
+          <option value="low">Low</option>
+        </select>
+        <button class="btn-reset" onclick="resetStockFilters()">ล้างตัวกรอง</button>
       </div>
       <div class="table-responsive">
         <table id="tbl-stock">
@@ -303,7 +379,20 @@ body.view-mobile .mobile-cards-wrap { display: flex; flex-direction: column; }
 
     <div class="section-card">
       <div class="section-header">
-        <div class="section-title">👀 รายการหุ้นรอ Deep Dive (Watchlist: <span id="count-watch">0</span> ตัว)</div>
+        <div class="section-title">👀 รายการหุ้นรอ Deep Dive (Watchlist)</div>
+        <div class="filter-info" id="watch-filter-info">แสดง 0 รายการ</div>
+      </div>
+      <!-- FILTER BAR: WATCHLIST -->
+      <div class="filter-bar">
+        <input type="text" id="watch-search" class="input-search" placeholder="🔍 ค้นหา Ticker หรือเกณฑ์คัดกรอง..." oninput="filterWatchlist()">
+        <select id="watch-status-filter" class="select-filter" onchange="filterWatchlist()">
+          <option value="">ทุกสถานะ Watchlist</option>
+          <option value="pending_deep_dive">pending_deep_dive (รอ Deep Dive)</option>
+          <option value="deep_dived">deep_dived (วิเคราะห์แล้ว)</option>
+          <option value="passed">passed</option>
+          <option value="dropped">dropped</option>
+        </select>
+        <button class="btn-reset" onclick="resetWatchFilters()">ล้างตัวกรอง</button>
       </div>
       <div class="table-responsive">
         <table id="tbl-watch">
@@ -327,8 +416,16 @@ body.view-mobile .mobile-cards-wrap { display: flex; flex-direction: column; }
   <div id="tab-mail" class="tab-panel">
     <div class="section-card">
       <div class="section-header">
-        <div class="section-title">📧 สรุปและแจ้งเตือนอีเมลประจำวัน (<span id="count-mail">0</span> ฉบับ)</div>
-        <span class="badge badge-blue" id="mail-batch-label">รอบวันล่าสุด</span>
+        <div class="section-title">📧 สรุปและแจ้งเตือนอีเมลประจำวัน</div>
+        <div class="filter-info" id="mail-filter-info">แสดง 0 ฉบับ</div>
+      </div>
+      <!-- BAR แยกประเภทอีเมล์ (CATEGORY PILL CHIPS) -->
+      <div class="category-bar" id="mail-category-bar"></div>
+
+      <!-- FILTER BAR: MAIL -->
+      <div class="filter-bar">
+        <input type="text" id="mail-search" class="input-search" placeholder="🔍 ค้นหาผู้ส่ง, หัวข้อ, หรือข้อความสรุป..." oninput="filterMail()">
+        <button class="btn-reset" onclick="resetMailFilters()">ล้างการค้นหา</button>
       </div>
       <div class="table-responsive">
         <table id="tbl-mail">
@@ -352,10 +449,25 @@ body.view-mobile .mobile-cards-wrap { display: flex; flex-direction: column; }
   <div id="tab-note" class="tab-panel">
     <div class="section-card">
       <div class="section-header">
-        <div class="section-title">📝 กล่องคัดแยกและสืบค้นโน้ต (<span id="count-note">0</span> ไฟล์)</div>
+        <div class="section-title">📝 กล่องคัดแยกและสืบค้นโน้ต</div>
+        <div class="filter-info" id="note-filter-info">แสดง 0 รายการ</div>
       </div>
-      <div class="search-bar">
-        <input type="text" id="search-note" class="input-search" placeholder="🔍 พิมพ์เพื่อสืบค้นชื่อไฟล์, หมวดหมู่, หรือหัวข้อโน้ต..." oninput="filterNotes()">
+      <!-- FILTER BAR: NOTES -->
+      <div class="filter-bar">
+        <input type="text" id="note-search" class="input-search" placeholder="🔍 พิมพ์เพื่อสืบค้นชื่อไฟล์, หมวดหมู่, หรือหัวข้อโน้ต..." oninput="filterNotes()">
+        <select id="note-origin-filter" class="select-filter" onchange="filterNotes()">
+          <option value="">ทุกแหล่งที่มา (Origin)</option>
+        </select>
+        <select id="note-cat-filter" class="select-filter" onchange="filterNotes()">
+          <option value="">ทุกหมวดหมู่ (Links To)</option>
+        </select>
+        <select id="note-page-size" class="select-filter" onchange="changeNotePageSize()">
+          <option value="25">แสดง 25 รายการ/หน้า</option>
+          <option value="50" selected>แสดง 50 รายการ/หน้า</option>
+          <option value="100">แสดง 100 รายการ/หน้า</option>
+          <option value="all">แสดงทั้งหมด</option>
+        </select>
+        <button class="btn-reset" onclick="resetNoteFilters()">ล้างตัวกรอง</button>
       </div>
       <div class="table-responsive">
         <table id="tbl-note">
@@ -365,12 +477,18 @@ body.view-mobile .mobile-cards-wrap { display: flex; flex-direction: column; }
               <th onclick="sortTbl('tbl-note', 1)">ชื่อไฟล์เอกสาร ▲▼</th>
               <th onclick="sortTbl('tbl-note', 2)">ต้นทาง ▲▼</th>
               <th>หัวข้อ / สาระสำคัญ</th>
-              <th>สถานะ</th>
+              <th>หมวดหมู่</th>
               <th>ลิงก์ไฟล์</th>
             </tr>
           </thead>
           <tbody id="body-note"></tbody>
         </table>
+      </div>
+      <!-- PAGINATION BAR -->
+      <div class="pagination-bar" id="note-pagination">
+        <button class="btn-page" id="btn-prev-page" onclick="prevNotePage()">◀ ก่อนหน้า</button>
+        <span id="note-page-info" style="font-size:12px; font-weight:600; color:var(--text-muted);">หน้า 1 / 1</span>
+        <button class="btn-page" id="btn-next-page" onclick="nextNotePage()">ถัดไป ▶</button>
       </div>
     </div>
   </div>
@@ -415,6 +533,13 @@ try {
     }
   }
 } catch(e) {}
+
+// State for active email category
+let activeEmailCategory = 'ทั้งหมด';
+
+// State for note pagination
+let noteCurrentPage = 1;
+let notePageSize = 50;
 
 // View mode state
 let isMobileView = localStorage.getItem('SECOND_BRAIN_VIEW_MODE') === 'mobile';
@@ -478,11 +603,14 @@ function renderAll() {
   renderKPIs();
   renderWeekly();
   render3x3();
-  renderBriefLog();
-  renderProjects();
-  renderStocks();
-  renderMail();
-  renderNotes();
+  initFilterOptions();
+  filterBriefLog();
+  filterProjects();
+  filterStocks();
+  filterWatchlist();
+  renderMailCategoryBar();
+  filterMail();
+  filterNotes();
   document.getElementById('cfg-last-updated').textContent = DB.metadata ? DB.metadata.last_updated : '-';
 }
 
@@ -625,31 +753,62 @@ function render3x3() {
   `;
 }
 
-function renderBriefLog() {
+// INIT SELECT FILTERS OPTIONS
+function initFilterOptions() {
+  // 1. Brief Log AM & PM
   const logs = DB.brief_log || [];
-  document.getElementById('count-history').textContent = logs.length;
-
-  const siteSel = document.getElementById('filter-site');
-  const sites = new Set();
+  const amSet = new Set();
+  const pmSet = new Set();
   logs.forEach(l => {
-    if (l.am_work && l.am_work !== '-') sites.add(l.am_work);
+    if (l.am_work && l.am_work !== '-') amSet.add(l.am_work);
+    if (l.pm_work && l.pm_work !== '-') pmSet.add(l.pm_work);
   });
-  siteSel.innerHTML = '<option value="">ทุกสถานที่ตรวจ</option>';
-  [...sites].sort().forEach(s => siteSel.innerHTML += `<option value="${s}">${s}</option>`);
+  const amSel = document.getElementById('brief-am-filter');
+  const pmSel = document.getElementById('brief-pm-filter');
+  amSel.innerHTML = '<option value="">ทุกสถานที่ตรวจเช้า (am_work)</option>';
+  pmSel.innerHTML = '<option value="">ทุกภาระงานบ่าย (pm_work)</option>';
+  [...amSet].sort().forEach(s => amSel.innerHTML += `<option value="${s}">${s}</option>`);
+  [...pmSet].sort().forEach(s => pmSel.innerHTML += `<option value="${s}">${s}</option>`);
 
-  filterBriefLog();
+  // 2. Project Domains
+  const projs = DB.project_board || [];
+  const domSet = new Set(projs.map(p => p.domain).filter(Boolean));
+  const domSel = document.getElementById('proj-domain-filter');
+  domSel.innerHTML = '<option value="">ทุกกลุ่มงาน (Domain)</option>';
+  [...domSet].sort().forEach(d => domSel.innerHTML += `<option value="${d}">${d}</option>`);
+
+  // 3. Note Origins & Cats
+  const notes = DB.note_inbox || [];
+  const origSet = new Set(notes.map(n => n.origin).filter(Boolean));
+  const catSet = new Set(notes.map(n => n.links_to).filter(Boolean));
+  const origSel = document.getElementById('note-origin-filter');
+  const catSel = document.getElementById('note-cat-filter');
+  origSel.innerHTML = '<option value="">ทุกแหล่งที่มา (Origin)</option>';
+  catSel.innerHTML = '<option value="">ทุกหมวดหมู่ (Links To)</option>';
+  [...origSet].sort().forEach(o => origSel.innerHTML += `<option value="${o}">${o}</option>`);
+  [...catSet].sort().forEach(c => catSel.innerHTML += `<option value="${c}">${c}</option>`);
 }
 
+// 1. CLINICAL / BRIEF LOG FILTERING
 function filterBriefLog() {
-  const query = document.getElementById('search-brief').value.toLowerCase().trim();
-  const site = document.getElementById('filter-site').value;
+  const query = document.getElementById('brief-search').value.toLowerCase().trim();
+  const amVal = document.getElementById('brief-am-filter').value;
+  const pmVal = document.getElementById('brief-pm-filter').value;
+  const specVal = document.getElementById('brief-spec-filter').value;
   const logs = DB.brief_log || [];
 
   const filtered = logs.filter(l => {
-    const matchSite = !site || (l.am_work === site || l.pm_work === site);
     const matchQuery = !query || JSON.stringify(l).toLowerCase().includes(query);
-    return matchSite && matchQuery;
+    const matchAm = !amVal || l.am_work === amVal;
+    const matchPm = !pmVal || l.pm_work === pmVal;
+    let matchSpec = true;
+    if (specVal === 'hw') matchSpec = (l.home_ward === 'Y');
+    else if (specVal === 'pal') matchSpec = (l.palliative === 'Y');
+    else if (specVal === 'ot') matchSpec = (l.overtime && l.overtime !== 'ไม่มี' && l.ot_volume && l.ot_volume !== '-');
+    return matchQuery && matchAm && matchPm && matchSpec;
   });
+
+  document.getElementById('brief-filter-info').textContent = `แสดง ${filtered.length} จาก ${logs.length} รายการ`;
 
   const tbody = document.getElementById('body-brief');
   const cardsWrap = document.getElementById('cards-brief');
@@ -666,9 +825,9 @@ function filterBriefLog() {
     tr.innerHTML = `
       <td><strong>${l.date}</strong></td>
       <td><span class="badge badge-blue">${l.am_work || '-'}</span></td>
-      <td>${l.am_volume || '0'}</td>
+      <td><strong>${l.am_volume || '0'}</strong></td>
       <td><span class="badge badge-gray">${l.pm_work || '-'}</span></td>
-      <td>${l.pm_volume || '0'}</td>
+      <td><strong>${l.pm_volume || '0'}</strong></td>
       <td>${l.overtime !== 'ไม่มี' && l.ot_volume ? l.ot_volume : '-'}</td>
       <td><strong style="color:var(--primary);">${tot}</strong></td>
       <td>${l.palliative === 'Y' ? '<span class="badge badge-red">Pal</span>' : ''} ${l.home_ward === 'Y' ? '<span class="badge badge-green">HW</span>' : ''}</td>
@@ -677,7 +836,6 @@ function filterBriefLog() {
     `;
     tbody.appendChild(tr);
 
-    // Mobile card
     const card = document.createElement('div');
     card.className = 'day-card';
     card.innerHTML = `
@@ -693,13 +851,35 @@ function filterBriefLog() {
   });
 }
 
-function renderProjects() {
+function resetBriefFilters() {
+  document.getElementById('brief-search').value = '';
+  document.getElementById('brief-am-filter').value = '';
+  document.getElementById('brief-pm-filter').value = '';
+  document.getElementById('brief-spec-filter').value = '';
+  filterBriefLog();
+}
+
+// 2. PROJECTS FILTERING
+function filterProjects() {
+  const query = document.getElementById('proj-search').value.toLowerCase().trim();
+  const domVal = document.getElementById('proj-domain-filter').value;
+  const phaseVal = document.getElementById('proj-phase-filter').value;
+  const impactVal = document.getElementById('proj-impact-filter').value;
   const projs = DB.project_board || [];
-  document.getElementById('count-proj').textContent = projs.length;
+
+  const filtered = projs.filter(p => {
+    const matchQuery = !query || JSON.stringify(p).toLowerCase().includes(query);
+    const matchDom = !domVal || p.domain === domVal;
+    const matchPhase = !phaseVal || p.phase === phaseVal;
+    const matchImpact = !impactVal || p.impact === impactVal;
+    return matchQuery && matchDom && matchPhase && matchImpact;
+  });
+
+  document.getElementById('proj-filter-info').textContent = `แสดง ${filtered.length} จาก ${projs.length} โครงการ`;
+
   const tbody = document.getElementById('body-proj');
   tbody.innerHTML = '';
-
-  projs.forEach(p => {
+  filtered.forEach(p => {
     const tr = document.createElement('tr');
     const phaseClass = p.phase === 'done' ? 'badge-green' : (p.phase === 'pilot' ? 'badge-yellow' : 'badge-blue');
     const impactClass = p.impact === 'High' ? 'badge-red' : 'badge-yellow';
@@ -719,15 +899,35 @@ function renderProjects() {
   });
 }
 
-function renderStocks() {
-  const stocks = DB.stock_master || [];
-  const watch = DB.watchlist || [];
-  document.getElementById('count-stock').textContent = stocks.length;
-  document.getElementById('count-watch').textContent = watch.length;
+function resetProjFilters() {
+  document.getElementById('proj-search').value = '';
+  document.getElementById('proj-domain-filter').value = '';
+  document.getElementById('proj-phase-filter').value = '';
+  document.getElementById('proj-impact-filter').value = '';
+  filterProjects();
+}
 
-  const tbStock = document.getElementById('body-stock');
-  tbStock.innerHTML = '';
-  stocks.forEach(s => {
+// 3. STOCKS & WATCHLIST FILTERING
+function filterStocks() {
+  const query = document.getElementById('stock-search').value.toLowerCase().trim();
+  const marketVal = document.getElementById('stock-market-filter').value;
+  const verdictVal = document.getElementById('stock-verdict-filter').value;
+  const convVal = document.getElementById('stock-conviction-filter').value;
+  const stocks = DB.stock_master || [];
+
+  const filtered = stocks.filter(s => {
+    const matchQuery = !query || JSON.stringify(s).toLowerCase().includes(query);
+    const matchMarket = !marketVal || s.market === marketVal;
+    const matchVerdict = !verdictVal || s.verdict === verdictVal;
+    const matchConv = !convVal || (s.conviction && s.conviction.toLowerCase() === convVal.toLowerCase());
+    return matchQuery && matchMarket && matchVerdict && matchConv;
+  });
+
+  document.getElementById('stock-filter-info').textContent = `แสดง ${filtered.length} จาก ${stocks.length} ตัว`;
+
+  const tbody = document.getElementById('body-stock');
+  tbody.innerHTML = '';
+  filtered.forEach(s => {
     const tr = document.createElement('tr');
     const vClass = s.verdict === 'buy' ? 'badge-green' : (s.verdict === 'watch' ? 'badge-yellow' : 'badge-red');
     tr.innerHTML = `
@@ -743,12 +943,34 @@ function renderStocks() {
       <td style="font-size:11px; max-width:200px; color:#b91c1c;">${s.key_risk || '-'}</td>
       <td>${s.doc_url ? `<a href="${s.doc_url}" target="_blank" class="badge badge-blue" style="text-decoration:none;">บทวิเคราะห์</a>` : '-'}</td>
     `;
-    tbStock.appendChild(tr);
+    tbody.appendChild(tr);
   });
+}
+
+function resetStockFilters() {
+  document.getElementById('stock-search').value = '';
+  document.getElementById('stock-market-filter').value = '';
+  document.getElementById('stock-verdict-filter').value = '';
+  document.getElementById('stock-conviction-filter').value = '';
+  filterStocks();
+}
+
+function filterWatchlist() {
+  const query = (document.getElementById('watch-search') ? document.getElementById('watch-search').value : '').toLowerCase().trim();
+  const statusVal = document.getElementById('watch-status-filter') ? document.getElementById('watch-status-filter').value : '';
+  const watch = DB.watchlist || [];
+
+  const filtered = watch.filter(w => {
+    const matchQuery = !query || JSON.stringify(w).toLowerCase().includes(query);
+    const matchStatus = !statusVal || w.status === statusVal;
+    return matchQuery && matchStatus;
+  });
+
+  document.getElementById('watch-filter-info').textContent = `แสดง ${filtered.length} จาก ${watch.length} ตัว`;
 
   const tbWatch = document.getElementById('body-watch');
   tbWatch.innerHTML = '';
-  watch.forEach(w => {
+  filtered.forEach(w => {
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td><strong>${w.ticker}</strong></td>
@@ -762,13 +984,64 @@ function renderStocks() {
   });
 }
 
-function renderMail() {
+function resetWatchFilters() {
+  if (document.getElementById('watch-search')) document.getElementById('watch-search').value = '';
+  if (document.getElementById('watch-status-filter')) document.getElementById('watch-status-filter').value = '';
+  filterWatchlist();
+}
+
+// 4. MAIL BAR & FILTERING
+const categoryIconMap = {
+  'การแจ้งเตือนความปลอดภัย': '🛡️',
+  'ธุรกรรมธนาคารและช้อปปิ้งออนไลน์': '💳',
+  'การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร': '🔔',
+  'อัปเดตปฏิทิน': '📅',
+  'โฆษณาและโปรโมชั่น': '🏷️'
+};
+
+function renderMailCategoryBar() {
   const mails = DB.email_digest || [];
-  document.getElementById('count-mail').textContent = mails.length;
+  const bar = document.getElementById('mail-category-bar');
+  if (!bar) return;
+
+  const counts = {};
+  mails.forEach(m => {
+    const c = m.category || 'อื่นๆ';
+    counts[c] = (counts[c] || 0) + 1;
+  });
+
+  let html = `<div class="cat-chip ${activeEmailCategory === 'ทั้งหมด' ? 'active' : ''}" onclick="setMailCategory('ทั้งหมด')">📬 ทั้งหมด <span class="cat-chip-badge">${mails.length}</span></div>`;
+
+  Object.keys(counts).sort().forEach(cat => {
+    const icon = categoryIconMap[cat] || '📁';
+    const isActive = (activeEmailCategory === cat) ? 'active' : '';
+    html += `<div class="cat-chip ${isActive}" onclick="setMailCategory('${cat}')">${icon} ${cat} <span class="cat-chip-badge">${counts[cat]}</span></div>`;
+  });
+
+  bar.innerHTML = html;
+}
+
+function setMailCategory(cat) {
+  activeEmailCategory = cat;
+  renderMailCategoryBar();
+  filterMail();
+}
+
+function filterMail() {
+  const query = document.getElementById('mail-search').value.toLowerCase().trim();
+  const mails = DB.email_digest || [];
+
+  const filtered = mails.filter(m => {
+    const matchCat = (activeEmailCategory === 'ทั้งหมด') || (m.category === activeEmailCategory);
+    const matchQuery = !query || JSON.stringify(m).toLowerCase().includes(query);
+    return matchCat && matchQuery;
+  });
+
+  document.getElementById('mail-filter-info').textContent = `แสดง ${filtered.length} จาก ${mails.length} ฉบับ (${activeEmailCategory})`;
+
   const tbody = document.getElementById('body-mail');
   tbody.innerHTML = '';
-
-  mails.forEach(m => {
+  filtered.forEach(m => {
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td><strong>${m.time || '-'}</strong></td>
@@ -782,34 +1055,85 @@ function renderMail() {
   });
 }
 
-function renderNotes() {
-  const notes = DB.note_inbox || [];
-  document.getElementById('count-note').textContent = notes.length;
-  filterNotes();
+function resetMailFilters() {
+  document.getElementById('mail-search').value = '';
+  activeEmailCategory = 'ทั้งหมด';
+  renderMailCategoryBar();
+  filterMail();
 }
 
+// 5. NOTES FILTERING & PAGINATION
 function filterNotes() {
-  const query = document.getElementById('search-note').value.toLowerCase().trim();
+  const query = document.getElementById('note-search').value.toLowerCase().trim();
+  const origVal = document.getElementById('note-origin-filter').value;
+  const catVal = document.getElementById('note-cat-filter').value;
   const notes = DB.note_inbox || [];
-  const filtered = query ? notes.filter(n => JSON.stringify(n).toLowerCase().includes(query)) : notes.slice(0, 50);
+
+  const filtered = notes.filter(n => {
+    const matchQuery = !query || JSON.stringify(n).toLowerCase().includes(query);
+    const matchOrig = !origVal || n.origin === origVal;
+    const matchCat = !catVal || n.links_to === catVal;
+    return matchQuery && matchOrig && matchCat;
+  });
+
+  document.getElementById('note-filter-info').textContent = `ค้นพบ ${filtered.length} จาก ${notes.length} ไฟล์`;
+
+  // Pagination calculation
+  const totalPages = (notePageSize === 'all') ? 1 : Math.ceil(filtered.length / notePageSize) || 1;
+  if (noteCurrentPage > totalPages) noteCurrentPage = 1;
+
+  const startIdx = (notePageSize === 'all') ? 0 : (noteCurrentPage - 1) * notePageSize;
+  const endIdx = (notePageSize === 'all') ? filtered.length : startIdx + notePageSize;
+  const pageItems = filtered.slice(startIdx, endIdx);
+
+  document.getElementById('note-page-info').textContent = `หน้า ${noteCurrentPage} / ${totalPages} (แสดง ${pageItems.length} รายการ)`;
+  document.getElementById('btn-prev-page').disabled = (noteCurrentPage <= 1);
+  document.getElementById('btn-next-page').disabled = (noteCurrentPage >= totalPages);
 
   const tbody = document.getElementById('body-note');
   tbody.innerHTML = '';
-  filtered.forEach(n => {
+  pageItems.forEach(n => {
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td>${n.captured || '-'}</td>
       <td><strong>${n.source_file || '-'}</strong></td>
       <td><span class="badge badge-gray">${n.origin || '-'}</span></td>
       <td style="font-size:12px;">${n.topic || '-'}</td>
-      <td><span class="badge badge-green">${n.processed || 'done'}</span></td>
+      <td><span class="badge badge-blue">${n.links_to || '-'}</span></td>
       <td>${n.doc_url ? `<a href="${n.doc_url}" target="_blank" class="badge badge-blue" style="text-decoration:none;">เปิดไฟล์</a>` : '-'}</td>
     `;
     tbody.appendChild(tr);
   });
 }
 
-// Sorting utility
+function changeNotePageSize() {
+  const val = document.getElementById('note-page-size').value;
+  notePageSize = (val === 'all') ? 'all' : parseInt(val);
+  noteCurrentPage = 1;
+  filterNotes();
+}
+
+function prevNotePage() {
+  if (noteCurrentPage > 1) {
+    noteCurrentPage--;
+    filterNotes();
+  }
+}
+
+function nextNotePage() {
+  noteCurrentPage++;
+  filterNotes();
+}
+
+function resetNoteFilters() {
+  document.getElementById('note-search').value = '';
+  document.getElementById('note-origin-filter').value = '';
+  document.getElementById('note-cat-filter').value = '';
+  noteCurrentPage = 1;
+  filterNotes();
+}
+
+// Generic Table Sorter
 function sortTbl(tableId, colIdx) {
   const tbl = document.getElementById(tableId);
   const tbody = tbl.querySelector('tbody');
@@ -832,9 +1156,9 @@ function sortTbl(tableId, colIdx) {
   rows.forEach(r => tbody.appendChild(r));
 }
 
-// Initial load
+// Initial render
 renderAll();
-// Auto sync in background on load
+// Background sync
 syncDatabase(false);
 </script>
 </body>
