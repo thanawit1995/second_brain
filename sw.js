@@ -1,4 +1,4 @@
-const CACHE_NAME = 'second-brain-v5.0.0';
+const CACHE_NAME = 'second-brain-v5.2.0';
 const ASSETS = [
   './',
   './index.html',
@@ -26,7 +26,6 @@ self.addEventListener('activate', e => {
 
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
-  // Network-first for JSON database to always get freshest data
   if (url.pathname.endsWith('.json')) {
     e.respondWith(
       fetch(e.request)
@@ -42,7 +41,6 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Cache-first for other static assets
   e.respondWith(
     caches.match(e.request).then(cached => cached || fetch(e.request).catch(() => caches.match('./index.html')))
   );
