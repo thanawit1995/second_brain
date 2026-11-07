@@ -2,9 +2,9 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-06 21:15:00",
-    "schema_version": "5.0-AutoSync-PWA",
-    "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
+    "last_updated": "2026-11-07 19:14:53",
+    "schema_version": "4.0-GitHub-AutoPush",
+    "architecture": "GitHub-Native Static JSON over CDN"
   },
   "config": {
     "am_work": [
@@ -452,7 +452,7 @@
       "issue": "ออกตรวจโรคทั่วไปช่วงเช้า รพ.สต.บ้านสวน 25 ราย / บ่ายดูแลเคส IPD Palliative 2 ราย",
       "action": "ติดตามอาการผู้ป่วยประคับประคองต่อเนื่อง",
       "link_proj": "PAL-001",
-      "doc_url": "2026-10-16_SYS_Weekly-Work-W42"
+      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
     },
     {
       "date": "2026-10-13",
@@ -467,7 +467,7 @@
       "issue": "ออกตรวจราวน์เวร Home ward วันหยุดนักขัตฤกษ์ 2 เคส เรียบร้อยดี",
       "action": "ติดตามอาการผู้ป่วย Home ward ต่อเนื่อง",
       "link_proj": "HW-001",
-      "doc_url": "2026-10-16_SYS_Weekly-Work-W42"
+      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
     },
     {
       "date": "2026-10-14",
@@ -482,7 +482,7 @@
       "issue": "เช้า รพ.สต.ตาลเตี้ย เคสหนาแน่น (35 ราย) / บ่ายช่วยตรวจ OPD ตรวจสุขภาพ 17 ราย และดูเคส IPD Palliative 2 ราย (รวมบ่าย 19 ราย)",
       "action": "1) ดูแลเคสตรวจสุขภาพและ IPD Palliative 2) ปรับสถาปัตยกรรม Second Brain เป็นระบบ JSON + WebApp Dashboard และ Living Weekly File สำเร็จ",
       "link_proj": "SYS-001, PAL-001, PC-001",
-      "doc_url": "2026-10-16_SYS_Weekly-Work-W42"
+      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
     },
     {
       "date": "2026-10-15",
@@ -497,7 +497,7 @@
       "issue": "เช้าออกตรวจ OPD Fammed (PCU รพ.สท.) 32 ราย / บ่ายสอน Intern และราวน์ดูแลเคส IPD Palliative 3 ราย",
       "action": "ดูแลผู้ป่วยประคับประคองต่อเนื่อง และติดตามงานพัฒนาระบบปฐมภูมิ (GER-001)",
       "link_proj": "PAL-001, GER-001",
-      "doc_url": "2026-10-16_SYS_Weekly-Work-W42"
+      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
     },
     {
       "date": "2026-10-16",
@@ -512,7 +512,7 @@
       "issue": "ช่วงเช้าตรวจ รพ.สต.บ้านสวน 15 ราย / ช่วงบ่ายตรวจสมุดสุขภาพ 15 ราย, ออกเยี่ยมบ้าน 3 ราย, ดูแลผู้ป่วย IPD PC 3 ราย (รวมบ่าย 21 ราย)",
       "action": "ติดตามการดูแลผู้ป่วยต่อเนื่องในชุมชนและผู้ป่วยระยะประคับประคอง",
       "link_proj": "HW-001, PAL-001",
-      "doc_url": "2026-10-16_SYS_Weekly-Work-W42"
+      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
     },
     {
       "date": "2026-10-21",
@@ -527,7 +527,7 @@
       "issue": "เข้าร่วมการประชุมวิชาการระดับชาติราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวแห่งประเทศไทย (NCFM 20-23 ต.ค.) วันที่ 2",
       "action": "ศึกษาและอัปเดตองค์ความรู้ด้านเวชศาสตร์ครอบครัวและระบบบริการปฐมภูมิ",
       "link_proj": "SYS-001",
-      "doc_url": "2026-10-23_SYS_Weekly-Work-W43"
+      "doc_url": "https://docs.google.com/document/d/1bZ30rNhCdxlJLEYzdc2HPoMh3Cpm8DN1akybxNzef6s/edit"
     },
     {
       "date": "2026-10-22",
@@ -542,7 +542,7 @@
       "issue": "เข้าร่วมการประชุมวิชาการระดับชาติราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวแห่งประเทศไทย (NCFM 20-23 ต.ค.) วันที่ 3",
       "action": "ศึกษาและอัปเดตองค์ความรู้ด้านเวชศาสตร์ครอบครัวและระบบบริการปฐมภูมิ",
       "link_proj": "SYS-001",
-      "doc_url": "2026-10-23_SYS_Weekly-Work-W43"
+      "doc_url": "https://docs.google.com/document/d/1bZ30rNhCdxlJLEYzdc2HPoMh3Cpm8DN1akybxNzef6s/edit"
     },
     {
       "date": "2026-10-23",
@@ -557,7 +557,7 @@
       "issue": "สิ้นสุดการประชุมวิชาการระดับชาติ NCFM (ครึ่งวันเช้า) และเดินทางกลับสุโขทัย ตรงกับวันหยุดปิยมหาราช (ไม่มีภาระงานตรวจผู้ป่วย)",
       "action": "เตรียมสรุปองค์ความรู้จาก NCFM เพื่อประยุกต์ใช้ในระบบบริการปฐมภูมิ รพ.สุโขทัย",
       "link_proj": "SYS-001",
-      "doc_url": "2026-10-23_SYS_Weekly-Work-W43"
+      "doc_url": "https://docs.google.com/document/d/1bZ30rNhCdxlJLEYzdc2HPoMh3Cpm8DN1akybxNzef6s/edit"
     },
     {
       "date": "2026-10-26",
@@ -572,7 +572,7 @@
       "issue": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 6 ราย (รวม 26 ราย)",
       "action": "บันทึกข้อมูลยอดผู้ป่วยลง Living Weekly W44 เรียบร้อยแล้ว",
       "link_proj": "SYS-001",
-      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
+      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
     },
     {
       "date": "2026-10-27",
@@ -587,7 +587,7 @@
       "issue": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 10 ราย - ช่วงบ่ายไม่มีตรวจ (งานพัฒนาระบบ: วางแผนอัปเดต NCD Guideline และออกแบบระบบบริการ SMC สุโขทัย SMC-001)",
       "action": "วางแผนอัปเดต NCD Guideline และยกร่างระบบบริการศูนย์การแพทย์พิเศษ SMC สุโขทัย (SMC-001)",
       "link_proj": "SMC-001, NCD-002",
-      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
+      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
     },
     {
       "date": "2026-10-28",
@@ -602,7 +602,7 @@
       "issue": "ช่วงเช้าตรวจ รพ.สต.บ้านคลองด่าน 20 ราย / บ่ายพัฒนางานระบบ: ระบบ Import Excel ผลแล็บเข้า HosXP สำเร็จและใช้งานจริงได้ผลดี (ทีมเวชกรรมเตรียมไฟล์ส่ง IT import) | สื่อออกกำลังกายผู้สูงอายุ GER-001 และคลินิก SMC-001 ยังไม่เสร็จ",
       "action": "1) ทีมเวชกรรมเตรียมไฟล์แล็บส่ง IT import 2) เตรียมร่าง NCD Flow (HT/DLP) 3) รวบรวมข้อมูลเชื่อมโยง Service Plan Sepsis/STEMI/Stroke กับเวชกรรมสังคมและพยาบาลชุมชน ก่อนประชุมทีม 2 พ.ย. 69",
       "link_proj": "PC-003, GER-001, SMC-001, NCD-002, SYS-002",
-      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
+      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
     },
     {
       "date": "2026-10-29",
@@ -617,7 +617,7 @@
       "issue": "บ่ายตรวจ OPD LM และคุยเคส PC-ESRD รวม 6 ราย (Palliative: Y) | ปัญหาคลินิก Telemed บ่ายอังคาร: สปสช.ปรับเกณฑ์ต้องรับยาภายในวัน ทำให้ห้องยาส่งร้านยาใกล้บ้านไม่ทัน ไม่สามารถส่งคนไข้รับยาที่ร้านยาได้แล้ว",
       "action": "วางแผนปรับ Flow นัดหมาย Telemed ใหม่: นัดผู้ป่วยตามโซน รพ.สต. เดียวกันมาพร้อมกัน แล้วให้เวชกรรมสังคมรับยาไปส่ง รพ.สต. ให้คนไข้มารับที่อนามัยแทน (TM-001)",
       "link_proj": "PAL-001, PC-003, TM-001",
-      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
+      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
     },
     {
       "date": "2026-10-30",
@@ -632,7 +632,7 @@
       "issue": "ช่วงเช้าตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน หนาแน่นสูง 45 ราย / ช่วงบ่ายช่วยตรวจสุขภาพก่อนเริ่มงาน 1 ราย (รวม 46 ราย)",
       "action": "ประเมินผล Fit for Work และบันทึกปิดวันศุกร์สัปดาห์ที่ 44 สมบูรณ์",
       "link_proj": "PC-003",
-      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
+      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
     },
     {
       "date": "2026-11-02",
@@ -647,7 +647,7 @@
       "issue": "ประชุม SAR กับพี่จา: รับผิดชอบเขียน SAR PCT NCD ส่วนงานปฐมภูมิตามมาตรฐาน HA ฉบับที่ 6 / SPA ฉบับที่ 5",
       "action": "จัดทำ Flow NCD HT/DM (DM-001, NCD-002) เสร็จสมบูรณ์ บรรจุเป็นหลักฐานใน SAR",
       "link_proj": "DM-001, NCD-002, HA-001",
-      "doc_url": "2026-11-06_SYS_Weekly-Work-W45"
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
       "date": "2026-11-03",
@@ -662,7 +662,7 @@
       "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย, ช่วงบ่ายตรวจ OPD GP 13 ราย (รวมทั้งวัน 33 ราย) การตรวจราบรื่น",
       "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
       "link_proj": "-",
-      "doc_url": "2026-11-06_SYS_Weekly-Work-W45"
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
       "date": "2026-11-04",
@@ -693,21 +693,6 @@
       "action": "สรุปปิดวันและปิดสัปดาห์ W45 สมบูรณ์ ไม่มีเวรนอกเวลา",
       "link_proj": "-",
       "doc_url": "2026-11-06_SYS_Weekly-Work-W45"
-    },
-    {
-      "date": "2026-11-06",
-      "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "40",
-      "pm_work": "สอบสวนพิษตะกั่วกับพี่มาช / พัฒนางานระบบ",
-      "pm_volume": "0",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "home_ward": "N",
-      "palliative": "N",
-      "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน หนาแน่น 40 ราย",
-      "action": "ช่วงบ่ายร่วมกับพี่มาชลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชนและพัฒนาระบบเฝ้าระวังทางระบาดวิทยาปฐมภูมิ ไม่มีเวรนอกเวลา สรุปปิดสัปดาห์สมบูรณ์",
-      "link_proj": "SYS-001",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     }
   ],
   "project_board": [
@@ -774,7 +759,7 @@
       "due": "2026-11-13",
       "last_update": "2026-10-28",
       "impact": "High",
-      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
+      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
     },
     {
       "proj_id": "SYS-002",
@@ -787,7 +772,7 @@
       "due": "2026-11-02",
       "last_update": "2026-10-28",
       "impact": "High",
-      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
+      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
     },
     {
       "proj_id": "HA-001",
@@ -800,7 +785,7 @@
       "due": "2026-11-20",
       "last_update": "2026-11-02",
       "impact": "High",
-      "doc_url": "2026-11-06_SYS_Weekly-Work-W45"
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     }
   ],
   "stock_master": [
@@ -1272,6 +1257,195 @@
     }
   ],
   "note_inbox": [
+    {
+      "captured": "2026-10-24",
+      "source_file": "แนวทางเวชปฏิบัติสำหรับโรคจมูกอักเสบภูมิแพ้ในคนไทย(ฉบับปรับปรุง พ.ศ.2565).pdf",
+      "origin": "literature",
+      "topic": "แนวทางเวชปฏิบัติสำหรับโรคจมูกอักเสบภูมิแพ้ในคนไทย (Allergic Rhinitis CPG ฉบับปรับปรุง พ.ศ. 2565)",
+      "processed": "Y",
+      "links_to": "Medical guideline",
+      "doc_url": "https://drive.google.com/file/d/1xfZRCflEt1G3ggiz-xAGUksb86zl5YUd/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "Clinic DPAC.pdf",
+      "origin": "literature",
+      "topic": "คู่มือกระบวนการจัดการคลินิกไร้พุง (Diet &amp; Physical Activity Clinic: DPAC) สำหรับสถานบริการสาธารณสุข กรมอนามัย",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1hLnIoGndyKT0tiHo5Y3GDqpJNQZSTfMN/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "CPG-chronic constipation 2564.pdf",
+      "origin": "literature",
+      "topic": "แนวทางเวชปฏิบัติการดูแลรักษาผู้ป่วยท้องผูกเรื้อรังในประเทศไทย พ.ศ. 2564 (Thailand Chronic Constipation Guideline)",
+      "processed": "Y",
+      "links_to": "Medical guideline",
+      "doc_url": "https://drive.google.com/file/d/1agOZPW2CYX67W8_dXaZopYdFwp8XhZg3/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "แนวทางการดูแลรักษากลุ่มอาการสูงอายุ .pdf",
+      "origin": "literature",
+      "topic": "แนวทางการดูแลรักษากลุ่มอาการสูงอายุ (Geriatric Syndromes Management Guideline)",
+      "processed": "Y",
+      "links_to": "Geriatric Care",
+      "doc_url": "https://drive.google.com/file/d/1O-iSiml5NBeRKdHlH8KasyeFP1fYjDAC/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "คู่มือสิทธิผู้สูงอายุ.pdf",
+      "origin": "literature",
+      "topic": "คู่มือสิทธิผู้สูงอายุตามพระราชบัญญัติผู้สูงอายุ พ.ศ. 2546 (สิทธิการคุ้มครองและสวัสดิการผู้สูงอายุ 13 ด้าน)",
+      "processed": "Y",
+      "links_to": "Geriatric Care",
+      "doc_url": "https://drive.google.com/file/d/1wNAVGw2QzdtK9KZ2ksj8sztCdEq_EyOH/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "prison health.pdf",
+      "origin": "lecture",
+      "topic": "เอกสารบรรยายเรื่องระบบบริการสุขภาพผู้ต้องขังในเรือนจำและบทบาทของแพทย์เวชศาสตร์ครอบครัว (Prison Health)",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1gVF179X4Q5rRLVUwt2hmwBTARZfvSnX_/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "Eng class topic Dec6.pdf",
+      "origin": "lecture",
+      "topic": "สไลด์นำเสนอคาบเรียนภาษาอังกฤษ Navigating the Hazards of Social Media (ข้อควรระวังในการใช้โซเชียลมีเดียของแพทย์)",
+      "processed": "Y",
+      "links_to": "99_Archive",
+      "doc_url": "https://drive.google.com/file/d/12ku17pdW5WOxiuigL8h_20Lj-YdU0F3w/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "CPG - Dyspepsia.pdf",
+      "origin": "literature",
+      "topic": "แนวทางในการวินิจฉัยและการรักษาภาวะอาหารไม่ย่อย (Dyspepsia) ในประเทศไทย พ.ศ. 2561 กลุ่มวิจัยโรคกระเพาะอาหาร",
+      "processed": "Y",
+      "links_to": "Medical guideline",
+      "doc_url": "https://drive.google.com/file/d/1QpbAzU3ZZk5CY2tyCcpZdU0mveHtaZ8Z/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "Wellness plan.pdf",
+      "origin": "literature",
+      "topic": "คู่มือแผนส่งเสริมสุขภาพดี (Wellness Plan) 6 องค์ประกอบสำหรับผู้สูงอายุ สำนักอนามัยผู้สูงอายุ กรมอนามัย",
+      "processed": "Y",
+      "links_to": "Geriatric Care",
+      "doc_url": "https://drive.google.com/file/d/1-FPwwrYoW1GxiJlNmL11eEW08juFLiuO/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "7weekCre-NEW2.pdf",
+      "origin": "literature",
+      "topic": "สมุดบันทึกและคู่มือ 7 สัปดาห์ สุขภาพดี หุ่นดี ที่บ้าน (Seven Weeks Fit at Home) สำหรับการปรับพฤติกรรมสุขภาพ กรมอนามัย",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1l75EmiFr8A_MPRgTuN1TsvtpbrDHKqll/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "แนวทางการดูแลรักษาโรคติดต่อทางเพศสัมพันธ์ พ.ศ. 2567 (STI).pdf",
+      "origin": "literature",
+      "topic": "แนวทางการดูแลรักษาโรคติดต่อทางเพศสัมพันธ์ พ.ศ. 2567 (STI Management Guidelines 2024) กรมควบคุมโรค",
+      "processed": "Y",
+      "links_to": "Medical guideline",
+      "doc_url": "https://drive.google.com/file/d/1tXFC8FrBzghwx9AnIQcUiW_Lme8NAUrn/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "หนังสือ-ผู้ป่วยโรคไตวายเรื้อรัง-สีชมพู.pdf",
+      "origin": "literature",
+      "topic": "คู่มือการดูแลตนเองสำหรับผู้ป่วยโรคไตวายเรื้อรังที่ได้รับการฟอกเลือดด้วยเครื่องไตเทียม",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1CrUYd7xO4XxegD3WGLE3vflPnEz4nl_s/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "CPG_มะเร็งเต้านม_2560.pdf",
+      "origin": "literature",
+      "topic": "แนวทางการตรวจคัดกรอง วินิจฉัย และรักษาโรคมะเร็งเต้านม พ.ศ. 2560 สถาบันมะเร็งแห่งชาติ กรมการแพทย์",
+      "processed": "Y",
+      "links_to": "Medical guideline",
+      "doc_url": "https://drive.google.com/file/d/1mwBhvX_UV3H6iNFSEwT_G06ydPJ6Ppgc/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "40Y FM CMU_190369.pdf",
+      "origin": "lecture",
+      "topic": "เอกสารบรรยายวิชาการ 40 ปี เวชศาสตร์ครอบครัว มช.: FM ต้องทำอย่างไร...เมื่องานด้านยาและสารเสพติดประชิดตัว โดย พญ.พัชรินทร์ ปิงเมืองแก้ว",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/17jttfQM-8Sfu6R6l9Y9YV61QqSeozR_C/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "Recommend_vaccinations_for_adults_102025.pdf",
+      "origin": "literature",
+      "topic": "คำแนะนำการให้วัคซีนป้องกันโรคสำหรับผู้ใหญ่และผู้สูงอายุ พ.ศ. 2568 สมาคมโรคติดเชื้อแห่งประเทศไทย",
+      "processed": "Y",
+      "links_to": "Medical guideline",
+      "doc_url": "https://drive.google.com/file/d/166m1rF9slYU3MiDyvak4haHp5T-_ywMV/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "paper-review_oto_meniere_disease_กุลนิดา_3_8_66.pdf",
+      "origin": "lecture",
+      "topic": "เอกสาร Paper Review สรุปแนวทางเวชปฏิบัติโรคน้ำในหูไม่เท่ากัน (Clinical Practice Guideline: M&eacute;ni&egrave;re&apos;s Disease - AAO-HNS 2020)",
+      "processed": "Y",
+      "links_to": "ENT",
+      "doc_url": "https://drive.google.com/file/d/10Xdo8Aies0JMZjoJ9ro9HXIe-RPbv3Z7/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "คู่มือการให้บริการสุขภาพคนข้ามเพศประเทศไทย LGBTQ+.pdf",
+      "origin": "literature",
+      "topic": "คู่มือการให้บริการสุขภาพคนข้ามเพศประเทศไทย พ.ศ. 2563 ศูนย์เชี่ยวชาญเฉพาะทางด้านสุขภาพคนข้ามเพศ จุฬาฯ และคลินิกแทนเจอรีน",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1DtTYrsRGJ3VIIFHt8UUu7MMoJxGvDlza/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "Th-CPG-rabies-2561.pdf",
+      "origin": "literature",
+      "topic": "แนวทางการดูแลรักษาผู้สัมผัสโรคพิษสุนัขบ้า พ.ศ. 2561 และคำถามที่พบบ่อย สถานเสาวภา สภากาชาดไทย",
+      "processed": "Y",
+      "links_to": "Medical guideline",
+      "doc_url": "https://drive.google.com/file/d/1BlT89hufeGHtSuyyTWNDBp1cf2tePauS/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "แนวทางการรักษาภาวะโลหิตจางในผู้ป่วยโรคไตฯ-ปี-2564.pdf",
+      "origin": "literature",
+      "topic": "แนวทางการรักษาภาวะโลหิตจางในผู้ป่วยโรคไตเรื้อรัง พ.ศ. 2564 สมาคมโรคไตแห่งประเทศไทย",
+      "processed": "Y",
+      "links_to": "Medical guideline",
+      "doc_url": "https://drive.google.com/file/d/1HCYXc2jeMHn5bpFIQX2vTVqCTOOG61EN/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-24",
+      "source_file": "CF-1080-ผู้ป่วยโรคตับจากแอลกอฮอล์-2025-250526154636DIr7mJ.pdf",
+      "origin": "literature",
+      "topic": "แนวทางเวชปฏิบัติการดูแลรักษาผู้ป่วยโรคตับจากแอลกอฮอล์ในประเทศไทย พ.ศ. 2568 สมาคมโรคตับแห่งประเทศไทย",
+      "processed": "Y",
+      "links_to": "Medical guideline",
+      "doc_url": "https://drive.google.com/file/d/10QchgcKAezupNwzWexSiZOnq9hxtbkva/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-10-03",
+      "source_file": "update CME เผยแพร่ 260923 183417.pdf",
+      "origin": "notability",
+      "topic": "เอกสารวิชาการและการศึกษาต่อเนื่อง (CME) สมาคมโรคจากการประกอบอาชีพและสิ่งแวดล้อมแห่งประเทศไทย",
+      "processed": "Y",
+      "links_to": "Occmed",
+      "doc_url": "https://drive.google.com/file/d/1QcigM34kcSye8acdULl6wHbYIS2yAoJv/view?usp=drivesdk"
+    },
     {
       "captured": "2026-09-11",
       "source_file": "Recommended Adult and Elderly Immunization 2025.pdf",
@@ -7807,237 +7981,271 @@
       "doc_url": "https://drive.google.com/file/d/1Ma7rCdCxr4Cl5L2sQeP-1XqHQ0Buc6VR/view?usp=drivesdk"
     }
   ],
+  "w42_living_schedule": [
+    {
+      "date": "2026-11-02",
+      "day_label": "จันทร์ที่ 2 พ.ย. 2569 (2026-11-02)",
+      "short_day": "จ. 2 พ.ย.",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "20",
+      "pm_work": "ประชุม SAR (PCT NCD) กับพี่จา",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "20",
+      "issue_action": "- ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายประชุม SAR กับพี่จา: รับผิดชอบเขียน SAR สำหรับ PCT NCD ในมิติงานปฐมภูมิตามเกณฑ์ HA ฉบับที่ 6 และ SPA ฉบับที่ 5 - ความสำเร็จ: จัดทำ Flow การดูแลผู้ป่วย HT และ DM (DM-001, NCD-002) เสร็จสมบูรณ์ พร้อมนำไปบรรจุเป็นหลักฐานใน SAR",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+    },
+    {
+      "date": "2026-11-03",
+      "day_label": "อังคารที่ 3 พ.ย. 2569 (2026-11-03)",
+      "short_day": "อ. 3 พ.ย.",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "20",
+      "pm_work": "ห้องตรวจโรคทั่วไป (OPD GP)",
+      "pm_volume": "13",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "33",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 13 ราย การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+    },
+    {
+      "date": "2026-11-04",
+      "day_label": "พุธที่ 4 พ.ย. 2569 (2026-11-04)",
+      "short_day": "พ. 4 พ.ย.",
+      "am_work": "รพ.สต.ตาลเตี้ย",
+      "am_volume": "35",
+      "pm_work": "Telemed เรือนจำ",
+      "pm_volume": "35",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "70",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 35 ราย - ช่วงบ่ายตรวจ Telemed เรือนจำ 35 ราย การตรวจและการประสานงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+    },
+    {
+      "date": "2026-11-05",
+      "day_label": "พฤหัสบดีที่ 5 พ.ย. 2569 (2026-11-05)",
+      "short_day": "พฤ. 5 พ.ย.",
+      "am_work": "PCU รพ.สท. (OPD Fammed)",
+      "am_volume": "33",
+      "pm_work": "Academic / สอน In-Service / พัฒนางานระบบ",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "33",
+      "issue_action": "- ช่วงเช้าออกตรวจ PCU รพ.สท. (OPD Fammed) 33 ราย - ช่วงบ่ายกิจกรรม Academic & สอน In-Service เจ้าหน้าที่ปฐมภูมิ และพัฒนางานระบบเตรียม SAR NCD ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+    },
+    {
+      "date": "2026-11-06",
+      "day_label": "ศุกร์ที่ 6 พ.ย. 2569 (2026-11-06)",
+      "short_day": "ศ. 6 พ.ย.",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "40",
+      "pm_work": "-",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "40",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน หนาแน่น 40 ราย - ช่วงบ่ายร่วมกับพี่มาชลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชนและพัฒนาระบบเฝ้าระวังทางระบาดวิทยาปฐมภูมิ ไม่มีเวรนอกเวลา สรุปปิดสัปดาห์สมบูรณ์",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+    },
+    {
+      "date": "2026-11-07",
+      "day_label": "เสาร์ที่ 7 พ.ย. 2569 (2026-11-07 — วันหยุด)",
+      "short_day": "ส. 7 พ.ย.",
+      "am_work": "วันหยุดสุดสัปดาห์",
+      "am_volume": "-",
+      "pm_work": "วันหยุดสุดสัปดาห์",
+      "pm_volume": "-",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "-",
+      "issue_action": "-",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+    },
+    {
+      "date": "2026-11-08",
+      "day_label": "อาทิตย์ที่ 8 พ.ย. 2569 (2026-11-08 — วันหยุด)",
+      "short_day": "อา. 8 พ.ย.",
+      "am_work": "วันหยุดสุดสัปดาห์",
+      "am_volume": "-",
+      "pm_work": "วันหยุดสุดสัปดาห์",
+      "pm_volume": "-",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "-",
+      "issue_action": "-",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+    }
+  ],
   "email_digest": [
     {
-      "thread_id": "1a1b0c9d6e64c54a",
-      "date": "2026-11-06",
-      "time": "19:16 น.",
-      "digest_batch": "2026-11-06",
-      "category": "สิ่งที่ต้องดำเนินการ (Action items)",
-      "sender": "GitHub",
-      "subject": "[GitHub] Claude is requesting updated permissions",
-      "summary": "แอปพลิเคชัน Claude บน GitHub ขออัปเดตสิทธิ์การเข้าถึงเพิ่มเติม จำเป็นต้องเข้าไปตรวจสอบเพื่ออนุมัติหรือปฏิเสธ",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1b0ab82bab6a89",
-      "date": "2026-11-06",
-      "time": "18:43 น.",
-      "digest_batch": "2026-11-06",
+      "thread_id": "1a1b51bf6bac2dde",
+      "date": "2026-11-07",
+      "time": "15:04 น.",
+      "digest_batch": "2026-11-07",
       "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "Seeking Alpha",
-      "subject": "See what’s moving the markets this week",
-      "summary": "สรุปข่าวสารและปัจจัยสำคัญที่ขับเคลื่อนความเคลื่อนไหวของตลาดการเงินและการลงทุนในรอบสัปดาห์",
-      "gmail_url": "เปิดอ่านบน Gmail"
+      "sender": "Memrise",
+      "subject": "What’s coming in Memrise Acorn",
+      "summary": "แจ้งข่าวการอัปเดตระบบครั้งใหญ่ Memrise Acorn แนะนำฟีเจอร์ใหม่และทิศทางการพัฒนาแอป",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b51bf6bac2dde"
     },
     {
-      "thread_id": "1a1b0a4f56ac5124",
-      "date": "2026-11-06",
-      "time": "18:35 น.",
-      "digest_batch": "2026-11-06",
+      "thread_id": "1a1b4966fd67e51e",
+      "date": "2026-11-07",
+      "time": "12:58 น.",
+      "digest_batch": "2026-11-07",
       "category": "ธุรกรรมธนาคารและช้อปปิ้งออนไลน์",
-      "sender": "COWAY (THAILAND)",
-      "subject": "บริษัท โคเวย์ (ประเทศไทย) จำกัด ขอนำส่ง ใบเสร็จรับเงิน",
-      "summary": "นำส่งใบเสร็จรับเงินอิเล็กทรอนิกส์ เลขที่ REC69118119272 สำหรับการชำระเงินงวดวันที่ 05/11/2026",
-      "gmail_url": "เปิดอ่านบน Gmail"
+      "sender": "SCB Easy",
+      "subject": "SCB Easy App: คุณได้รับเงินผ่านรายการพร้อมเพย์",
+      "summary": "แจ้งเตือนเงินเข้าบัญชีพร้อมเพย์ 178.00 บาท จาก SCB / xxxxxx6931 เข้าบัญชี xxxxxx9023 เวลา 12:55 น.",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b4966fd67e51e"
     },
     {
-      "thread_id": "1a1b0a04668c58e0",
-      "date": "2026-11-06",
-      "time": "18:30 น.",
-      "digest_batch": "2026-11-06",
-      "category": "โฆษณาและโปรโมชั่น",
-      "sender": "ELSA Speak",
-      "subject": "🎁 Thanawit Sathittrakun, ดีลลับแตกแล้ว! พรีเมียม 1 ปี ลดโหด 36%",
-      "summary": "โปรโมชั่นพิเศษแพ็กเกจ ELSA Premium ราย 1 ปี ลดราคา 36% เหลือ 2,250 บาท (จากปกติ 3,500 บาท)",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1b0952e090e194",
-      "date": "2026-11-06",
-      "time": "18:11 น.",
-      "digest_batch": "2026-11-06",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "ทีมงาน bro.game",
-      "subject": "หยุดยาวผ่านไป เกมใหม่ไม่เคยหยุดมา อัปเดตเกมประจำเดือน 🎮",
-      "summary": "แจ้งข่าวอัปเดตรายชื่อเกมใหม่ประจำเดือนบนบริการ GeForce NOW นำโดยเกม Phantom Blade Zero",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1b051018c7d720",
-      "date": "2026-11-06",
-      "time": "17:02 น.",
-      "digest_batch": "2026-11-06",
-      "category": "โฆษณาและโปรโมชั่น",
-      "sender": "425degree",
-      "subject": "QCY crossky C50 สีชมพูเปิด pre-order!",
-      "summary": "เปิดสั่งจองล่วงหน้า (Pre-order) หูฟังไร้สายแบบ Open-ear รุ่น QCY Crossky C50 สีชมพูใหม่ล่าสุด",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1af321d05b0817",
-      "date": "2026-11-06",
+      "thread_id": "1a1b4587223965f1",
+      "date": "2026-11-07",
       "time": "11:50 น.",
-      "digest_batch": "2026-11-06",
+      "digest_batch": "2026-11-07",
       "category": "โฆษณาและโปรโมชั่น",
-      "sender": "UOB Credit Cards",
-      "subject": "รับฟรี! คูปองยูโอบีลดสูงสุด 50% กับร้านค้าดังมากกมาย ที่ Rewards+ บนแอป UOB TMRW",
-      "summary": "มอบสิทธิประโยชน์คูปองส่วนลดสูงสุด 50% กับร้านค้าพันธมิตรผ่านฟังก์ชัน Rewards+ บนแอปพลิเคชัน UOB TMRW",
-      "gmail_url": "เปิดอ่านบน Gmail"
+      "sender": "Adobe Special Offers",
+      "subject": "ส่วนลด 60% หมดเขต 13 พ.ย.",
+      "summary": "โปรโมชั่นส่วนลดพิเศษ 60% สำหรับแพ็กเกจ Creative Cloud Pro ในปีแรก หมดเขต 13 พ.ย. 2569",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b4587223965f1"
     },
     {
-      "thread_id": "1a1af07304c55d93",
-      "date": "2026-11-06",
-      "time": "11:04 น.",
-      "digest_batch": "2026-11-06",
+      "thread_id": "1a1b454ba77e6fd0",
+      "date": "2026-11-07",
+      "time": "11:49 น.",
+      "digest_batch": "2026-11-07",
+      "category": "ธุรกรรมธนาคารและช้อปปิ้งออนไลน์",
+      "sender": "SCB Easy",
+      "subject": "แจ้งเตือนจากแอป SCB Easy: บริการอัตโนมัติแจ้งเตือนการทำธุรกรรม",
+      "summary": "แจ้งทำธุรกรรม 2 รายการ: เติมเงินพร้อมเพย์ 110.00 บาท (11:46 น.) และชำระค่าสินค้า/บริการ 155.00 บาท (11:49 น.)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b454ba77e6fd0"
+    },
+    {
+      "thread_id": "1a1b4540c8fed5b0",
+      "date": "2026-11-07",
+      "time": "11:46 น.",
+      "digest_batch": "2026-11-07",
+      "category": "การแจ้งเตือนความปลอดภัย",
+      "sender": "SCB Easy",
+      "subject": "แจ้งเตือนจากแอพ SCB Easy: บริการอัตโนมัติแจ้งเตือนการเข้าสู่ระบบ",
+      "summary": "แจ้งเตือนความปลอดภัยการเข้าสู่ระบบแอปพลิเคชัน SCB Easy เมื่อเวลา 11:45:45 น.",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b4540c8fed5b0"
+    },
+    {
+      "thread_id": "1a1b41a3d7694bd2",
+      "date": "2026-11-07",
+      "time": "10:42 น.",
+      "digest_batch": "2026-11-07",
+      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
+      "sender": "QxMD Medical Apps",
+      "subject": "Read By QxMD | Most Read Other Specialty incl. \"Managing hyponatremia: fast or slow? Why, when, how, and controversies.\"",
+      "summary": "รวบรวมบทความวิจัยทางการแพทย์ยอดนิยมประจำสัปดาห์จาก QxMD หัวข้อแนวทางการจัดการภาวะโซเดียมในเลือดต่ำ (Hyponatremia)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b41a3d7694bd2"
+    },
+    {
+      "thread_id": "1a1b405bc0334907",
+      "date": "2026-11-07",
+      "time": "10:20 น.",
+      "digest_batch": "2026-11-07",
       "category": "โฆษณาและโปรโมชั่น",
-      "sender": "lululemon",
-      "subject": "Over 200 new styles added to 11.11",
-      "summary": "แคมเปญ 11.11 เพิ่มสินค้าและชุดออกกำลังกายรุ่นใหม่เข้าร่วมรายการลดราคากว่า 200 รายการ",
-      "gmail_url": "เปิดอ่านบน Gmail"
+      "sender": "Traveloka",
+      "subject": "🔥Traveloka 11.11 Special Offer!🔥",
+      "summary": "แคมเปญโปรโมชั่น 11.11 Special Offer มอบส่วนลดพิเศษสูงสุด 11,000 บาท สำหรับโรงแรมและเที่ยวบิน",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b405bc0334907"
     },
     {
-      "thread_id": "1a1aea2b6894d9a8",
-      "date": "2026-11-06",
-      "time": "09:14 น.",
-      "digest_batch": "2026-11-06",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "Webull Thailand",
-      "subject": "ส่องงบพลังงานสะอาด เติบโตแค่ไหน⚡",
-      "summary": "บทวิเคราะห์งบการเงินและศักยภาพการเติบโตของหุ้นกลุ่มพลังงานสะอาดและระบบกักเก็บพลังงาน Eos Energy",
-      "gmail_url": "เปิดอ่านบน Gmail"
+      "thread_id": "1a1b335d34a8dd3e",
+      "date": "2026-11-07",
+      "time": "06:33 น.",
+      "digest_batch": "2026-11-07",
+      "category": "ธุรกรรมธนาคารและช้อปปิ้งออนไลน์",
+      "sender": "SCB",
+      "subject": "SCB E PASSBOOK: e-Statement",
+      "summary": "นำส่งใบแจ้งรายการเดินบัญชีอิเล็กทรอนิกส์ (e-Statement) แบบไม่มีสมุดคู่ฝาก เลขที่บัญชี XXXX716923",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b335d34a8dd3e"
     },
     {
-      "thread_id": "1a1aea13e13cadd9",
-      "date": "2026-11-06",
-      "time": "09:12 น.",
-      "digest_batch": "2026-11-06",
-      "category": "โฆษณาและโปรโมชั่น",
-      "sender": "Samsung Electronics Thailand",
-      "subject": "ใหม่ Galaxy A18 มาพร้อมกับ 3กล้อง เก็บรายละเอียดได้มากกว่าเดิม",
-      "summary": "เปิดตัวสมาร์ทโฟนรุ่นใหม่ Samsung Galaxy A18 พร้อมกล้องหลัง 3 ตัว ราคาพิเศษเริ่มต้น 7,999 บาท",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1ae2c927a69e36",
-      "date": "2026-11-06",
-      "time": "07:05 น.",
-      "digest_batch": "2026-11-06",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "AAFP Whole Health Summit",
-      "subject": "Take action on what matters now.",
-      "summary": "ประชาสัมพันธ์งานประชุมวิชาการ Whole Health Summit ของสมาคมแพทย์เวชศาสตร์ครอบครัวอเมริกัน (AAFP)",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1af6dae042d2b8",
-      "date": "2026-11-06",
-      "time": "06:18 น.",
-      "digest_batch": "2026-11-06",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "NVIDIA GeForce",
-      "subject": "DLSS 5 Comes to Hogwarts Legacy, War Thunder and Where Winds Meet",
-      "summary": "ข่าวอัปเดตเทคโนโลยี AI อัปสเกลภาพ DLSS 5 เปิดให้ใช้งานบนเกมชั้นนำ เช่น Hogwarts Legacy และ War Thunder",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1ada1e7439557e",
-      "date": "2026-11-06",
-      "time": "04:33 น.",
-      "digest_batch": "2026-11-06",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "James Clear",
-      "subject": "3-2-1: On finding the right career, the answer to anxiousness, and how to find your people",
-      "summary": "จดหมายข่าว 3-2-1 ข้อคิดเรื่องการค้นหาเส้นทางอาชีพที่เหมาะสม การรับมือความวิตกกังวล และการสร้างสายสัมพันธ์",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1ad8a4e7bba994",
-      "date": "2026-11-06",
+      "thread_id": "1a1b2b08d5e76b2b",
+      "date": "2026-11-07",
       "time": "04:07 น.",
-      "digest_batch": "2026-11-06",
+      "digest_batch": "2026-11-07",
       "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
       "sender": "Must Reads (Seeking Alpha)",
-      "subject": "Rare Stock Picks In October 2026 - From 14 Discerning Analysts",
-      "summary": "บทวิเคราะห์รวมหุ้นศักยภาพเด่นประจำเดือนตุลาคม 2569 จาก 14 นักวิเคราะห์เพื่อคัดกรองหุ้นน่าจับตามอง",
-      "gmail_url": "เปิดอ่านบน Gmail"
+      "subject": "It's Not Over, The Worst Is Yet To Come",
+      "summary": "บทวิเคราะห์มุมมองเชิงลบ (Bearish) ต่อยอดขายและทิศทางราคาหุ้นกลุ่มเซมิคอนดักเตอร์ (SOXX ETF)",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b2b08d5e76b2b"
     },
     {
-      "thread_id": "1a1acc2268fea12e",
+      "thread_id": "1a1b1f5262832173",
+      "date": "2026-11-07",
+      "time": "00:43 น.",
+      "digest_batch": "2026-11-07",
+      "category": "โฆษณาและโปรโมชั่น",
+      "sender": "Agoda Price Alerts",
+      "subject": "Thanawit, top price drops in Phitsanulok, selected for you!",
+      "summary": "แจ้งเตือนดีลส่วนลดพิเศษราคาที่พักและโรงแรมยอดนิยมในจังหวัดพิษณุโลกจาก Agoda",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b1f5262832173"
+    },
+    {
+      "thread_id": "1a1b1fc6233be33b",
       "date": "2026-11-06",
-      "time": "00:29 น.",
-      "digest_batch": "2026-11-06",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "NCCN Trends",
-      "subject": "NCCN Values Your Insight: 4 Minute Survey on Biomarker Testing",
-      "summary": "คำเชิญร่วมตอบแบบสำรวจสั้น 4 นาที ด้านแนวทางเวชปฏิบัติการตรวจ Biomarker Testing ในผู้ป่วยมะเร็งของ NCCN",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1acaa267c6e55b",
-      "date": "2026-11-06",
-      "time": "00:03 น.",
-      "digest_batch": "2026-11-06",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "Tiago Forte",
-      "subject": "How to Reset Your Life Once a Year",
-      "summary": "บทความแนะนำแนวทางการรีเซ็ตและทบทวนเป้าหมายชีวิตประจำปี พร้อมสิทธิประโยชน์โบนัสหนังสือเล่มใหม่",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1aca0754908937",
-      "date": "2026-11-05",
-      "time": "23:52 น.",
-      "digest_batch": "2026-11-06",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "Chelsea with IFTTT",
-      "subject": "5 ways to make shorter days easier 🍂",
-      "summary": "แนะนำ 5 วิธีการตั้งค่าระบบอัตโนมัติ (Automations) ผ่าน IFTTT เพื่อช่วยปรับสมดุลการใช้ชีวิตประจำวัน",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1ac96760b26a75",
-      "date": "2026-11-05",
-      "time": "23:41 น.",
-      "digest_batch": "2026-11-06",
-      "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "Bitkub Exchange",
-      "subject": "Announcement: Delisting of Eclipse (ES) and Secret Network (SCRT) from Bitkub Exchange",
-      "summary": "ประกาศยุติการให้บริการซื้อขายและเพิกถอนสินทรัพย์ดิจิทัลเหรียญ Eclipse (ES) และ Secret Network (SCRT)",
-      "gmail_url": "เปิดอ่านบน Gmail"
-    },
-    {
-      "thread_id": "1a1ad26f81e8a49c",
-      "date": "2026-11-05",
-      "time": "23:11 น.",
-      "digest_batch": "2026-11-06",
+      "time": "23:10 น.",
+      "digest_batch": "2026-11-07",
       "category": "โฆษณาและโปรโมชั่น",
       "sender": "Razer",
-      "subject": "Just Dropped: Razer Hammerhead V3 Chroma",
-      "summary": "เปิดตัวหูฟังเกมมิ่งรุ่นใหม่ Razer Hammerhead V3 Chroma พร้อมไฟ RGB ปรับแต่งได้และระบบเสียงสมจริง",
-      "gmail_url": "เปิดอ่านบน Gmail"
+      "subject": "Get ready. It's almost here.",
+      "summary": "ประชาสัมพันธ์เตรียมนับถอยหลังเปิดตัวคอนโทรลเลอร์รุ่นพิเศษ Razer Raiju V3 Pro Signature Edition",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b1fc6233be33b"
     },
     {
-      "thread_id": "1a1ac726aa2c3e1c",
-      "date": "2026-11-05",
-      "time": "23:02 น.",
-      "digest_batch": "2026-11-06",
+      "thread_id": "1a1b16a176705cdd",
+      "date": "2026-11-06",
+      "time": "22:11 น.",
+      "digest_batch": "2026-11-07",
       "category": "การแจ้งเตือนจากแอปพลิเคชันและข่าวสาร",
-      "sender": "Make",
-      "subject": "Get early access to MakeOS and Process Intelligence 🔎 plus global search and new plugins",
-      "summary": "เปิดให้ลงทะเบียนรับสิทธิ์เข้าใช้งานล่วงหน้า MakeOS, Process Intelligence และโมดูลใหม่บนแพลตฟอร์ม Make",
-      "gmail_url": "เปิดอ่านบน Gmail"
+      "sender": "Bitkub Exchange",
+      "subject": "Bitkub Exchange Will Support the Token Merge of Velodrome Finance (VELO) to AERO, and Changes to Full Name, Logo, and Token Address for AERO",
+      "summary": "ประกาศสนับสนุนการรวมเหรียญ (Token Merge) จาก VELO สู่ AERO พร้อมการเปลี่ยนแปลงสัญญาเหรียญบน Bitkub",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b16a176705cdd"
     },
     {
-      "thread_id": "1a1ac50503d120ef",
-      "date": "2026-11-05",
-      "time": "22:25 น.",
-      "digest_batch": "2026-11-06",
-      "category": "โฆษณาและโปรโมชั่น",
-      "sender": "SteelSeries",
-      "subject": "5-Star Wanted Gear: Extra 10% OFF",
-      "summary": "โปรโมชั่นมอบส่วนลดพิเศษเพิ่ม 10% สำหรับอุปกรณ์เกมมิ่งยอดนิยมด้วยโค้ด STEAL10",
-      "gmail_url": "เปิดอ่านบน Gmail"
+      "thread_id": "1a1b16040d2d0331",
+      "date": "2026-11-06",
+      "time": "22:00 น.",
+      "digest_batch": "2026-11-07",
+      "category": "สิ่งที่ต้องดำเนินการ (Action items)",
+      "sender": "GitHub",
+      "subject": "[thanawit1995/second_brain] Run failed: pages build and deployment - main (f3fcf13)",
+      "summary": "แจ้งเตือนเวิร์กโฟลว์ GitHub Pages (pages build and deployment) ในคลัง second_brain ทำงานล้มเหลวในขั้นตอน deploy",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b16040d2d0331"
+    },
+    {
+      "thread_id": "1a1b1318aac8d065",
+      "date": "2026-11-06",
+      "time": "21:09 น.",
+      "digest_batch": "2026-11-07",
+      "category": "การแจ้งเตือนความปลอดภัย",
+      "sender": "GitHub",
+      "subject": "[GitHub] A personal access token (classic) has been regenerated for your account",
+      "summary": "แจ้งเตือนความปลอดภัย: มีการสร้างคีย์โทเคนใหม่ (Regenerate personal access token) ชื่อ \"second_brain\" ในบัญชี GitHub",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b1318aac8d065"
+    },
+    {
+      "thread_id": "1a1b12cd5fe40081",
+      "date": "2026-11-06",
+      "time": "21:04 น.",
+      "digest_batch": "2026-11-07",
+      "category": "การแจ้งเตือนความปลอดภัย",
+      "sender": "GitHub",
+      "subject": "[GitHub] A personal access token (classic) has been added to your account",
+      "summary": "แจ้งเตือนความปลอดภัย: มีการเพิ่มคีย์โทเคนใหม่ (Personal access token) ชื่อ \"second_brain\" สิทธิ์ repo ลงในบัญชี GitHub",
+      "gmail_url": "https://mail.google.com/mail/u/0/#all/1a1b12cd5fe40081"
     }
   ],
   "weekly_meta": {
@@ -8053,7 +8261,7 @@
   "weekly_living_schedule": [
     {
       "date": "2026-11-02",
-      "day_label": "จันทร์ที่ 2 พ.ย. 2569",
+      "day_label": "จันทร์ที่ 2 พ.ย. 2569 (2026-11-02)",
       "short_day": "จ. 2 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "20",
@@ -8062,12 +8270,12 @@
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "20",
-      "issue_action": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายประชุม SAR กับพี่จา: รับผิดชอบเขียน SAR สำหรับ PCT NCD ในมิติงานปฐมภูมิตามเกณฑ์ HA ฉบับที่ 6 และ SPA ฉบับที่ 5 - ความสำเร็จ: จัดทำ Flow การดูแลผู้ป่วย HT และ DM (DM-001, NCD-002) เสร็จสมบูรณ์ พร้อมนำไปบรรจุเป็นหลักฐานใน SAR",
+      "issue_action": "- ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายประชุม SAR กับพี่จา: รับผิดชอบเขียน SAR สำหรับ PCT NCD ในมิติงานปฐมภูมิตามเกณฑ์ HA ฉบับที่ 6 และ SPA ฉบับที่ 5 - ความสำเร็จ: จัดทำ Flow การดูแลผู้ป่วย HT และ DM (DM-001, NCD-002) เสร็จสมบูรณ์ พร้อมนำไปบรรจุเป็นหลักฐานใน SAR",
       "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
       "date": "2026-11-03",
-      "day_label": "อังคารที่ 3 พ.ย. 2569",
+      "day_label": "อังคารที่ 3 พ.ย. 2569 (2026-11-03)",
       "short_day": "อ. 3 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "20",
@@ -8076,12 +8284,12 @@
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "33",
-      "issue_action": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 13 ราย การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 13 ราย การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
       "date": "2026-11-04",
-      "day_label": "พุธที่ 4 พ.ย. 2569",
+      "day_label": "พุธที่ 4 พ.ย. 2569 (2026-11-04)",
       "short_day": "พ. 4 พ.ย.",
       "am_work": "รพ.สต.ตาลเตี้ย",
       "am_volume": "35",
@@ -8090,12 +8298,12 @@
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "70",
-      "issue_action": "ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 35 ราย - ช่วงบ่ายตรวจ Telemed เรือนจำ 35 ราย การตรวจและการประสานงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 35 ราย - ช่วงบ่ายตรวจ Telemed เรือนจำ 35 ราย การตรวจและการประสานงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
       "date": "2026-11-05",
-      "day_label": "พฤหัสบดีที่ 5 พ.ย. 2569",
+      "day_label": "พฤหัสบดีที่ 5 พ.ย. 2569 (2026-11-05)",
       "short_day": "พฤ. 5 พ.ย.",
       "am_work": "PCU รพ.สท. (OPD Fammed)",
       "am_volume": "33",
@@ -8104,26 +8312,26 @@
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "33",
-      "issue_action": "ช่วงเช้าออกตรวจ PCU รพ.สท. 33 ราย - ช่วงบ่ายกิจกรรม Academic & สอน In-Service เจ้าหน้าที่ปฐมภูมิ และพัฒนางานระบบเตรียม SAR NCD ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
+      "issue_action": "- ช่วงเช้าออกตรวจ PCU รพ.สท. (OPD Fammed) 33 ราย - ช่วงบ่ายกิจกรรม Academic & สอน In-Service เจ้าหน้าที่ปฐมภูมิ และพัฒนางานระบบเตรียม SAR NCD ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
       "date": "2026-11-06",
-      "day_label": "ศุกร์ที่ 6 พ.ย. 2569",
+      "day_label": "ศุกร์ที่ 6 พ.ย. 2569 (2026-11-06)",
       "short_day": "ศ. 6 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "40",
-      "pm_work": "สอบสวนพิษตะกั่วกับพี่มาช / พัฒนางานระบบ",
+      "pm_work": "-",
       "pm_volume": "0",
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "40",
-      "issue_action": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน หนาแน่น 40 ราย - ช่วงบ่ายร่วมกับพี่มาชลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชนและพัฒนาระบบเฝ้าระวังทางระบาดวิทยาปฐมภูมิ ไม่มีเวรนอกเวลา สรุปปิดสัปดาห์สมบูรณ์",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน หนาแน่น 40 ราย - ช่วงบ่ายร่วมกับพี่มาชลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชนและพัฒนาระบบเฝ้าระวังทางระบาดวิทยาปฐมภูมิ ไม่มีเวรนอกเวลา สรุปปิดสัปดาห์สมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
       "date": "2026-11-07",
-      "day_label": "เสาร์ที่ 7 พ.ย. 2569 (วันหยุด)",
+      "day_label": "เสาร์ที่ 7 พ.ย. 2569 (2026-11-07 — วันหยุด)",
       "short_day": "ส. 7 พ.ย.",
       "am_work": "วันหยุดสุดสัปดาห์",
       "am_volume": "-",
@@ -8137,7 +8345,7 @@
     },
     {
       "date": "2026-11-08",
-      "day_label": "อาทิตย์ที่ 8 พ.ย. 2569 (วันหยุด)",
+      "day_label": "อาทิตย์ที่ 8 พ.ย. 2569 (2026-11-08 — วันหยุด)",
       "short_day": "อา. 8 พ.ย.",
       "am_work": "วันหยุดสุดสัปดาห์",
       "am_volume": "-",
@@ -8154,195 +8362,95 @@
     "week_code": "W45",
     "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit",
     "title": "สรุปประเด็นสำคัญประจำสัปดาห์แบบ 3x3 (The 3x3 Core Summary)",
-    "subtitle": "2026-11-06_SYS_Weekly-Work-W45 • Finalized Weekly Report",
+    "subtitle": "2026-11-06_SYS_Weekly-Work-W45 • สังเคราะห์จาก Living Weekly File",
     "bottlenecks": [
       {
         "title": "ภาระงานตรวจหนาแน่นในเครือข่ายปฐมภูมิ",
-        "desc": "รพ.สต.บ้านสวน สูงถึง 40 รายในวันศุกร์ และ รพ.สต.ตาลเตี้ย 35 ราย ทำให้เวลาต่อเคสจำกัด"
+        "desc": "ยอดตรวจ รพ.สต.บ้านสวน สูงถึง 40 รายในวันศุกร์ และ รพ.สต.ตาลเตี้ย 35 ราย ทำให้เวลาต่อเคสจำกัด ส่งผลต่อการให้คำปรึกษาเชิงลึกด้านการปรับเปลี่ยนพฤติกรรมชีวิต (Lifestyle Medicine)"
       },
       {
         "title": "คอขวดระบบส่งมอบยาคลินิก Telemedicine สู่เครือข่าย รพ.สต.",
-        "desc": "เกณฑ์ สปสช. ใหม่จ่ายยาภายในวัน ต้องเร่งจัด Flow นัดหมายเป็นกลุ่มโซนและอาศัยรถรับส่งยา (TM-001)"
+        "desc": "เกณฑ์ สปสช. ใหม่ที่กำหนดให้จ่ายยาภายในวัน ทำให้ไม่สามารถกระจายยาผ่านร้านยาใกล้บ้านได้ทัน จึงต้องเร่งจัด Flow นัดหมายผู้ป่วยเป็นกลุ่มโซนเดียวกันและอาศัยรถรับส่งยาของเวชกรรมสังคม (TM-001)"
       },
       {
         "title": "ความท้าทายในการเตรียมข้อมูลประเมิน SAR PCT NCD",
-        "desc": "ต้องเชื่อมโยงข้อมูลตามเกณฑ์ HA ฉบับที่ 6 และ SPA ฉบับที่ 5 ร่วมกับเครือข่าย รพ.สต."
+        "desc": "เอกสารผลลัพธ์และตัวชี้วัดการดูแลตามมาตรฐาน HA ฉบับที่ 6 และคู่มือ SPA ฉบับที่ 5 ต้องประสานเชื่อมโยงข้อมูลระหว่างโรงพยาบาลและเครือข่าย รพ.สต. ในทุกมิติ (เข้าถึง ประเมิน วางแผน ดูแล และส่งต่อต่อเนื่อง)"
       }
     ],
     "wins": [
       {
         "title": "จัดทำ Flow การดูแลผู้ป่วย HT และ DM (DM-001 & NCD-002) เสร็จสมบูรณ์",
-        "desc": "พร้อมแนวทาง DM Remission นำไปเป็นหลักฐานเชิงประจักษ์ใน SAR PCT NCD"
+        "desc": "บรรลุการจัดทำ Clinical Flow สำหรับ Hypertension และ Diabetes Mellitus พร้อมแนวทาง DM Remission เพื่อใช้เป็นหลักฐานและกรอบการดูแลเชิงประจักษ์ใน SAR PCT NCD"
       },
       {
-        "title": "ขยายผลและเสถียรภาพระบบ Import ผลแล็บเข้า HosXP (PC-003)",
-        "desc": "รองรับการตรวจสุขภาพประจำปีในเครือข่าย รพ.สต. ลดภาระเปิด visit ซ้ำซ้อน"
+        "title": "ขยายผลและเสถียรภาพของระบบ Import ผลแล็บเข้า HosXP (PC-003)",
+        "desc": "รองรับการตรวจสุขภาพประจำปีในเครือข่าย รพ.สต. ได้อย่างมีประสิทธิภาพ ลดภาระงานเปิด visit ซ้ำซ้อนของเจ้าหน้าที่"
       },
       {
         "title": "การขับเคลื่อนงานระบาดวิทยาและเวชศาสตร์ป้องกันเชิงรุก",
-        "desc": "ร่วมกับทีมระบาดวิทยา (พี่มาช) ลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชน"
+        "desc": "บูรณาการการทำงานร่วมกับทีมระบาดวิทยา (พี่มาช) ลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชน เชื่อมโยงงานคลินิกสู่การเฝ้าระวังโรคทางสิ่งแวดล้อมและอาชีวอนามัย"
       }
     ],
     "actions": [
       {
         "title": "ยกร่างเอกสารประเมินตนเอง SAR PCT NCD ส่วนปฐมภูมิ (HA-001)",
-        "desc": "เรียบเรียงตามเกณฑ์ HA ฉบับที่ 6 และ SPA ฉบับที่ 5 โดยใช้ Flow HT/DM เป็นแนวทางหลัก"
+        "desc": "เรียบเรียงเนื้อหาตามเกณฑ์มาตรฐาน HA ฉบับที่ 6 หมวด III-1 ถึง III-6 และกรอบ SPA ฉบับที่ 5 (D-A-L-I) โดยนำ Flow HT/DM ที่เสร็จแล้วมาเป็นแนวทางหลัก"
       },
       {
         "title": "สรุปและทดสอบ Flow นัดหมาย-ส่งยาคลินิก Telemedicine (TM-001)",
-        "desc": "นัดผู้ป่วยเป็นกลุ่มโซน รพ.สต. และประสานการนำส่งยาจากห้องยา รพ. สู่ รพ.สต."
+        "desc": "วางแผนนัดผู้ป่วยเป็นกลุ่มโซน รพ.สต. เดียวกัน และประสานระบบการนำส่งยาจากห้องยา รพ. สู่ รพ.สต. เพื่อตอบโจทย์เกณฑ์รับยา สปสช."
       },
       {
         "title": "ติดตามการเชื่อมโยง Service Plan Sepsis / STEMI / Stroke (SYS-002)",
-        "desc": "ประสานระบบ Fast Track กับพยาบาลชุมชนและเครือข่าย รพ.สต. ไร้รอยต่อ"
+        "desc": "ประสานระบบ Fast Track กับพยาบาลชุมชนและเครือข่าย รพ.สต. เพื่อการดูแลต่อเนื่องไร้รอยต่อ"
       }
     ]
   },
-  "w42_living_schedule": [
-    {
-      "date": "2026-11-02",
-      "day_label": "จันทร์ที่ 2 พ.ย. 2569",
-      "short_day": "จ. 2 พ.ย.",
-      "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "20",
-      "pm_work": "ประชุม SAR (PCT NCD) กับพี่จา",
-      "pm_volume": "0",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "20",
-      "issue_action": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายประชุม SAR กับพี่จา: รับผิดชอบเขียน SAR สำหรับ PCT NCD ในมิติงานปฐมภูมิตามเกณฑ์ HA ฉบับที่ 6 และ SPA ฉบับที่ 5 - ความสำเร็จ: จัดทำ Flow การดูแลผู้ป่วย HT และ DM (DM-001, NCD-002) เสร็จสมบูรณ์ พร้อมนำไปบรรจุเป็นหลักฐานใน SAR",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
-    },
-    {
-      "date": "2026-11-03",
-      "day_label": "อังคารที่ 3 พ.ย. 2569",
-      "short_day": "อ. 3 พ.ย.",
-      "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "20",
-      "pm_work": "ห้องตรวจโรคทั่วไป (OPD GP)",
-      "pm_volume": "13",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "33",
-      "issue_action": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 13 ราย การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
-    },
-    {
-      "date": "2026-11-04",
-      "day_label": "พุธที่ 4 พ.ย. 2569",
-      "short_day": "พ. 4 พ.ย.",
-      "am_work": "รพ.สต.ตาลเตี้ย",
-      "am_volume": "35",
-      "pm_work": "Telemed เรือนจำ",
-      "pm_volume": "35",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "70",
-      "issue_action": "ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 35 ราย - ช่วงบ่ายตรวจ Telemed เรือนจำ 35 ราย การตรวจและการประสานงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
-    },
-    {
-      "date": "2026-11-05",
-      "day_label": "พฤหัสบดีที่ 5 พ.ย. 2569",
-      "short_day": "พฤ. 5 พ.ย.",
-      "am_work": "PCU รพ.สท. (OPD Fammed)",
-      "am_volume": "33",
-      "pm_work": "Academic / สอน In-Service / พัฒนางานระบบ",
-      "pm_volume": "0",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "33",
-      "issue_action": "ช่วงเช้าออกตรวจ PCU รพ.สท. 33 ราย - ช่วงบ่ายกิจกรรม Academic & สอน In-Service เจ้าหน้าที่ปฐมภูมิ และพัฒนางานระบบเตรียม SAR NCD ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
-    },
-    {
-      "date": "2026-11-06",
-      "day_label": "ศุกร์ที่ 6 พ.ย. 2569",
-      "short_day": "ศ. 6 พ.ย.",
-      "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "40",
-      "pm_work": "สอบสวนพิษตะกั่วกับพี่มาช / พัฒนางานระบบ",
-      "pm_volume": "0",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "40",
-      "issue_action": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน หนาแน่น 40 ราย - ช่วงบ่ายร่วมกับพี่มาชลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชนและพัฒนาระบบเฝ้าระวังทางระบาดวิทยาปฐมภูมิ ไม่มีเวรนอกเวลา สรุปปิดสัปดาห์สมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
-    },
-    {
-      "date": "2026-11-07",
-      "day_label": "เสาร์ที่ 7 พ.ย. 2569 (วันหยุด)",
-      "short_day": "ส. 7 พ.ย.",
-      "am_work": "วันหยุดสุดสัปดาห์",
-      "am_volume": "-",
-      "pm_work": "วันหยุดสุดสัปดาห์",
-      "pm_volume": "-",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "-",
-      "issue_action": "-",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
-    },
-    {
-      "date": "2026-11-08",
-      "day_label": "อาทิตย์ที่ 8 พ.ย. 2569 (วันหยุด)",
-      "short_day": "อา. 8 พ.ย.",
-      "am_work": "วันหยุดสุดสัปดาห์",
-      "am_volume": "-",
-      "pm_work": "วันหยุดสุดสัปดาห์",
-      "pm_volume": "-",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "-",
-      "issue_action": "-",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
-    }
-  ],
   "w42_summary_3x3": {
     "week_code": "W45",
     "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit",
     "title": "สรุปประเด็นสำคัญประจำสัปดาห์แบบ 3x3 (The 3x3 Core Summary)",
-    "subtitle": "2026-11-06_SYS_Weekly-Work-W45 • Finalized Weekly Report",
+    "subtitle": "2026-11-06_SYS_Weekly-Work-W45 • สังเคราะห์จาก Living Weekly File",
     "bottlenecks": [
       {
         "title": "ภาระงานตรวจหนาแน่นในเครือข่ายปฐมภูมิ",
-        "desc": "รพ.สต.บ้านสวน สูงถึง 40 รายในวันศุกร์ และ รพ.สต.ตาลเตี้ย 35 ราย ทำให้เวลาต่อเคสจำกัด"
+        "desc": "ยอดตรวจ รพ.สต.บ้านสวน สูงถึง 40 รายในวันศุกร์ และ รพ.สต.ตาลเตี้ย 35 ราย ทำให้เวลาต่อเคสจำกัด ส่งผลต่อการให้คำปรึกษาเชิงลึกด้านการปรับเปลี่ยนพฤติกรรมชีวิต (Lifestyle Medicine)"
       },
       {
         "title": "คอขวดระบบส่งมอบยาคลินิก Telemedicine สู่เครือข่าย รพ.สต.",
-        "desc": "เกณฑ์ สปสช. ใหม่จ่ายยาภายในวัน ต้องเร่งจัด Flow นัดหมายเป็นกลุ่มโซนและอาศัยรถรับส่งยา (TM-001)"
+        "desc": "เกณฑ์ สปสช. ใหม่ที่กำหนดให้จ่ายยาภายในวัน ทำให้ไม่สามารถกระจายยาผ่านร้านยาใกล้บ้านได้ทัน จึงต้องเร่งจัด Flow นัดหมายผู้ป่วยเป็นกลุ่มโซนเดียวกันและอาศัยรถรับส่งยาของเวชกรรมสังคม (TM-001)"
       },
       {
         "title": "ความท้าทายในการเตรียมข้อมูลประเมิน SAR PCT NCD",
-        "desc": "ต้องเชื่อมโยงข้อมูลตามเกณฑ์ HA ฉบับที่ 6 และ SPA ฉบับที่ 5 ร่วมกับเครือข่าย รพ.สต."
+        "desc": "เอกสารผลลัพธ์และตัวชี้วัดการดูแลตามมาตรฐาน HA ฉบับที่ 6 และคู่มือ SPA ฉบับที่ 5 ต้องประสานเชื่อมโยงข้อมูลระหว่างโรงพยาบาลและเครือข่าย รพ.สต. ในทุกมิติ (เข้าถึง ประเมิน วางแผน ดูแล และส่งต่อต่อเนื่อง)"
       }
     ],
     "wins": [
       {
         "title": "จัดทำ Flow การดูแลผู้ป่วย HT และ DM (DM-001 & NCD-002) เสร็จสมบูรณ์",
-        "desc": "พร้อมแนวทาง DM Remission นำไปเป็นหลักฐานเชิงประจักษ์ใน SAR PCT NCD"
+        "desc": "บรรลุการจัดทำ Clinical Flow สำหรับ Hypertension และ Diabetes Mellitus พร้อมแนวทาง DM Remission เพื่อใช้เป็นหลักฐานและกรอบการดูแลเชิงประจักษ์ใน SAR PCT NCD"
       },
       {
-        "title": "ขยายผลและเสถียรภาพระบบ Import ผลแล็บเข้า HosXP (PC-003)",
-        "desc": "รองรับการตรวจสุขภาพประจำปีในเครือข่าย รพ.สต. ลดภาระเปิด visit ซ้ำซ้อน"
+        "title": "ขยายผลและเสถียรภาพของระบบ Import ผลแล็บเข้า HosXP (PC-003)",
+        "desc": "รองรับการตรวจสุขภาพประจำปีในเครือข่าย รพ.สต. ได้อย่างมีประสิทธิภาพ ลดภาระงานเปิด visit ซ้ำซ้อนของเจ้าหน้าที่"
       },
       {
         "title": "การขับเคลื่อนงานระบาดวิทยาและเวชศาสตร์ป้องกันเชิงรุก",
-        "desc": "ร่วมกับทีมระบาดวิทยา (พี่มาช) ลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชน"
+        "desc": "บูรณาการการทำงานร่วมกับทีมระบาดวิทยา (พี่มาช) ลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชน เชื่อมโยงงานคลินิกสู่การเฝ้าระวังโรคทางสิ่งแวดล้อมและอาชีวอนามัย"
       }
     ],
     "actions": [
       {
         "title": "ยกร่างเอกสารประเมินตนเอง SAR PCT NCD ส่วนปฐมภูมิ (HA-001)",
-        "desc": "เรียบเรียงตามเกณฑ์ HA ฉบับที่ 6 และ SPA ฉบับที่ 5 โดยใช้ Flow HT/DM เป็นแนวทางหลัก"
+        "desc": "เรียบเรียงเนื้อหาตามเกณฑ์มาตรฐาน HA ฉบับที่ 6 หมวด III-1 ถึง III-6 และกรอบ SPA ฉบับที่ 5 (D-A-L-I) โดยนำ Flow HT/DM ที่เสร็จแล้วมาเป็นแนวทางหลัก"
       },
       {
         "title": "สรุปและทดสอบ Flow นัดหมาย-ส่งยาคลินิก Telemedicine (TM-001)",
-        "desc": "นัดผู้ป่วยเป็นกลุ่มโซน รพ.สต. และประสานการนำส่งยาจากห้องยา รพ. สู่ รพ.สต."
+        "desc": "วางแผนนัดผู้ป่วยเป็นกลุ่มโซน รพ.สต. เดียวกัน และประสานระบบการนำส่งยาจากห้องยา รพ. สู่ รพ.สต. เพื่อตอบโจทย์เกณฑ์รับยา สปสช."
       },
       {
         "title": "ติดตามการเชื่อมโยง Service Plan Sepsis / STEMI / Stroke (SYS-002)",
-        "desc": "ประสานระบบ Fast Track กับพยาบาลชุมชนและเครือข่าย รพ.สต. ไร้รอยต่อ"
+        "desc": "ประสานระบบ Fast Track กับพยาบาลชุมชนและเครือข่าย รพ.สต. เพื่อการดูแลต่อเนื่องไร้รอยต่อ"
       }
     ]
   }
