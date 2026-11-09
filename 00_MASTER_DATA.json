@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-09 19:15:17",
+    "last_updated": "2026-11-10 00:30:11",
     "schema_version": "4.0-GitHub-AutoPush",
     "architecture": "GitHub-Native Static JSON over CDN"
   },
@@ -677,11 +677,11 @@
       "issue": "ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 35 ราย, ช่วงบ่ายตรวจ Telemed เรือนจำ 35 ราย (รวมทั้งวัน 70 ราย) การตรวจราบรื่น",
       "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
       "link_proj": "-",
-      "doc_url": "2026-11-06_SYS_Weekly-Work-W45"
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
       "date": "2026-11-05",
-      "am_work": "PCU รพ.สท.",
+      "am_work": "OPD Fammed",
       "am_volume": "33",
       "pm_work": "Academic / พัฒนางานระบบ",
       "pm_volume": "0",
@@ -689,10 +689,40 @@
       "ot_volume": "0",
       "home_ward": "N",
       "palliative": "N",
-      "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน หนาแน่น 40 ราย, ช่วงบ่ายร่วมกับพี่มาชลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชน",
+      "issue": "ช่วงเช้าออกตรวจ PCU รพ.สท. (OPD Fammed) 33 ราย, ช่วงบ่ายกิจกรรม Academic & สอน In-Service เจ้าหน้าที่ปฐมภูมิ และพัฒนางานระบบเตรียม SAR NCD",
+      "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
+      "link_proj": "HA-001",
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+    },
+    {
+      "date": "2026-11-06",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "40",
+      "pm_work": "สอบสวนพิษตะกั่วกับพี่มาช / พัฒนางานระบบ",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "0",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน หนาแน่น 40 ราย, ช่วงบ่ายร่วมกับพี่มาชลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชนและพัฒนาระบบเฝ้าระวังทางระบาดวิทยาปฐมภูมิ",
       "action": "สรุปปิดวันและปิดสัปดาห์ W45 สมบูรณ์ ไม่มีเวรนอกเวลา",
       "link_proj": "-",
-      "doc_url": "2026-11-06_SYS_Weekly-Work-W45"
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+    },
+    {
+      "date": "2026-11-09",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "30",
+      "pm_work": "พัฒนางานระบบ",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "0",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 30 ราย, ช่วงบ่ายปฏิบัติงานพัฒนางานระบบปฐมภูมิ (ไม่มีเคสตรวจช่วงบ่าย) การดำเนินงานราบรื่น",
+      "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
+      "link_proj": "HA-001, TM-001, SYS-002",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     }
   ],
   "project_board": [
@@ -7983,102 +8013,102 @@
   ],
   "w42_living_schedule": [
     {
-      "date": "2026-11-02",
-      "day_label": "จันทร์ที่ 2 พ.ย. 2569 (2026-11-02)",
-      "short_day": "จ. 2 พ.ย.",
+      "date": "2026-11-09",
+      "day_label": "จันทร์ที่ 9 พ.ย. 2569 (2026-11-09)",
+      "short_day": "จ. 9 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "20",
-      "pm_work": "ประชุม SAR (PCT NCD) กับพี่จา",
+      "am_volume": "30",
+      "pm_work": "พัฒนางานระบบ",
       "pm_volume": "0",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "20",
-      "issue_action": "- ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายประชุม SAR กับพี่จา: รับผิดชอบเขียน SAR สำหรับ PCT NCD ในมิติงานปฐมภูมิตามเกณฑ์ HA ฉบับที่ 6 และ SPA ฉบับที่ 5 - ความสำเร็จ: จัดทำ Flow การดูแลผู้ป่วย HT และ DM (DM-001, NCD-002) เสร็จสมบูรณ์ พร้อมนำไปบรรจุเป็นหลักฐานใน SAR",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "30",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 30 ราย - ช่วงบ่ายปฏิบัติงานพัฒนางานระบบปฐมภูมิ (ไม่มีเคสตรวจช่วงบ่าย) การดำเนินงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-03",
-      "day_label": "อังคารที่ 3 พ.ย. 2569 (2026-11-03)",
-      "short_day": "อ. 3 พ.ย.",
+      "date": "2026-11-10",
+      "day_label": "อังคารที่ 10 พ.ย. 2569 (2026-11-10)",
+      "short_day": "อ. 10 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "20",
-      "pm_work": "ห้องตรวจโรคทั่วไป (OPD GP)",
-      "pm_volume": "13",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
+      "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "33",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 13 ราย การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "(รอสรุปปิดวัน)",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-04",
-      "day_label": "พุธที่ 4 พ.ย. 2569 (2026-11-04)",
-      "short_day": "พ. 4 พ.ย.",
+      "date": "2026-11-11",
+      "day_label": "พุธที่ 11 พ.ย. 2569 (2026-11-11)",
+      "short_day": "พ. 11 พ.ย.",
       "am_work": "รพ.สต.ตาลเตี้ย",
-      "am_volume": "35",
+      "am_volume": "(รออัปเดต)",
       "pm_work": "Telemed เรือนจำ",
-      "pm_volume": "35",
+      "pm_volume": "(รออัปเดต)",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "70",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 35 ราย - ช่วงบ่ายตรวจ Telemed เรือนจำ 35 ราย การตรวจและการประสานงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "(รอสรุปปิดวัน)",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-05",
-      "day_label": "พฤหัสบดีที่ 5 พ.ย. 2569 (2026-11-05)",
-      "short_day": "พฤ. 5 พ.ย.",
+      "date": "2026-11-12",
+      "day_label": "พฤหัสบดีที่ 12 พ.ย. 2569 (2026-11-12)",
+      "short_day": "พฤ. 12 พ.ย.",
       "am_work": "PCU รพ.สท. (OPD Fammed)",
-      "am_volume": "33",
-      "pm_work": "Academic / สอน In-Service / พัฒนางานระบบ",
-      "pm_volume": "0",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "Academic (พี่มาชสอน intern 13:00–14:00 น.) / พัฒนางานระบบ",
+      "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "33",
-      "issue_action": "- ช่วงเช้าออกตรวจ PCU รพ.สท. (OPD Fammed) 33 ราย - ช่วงบ่ายกิจกรรม Academic & สอน In-Service เจ้าหน้าที่ปฐมภูมิ และพัฒนางานระบบเตรียม SAR NCD ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "(รอสรุปปิดวัน)",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-06",
-      "day_label": "ศุกร์ที่ 6 พ.ย. 2569 (2026-11-06)",
-      "short_day": "ศ. 6 พ.ย.",
+      "date": "2026-11-13",
+      "day_label": "ศุกร์ที่ 13 พ.ย. 2569 (2026-11-13)",
+      "short_day": "ศ. 13 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "40",
-      "pm_work": "-",
-      "pm_volume": "0",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "พัฒนางานระบบ / สรุปปิดสัปดาห์ W46",
+      "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "40",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน หนาแน่น 40 ราย - ช่วงบ่ายร่วมกับพี่มาชลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชนและพัฒนาระบบเฝ้าระวังทางระบาดวิทยาปฐมภูมิ ไม่มีเวรนอกเวลา สรุปปิดสัปดาห์สมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "(รอสรุปปิดสัปดาห์)",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-07",
-      "day_label": "เสาร์ที่ 7 พ.ย. 2569 (2026-11-07 — วันหยุด)",
-      "short_day": "ส. 7 พ.ย.",
-      "am_work": "วันหยุดสุดสัปดาห์",
-      "am_volume": "-",
+      "date": "2026-11-14",
+      "day_label": "เสาร์ที่ 14 พ.ย. 2569 (2026-11-14 — เวรวันหยุด)",
+      "short_day": "ส. 14 พ.ย.",
+      "am_work": "Home Ward (เวรวันหยุด)",
+      "am_volume": "(รออัปเดต)",
       "pm_work": "วันหยุดสุดสัปดาห์",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "-",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "เวร Home Ward วันหยุด",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-08",
-      "day_label": "อาทิตย์ที่ 8 พ.ย. 2569 (2026-11-08 — วันหยุด)",
-      "short_day": "อา. 8 พ.ย.",
-      "am_work": "วันหยุดสุดสัปดาห์",
-      "am_volume": "-",
+      "date": "2026-11-15",
+      "day_label": "อาทิตย์ที่ 15 พ.ย. 2569 (2026-11-15 — เวรวันหยุด)",
+      "short_day": "อา. 15 พ.ย.",
+      "am_work": "Home Ward (เวรวันหยุด)",
+      "am_volume": "(รออัปเดต)",
       "pm_work": "วันหยุดสุดสัปดาห์",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "-",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "เวร Home Ward วันหยุด",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     }
   ],
   "email_digest": [
@@ -8238,146 +8268,146 @@
     }
   ],
   "weekly_meta": {
-    "week_code": "W45",
-    "week_num": "W45",
-    "doc_id": "1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw",
-    "doc_title": "2026-11-06_SYS_Weekly-Work-W45",
-    "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit",
-    "date_range": "2 พ.ย. – 8 พ.ย.",
-    "date_range_short": "2 พ.ย. – 8 พ.ย.",
-    "header_title": "สัปดาห์นี้ (W45: 2 พ.ย. – 8 พ.ย.)"
+    "week_code": "W46",
+    "week_num": "W46",
+    "doc_id": "1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw",
+    "doc_title": "2026-11-13_SYS_Weekly-Work-W46",
+    "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit",
+    "date_range": "9 พ.ย. – 15 พ.ย.",
+    "date_range_short": "9 พ.ย. – 15 พ.ย.",
+    "header_title": "สัปดาห์นี้ (W46: 9 พ.ย. – 15 พ.ย.)"
   },
   "weekly_living_schedule": [
     {
-      "date": "2026-11-02",
-      "day_label": "จันทร์ที่ 2 พ.ย. 2569 (2026-11-02)",
-      "short_day": "จ. 2 พ.ย.",
+      "date": "2026-11-09",
+      "day_label": "จันทร์ที่ 9 พ.ย. 2569 (2026-11-09)",
+      "short_day": "จ. 9 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "20",
-      "pm_work": "ประชุม SAR (PCT NCD) กับพี่จา",
+      "am_volume": "30",
+      "pm_work": "พัฒนางานระบบ",
       "pm_volume": "0",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "20",
-      "issue_action": "- ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายประชุม SAR กับพี่จา: รับผิดชอบเขียน SAR สำหรับ PCT NCD ในมิติงานปฐมภูมิตามเกณฑ์ HA ฉบับที่ 6 และ SPA ฉบับที่ 5 - ความสำเร็จ: จัดทำ Flow การดูแลผู้ป่วย HT และ DM (DM-001, NCD-002) เสร็จสมบูรณ์ พร้อมนำไปบรรจุเป็นหลักฐานใน SAR",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "30",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 30 ราย - ช่วงบ่ายปฏิบัติงานพัฒนางานระบบปฐมภูมิ (ไม่มีเคสตรวจช่วงบ่าย) การดำเนินงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-03",
-      "day_label": "อังคารที่ 3 พ.ย. 2569 (2026-11-03)",
-      "short_day": "อ. 3 พ.ย.",
+      "date": "2026-11-10",
+      "day_label": "อังคารที่ 10 พ.ย. 2569 (2026-11-10)",
+      "short_day": "อ. 10 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "20",
-      "pm_work": "ห้องตรวจโรคทั่วไป (OPD GP)",
-      "pm_volume": "13",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
+      "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "33",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 13 ราย การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "(รอสรุปปิดวัน)",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-04",
-      "day_label": "พุธที่ 4 พ.ย. 2569 (2026-11-04)",
-      "short_day": "พ. 4 พ.ย.",
+      "date": "2026-11-11",
+      "day_label": "พุธที่ 11 พ.ย. 2569 (2026-11-11)",
+      "short_day": "พ. 11 พ.ย.",
       "am_work": "รพ.สต.ตาลเตี้ย",
-      "am_volume": "35",
+      "am_volume": "(รออัปเดต)",
       "pm_work": "Telemed เรือนจำ",
-      "pm_volume": "35",
+      "pm_volume": "(รออัปเดต)",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "70",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 35 ราย - ช่วงบ่ายตรวจ Telemed เรือนจำ 35 ราย การตรวจและการประสานงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "(รอสรุปปิดวัน)",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-05",
-      "day_label": "พฤหัสบดีที่ 5 พ.ย. 2569 (2026-11-05)",
-      "short_day": "พฤ. 5 พ.ย.",
+      "date": "2026-11-12",
+      "day_label": "พฤหัสบดีที่ 12 พ.ย. 2569 (2026-11-12)",
+      "short_day": "พฤ. 12 พ.ย.",
       "am_work": "PCU รพ.สท. (OPD Fammed)",
-      "am_volume": "33",
-      "pm_work": "Academic / สอน In-Service / พัฒนางานระบบ",
-      "pm_volume": "0",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "Academic (พี่มาชสอน intern 13:00–14:00 น.) / พัฒนางานระบบ",
+      "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "33",
-      "issue_action": "- ช่วงเช้าออกตรวจ PCU รพ.สท. (OPD Fammed) 33 ราย - ช่วงบ่ายกิจกรรม Academic & สอน In-Service เจ้าหน้าที่ปฐมภูมิ และพัฒนางานระบบเตรียม SAR NCD ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "(รอสรุปปิดวัน)",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-06",
-      "day_label": "ศุกร์ที่ 6 พ.ย. 2569 (2026-11-06)",
-      "short_day": "ศ. 6 พ.ย.",
+      "date": "2026-11-13",
+      "day_label": "ศุกร์ที่ 13 พ.ย. 2569 (2026-11-13)",
+      "short_day": "ศ. 13 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "40",
-      "pm_work": "-",
-      "pm_volume": "0",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "พัฒนางานระบบ / สรุปปิดสัปดาห์ W46",
+      "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "40",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน หนาแน่น 40 ราย - ช่วงบ่ายร่วมกับพี่มาชลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชนและพัฒนาระบบเฝ้าระวังทางระบาดวิทยาปฐมภูมิ ไม่มีเวรนอกเวลา สรุปปิดสัปดาห์สมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "(รอสรุปปิดสัปดาห์)",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-07",
-      "day_label": "เสาร์ที่ 7 พ.ย. 2569 (2026-11-07 — วันหยุด)",
-      "short_day": "ส. 7 พ.ย.",
-      "am_work": "วันหยุดสุดสัปดาห์",
-      "am_volume": "-",
+      "date": "2026-11-14",
+      "day_label": "เสาร์ที่ 14 พ.ย. 2569 (2026-11-14 — เวรวันหยุด)",
+      "short_day": "ส. 14 พ.ย.",
+      "am_work": "Home Ward (เวรวันหยุด)",
+      "am_volume": "(รออัปเดต)",
       "pm_work": "วันหยุดสุดสัปดาห์",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "-",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "เวร Home Ward วันหยุด",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
-      "date": "2026-11-08",
-      "day_label": "อาทิตย์ที่ 8 พ.ย. 2569 (2026-11-08 — วันหยุด)",
-      "short_day": "อา. 8 พ.ย.",
-      "am_work": "วันหยุดสุดสัปดาห์",
-      "am_volume": "-",
+      "date": "2026-11-15",
+      "day_label": "อาทิตย์ที่ 15 พ.ย. 2569 (2026-11-15 — เวรวันหยุด)",
+      "short_day": "อา. 15 พ.ย.",
+      "am_work": "Home Ward (เวรวันหยุด)",
+      "am_volume": "(รออัปเดต)",
       "pm_work": "วันหยุดสุดสัปดาห์",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "-",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "เวร Home Ward วันหยุด",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     }
   ],
   "weekly_summary_3x3": {
-    "week_code": "W45",
-    "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit",
+    "week_code": "W46",
+    "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit",
     "title": "สรุปประเด็นสำคัญประจำสัปดาห์แบบ 3x3 (The 3x3 Core Summary)",
-    "subtitle": "2026-11-06_SYS_Weekly-Work-W45 • สังเคราะห์จาก Living Weekly File",
+    "subtitle": "2026-11-13_SYS_Weekly-Work-W46 • สังเคราะห์จาก Living Weekly File",
     "bottlenecks": [
       {
-        "title": "ภาระงานตรวจหนาแน่นในเครือข่ายปฐมภูมิ",
-        "desc": "ยอดตรวจ รพ.สต.บ้านสวน สูงถึง 40 รายในวันศุกร์ และ รพ.สต.ตาลเตี้ย 35 ราย ทำให้เวลาต่อเคสจำกัด ส่งผลต่อการให้คำปรึกษาเชิงลึกด้านการปรับเปลี่ยนพฤติกรรมชีวิต (Lifestyle Medicine)"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       },
       {
-        "title": "คอขวดระบบส่งมอบยาคลินิก Telemedicine สู่เครือข่าย รพ.สต.",
-        "desc": "เกณฑ์ สปสช. ใหม่ที่กำหนดให้จ่ายยาภายในวัน ทำให้ไม่สามารถกระจายยาผ่านร้านยาใกล้บ้านได้ทัน จึงต้องเร่งจัด Flow นัดหมายผู้ป่วยเป็นกลุ่มโซนเดียวกันและอาศัยรถรับส่งยาของเวชกรรมสังคม (TM-001)"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       },
       {
-        "title": "ความท้าทายในการเตรียมข้อมูลประเมิน SAR PCT NCD",
-        "desc": "เอกสารผลลัพธ์และตัวชี้วัดการดูแลตามมาตรฐาน HA ฉบับที่ 6 และคู่มือ SPA ฉบับที่ 5 ต้องประสานเชื่อมโยงข้อมูลระหว่างโรงพยาบาลและเครือข่าย รพ.สต. ในทุกมิติ (เข้าถึง ประเมิน วางแผน ดูแล และส่งต่อต่อเนื่อง)"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       }
     ],
     "wins": [
       {
-        "title": "จัดทำ Flow การดูแลผู้ป่วย HT และ DM (DM-001 & NCD-002) เสร็จสมบูรณ์",
-        "desc": "บรรลุการจัดทำ Clinical Flow สำหรับ Hypertension และ Diabetes Mellitus พร้อมแนวทาง DM Remission เพื่อใช้เป็นหลักฐานและกรอบการดูแลเชิงประจักษ์ใน SAR PCT NCD"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       },
       {
-        "title": "ขยายผลและเสถียรภาพของระบบ Import ผลแล็บเข้า HosXP (PC-003)",
-        "desc": "รองรับการตรวจสุขภาพประจำปีในเครือข่าย รพ.สต. ได้อย่างมีประสิทธิภาพ ลดภาระงานเปิด visit ซ้ำซ้อนของเจ้าหน้าที่"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       },
       {
-        "title": "การขับเคลื่อนงานระบาดวิทยาและเวชศาสตร์ป้องกันเชิงรุก",
-        "desc": "บูรณาการการทำงานร่วมกับทีมระบาดวิทยา (พี่มาช) ลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชน เชื่อมโยงงานคลินิกสู่การเฝ้าระวังโรคทางสิ่งแวดล้อมและอาชีวอนามัย"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       }
     ],
     "actions": [
@@ -8396,36 +8426,36 @@
     ]
   },
   "w42_summary_3x3": {
-    "week_code": "W45",
-    "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit",
+    "week_code": "W46",
+    "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit",
     "title": "สรุปประเด็นสำคัญประจำสัปดาห์แบบ 3x3 (The 3x3 Core Summary)",
-    "subtitle": "2026-11-06_SYS_Weekly-Work-W45 • สังเคราะห์จาก Living Weekly File",
+    "subtitle": "2026-11-13_SYS_Weekly-Work-W46 • สังเคราะห์จาก Living Weekly File",
     "bottlenecks": [
       {
-        "title": "ภาระงานตรวจหนาแน่นในเครือข่ายปฐมภูมิ",
-        "desc": "ยอดตรวจ รพ.สต.บ้านสวน สูงถึง 40 รายในวันศุกร์ และ รพ.สต.ตาลเตี้ย 35 ราย ทำให้เวลาต่อเคสจำกัด ส่งผลต่อการให้คำปรึกษาเชิงลึกด้านการปรับเปลี่ยนพฤติกรรมชีวิต (Lifestyle Medicine)"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       },
       {
-        "title": "คอขวดระบบส่งมอบยาคลินิก Telemedicine สู่เครือข่าย รพ.สต.",
-        "desc": "เกณฑ์ สปสช. ใหม่ที่กำหนดให้จ่ายยาภายในวัน ทำให้ไม่สามารถกระจายยาผ่านร้านยาใกล้บ้านได้ทัน จึงต้องเร่งจัด Flow นัดหมายผู้ป่วยเป็นกลุ่มโซนเดียวกันและอาศัยรถรับส่งยาของเวชกรรมสังคม (TM-001)"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       },
       {
-        "title": "ความท้าทายในการเตรียมข้อมูลประเมิน SAR PCT NCD",
-        "desc": "เอกสารผลลัพธ์และตัวชี้วัดการดูแลตามมาตรฐาน HA ฉบับที่ 6 และคู่มือ SPA ฉบับที่ 5 ต้องประสานเชื่อมโยงข้อมูลระหว่างโรงพยาบาลและเครือข่าย รพ.สต. ในทุกมิติ (เข้าถึง ประเมิน วางแผน ดูแล และส่งต่อต่อเนื่อง)"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       }
     ],
     "wins": [
       {
-        "title": "จัดทำ Flow การดูแลผู้ป่วย HT และ DM (DM-001 & NCD-002) เสร็จสมบูรณ์",
-        "desc": "บรรลุการจัดทำ Clinical Flow สำหรับ Hypertension และ Diabetes Mellitus พร้อมแนวทาง DM Remission เพื่อใช้เป็นหลักฐานและกรอบการดูแลเชิงประจักษ์ใน SAR PCT NCD"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       },
       {
-        "title": "ขยายผลและเสถียรภาพของระบบ Import ผลแล็บเข้า HosXP (PC-003)",
-        "desc": "รองรับการตรวจสุขภาพประจำปีในเครือข่าย รพ.สต. ได้อย่างมีประสิทธิภาพ ลดภาระงานเปิด visit ซ้ำซ้อนของเจ้าหน้าที่"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       },
       {
-        "title": "การขับเคลื่อนงานระบาดวิทยาและเวชศาสตร์ป้องกันเชิงรุก",
-        "desc": "บูรณาการการทำงานร่วมกับทีมระบาดวิทยา (พี่มาช) ลงพื้นที่สอบสวนโรคพิษตะกั่วในชุมชน เชื่อมโยงงานคลินิกสู่การเฝ้าระวังโรคทางสิ่งแวดล้อมและอาชีวอนามัย"
+        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
+        "desc": ""
       }
     ],
     "actions": [
