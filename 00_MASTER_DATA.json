@@ -2,9 +2,9 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-10 19:44:55",
-    "schema_version": "4.0-GitHub-AutoPush",
-    "architecture": "GitHub-Native Static JSON over CDN"
+    "last_updated": "2026-11-10 22:35:00",
+    "schema_version": "5.0-AutoSync-PWA",
+    "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
   "config": {
     "am_work": [
@@ -452,7 +452,7 @@
       "issue": "ออกตรวจโรคทั่วไปช่วงเช้า รพ.สต.บ้านสวน 25 ราย / บ่ายดูแลเคส IPD Palliative 2 ราย",
       "action": "ติดตามอาการผู้ป่วยประคับประคองต่อเนื่อง",
       "link_proj": "PAL-001",
-      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
+      "doc_url": "2026-10-16_SYS_Weekly-Work-W42"
     },
     {
       "date": "2026-10-13",
@@ -467,7 +467,7 @@
       "issue": "ออกตรวจราวน์เวร Home ward วันหยุดนักขัตฤกษ์ 2 เคส เรียบร้อยดี",
       "action": "ติดตามอาการผู้ป่วย Home ward ต่อเนื่อง",
       "link_proj": "HW-001",
-      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
+      "doc_url": "2026-10-16_SYS_Weekly-Work-W42"
     },
     {
       "date": "2026-10-14",
@@ -482,7 +482,7 @@
       "issue": "เช้า รพ.สต.ตาลเตี้ย เคสหนาแน่น (35 ราย) / บ่ายช่วยตรวจ OPD ตรวจสุขภาพ 17 ราย และดูเคส IPD Palliative 2 ราย (รวมบ่าย 19 ราย)",
       "action": "1) ดูแลเคสตรวจสุขภาพและ IPD Palliative 2) ปรับสถาปัตยกรรม Second Brain เป็นระบบ JSON + WebApp Dashboard และ Living Weekly File สำเร็จ",
       "link_proj": "SYS-001, PAL-001, PC-001",
-      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
+      "doc_url": "2026-10-16_SYS_Weekly-Work-W42"
     },
     {
       "date": "2026-10-15",
@@ -497,7 +497,7 @@
       "issue": "เช้าออกตรวจ OPD Fammed (PCU รพ.สท.) 32 ราย / บ่ายสอน Intern และราวน์ดูแลเคส IPD Palliative 3 ราย",
       "action": "ดูแลผู้ป่วยประคับประคองต่อเนื่อง และติดตามงานพัฒนาระบบปฐมภูมิ (GER-001)",
       "link_proj": "PAL-001, GER-001",
-      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
+      "doc_url": "2026-10-16_SYS_Weekly-Work-W42"
     },
     {
       "date": "2026-10-16",
@@ -512,7 +512,7 @@
       "issue": "ช่วงเช้าตรวจ รพ.สต.บ้านสวน 15 ราย / ช่วงบ่ายตรวจสมุดสุขภาพ 15 ราย, ออกเยี่ยมบ้าน 3 ราย, ดูแลผู้ป่วย IPD PC 3 ราย (รวมบ่าย 21 ราย)",
       "action": "ติดตามการดูแลผู้ป่วยต่อเนื่องในชุมชนและผู้ป่วยระยะประคับประคอง",
       "link_proj": "HW-001, PAL-001",
-      "doc_url": "https://docs.google.com/document/d/1QnjLLXiyLOjnDop1MI-Ka_nVHzT-1i2UtrKa74Ggu98/edit"
+      "doc_url": "2026-10-16_SYS_Weekly-Work-W42"
     },
     {
       "date": "2026-10-21",
@@ -527,7 +527,7 @@
       "issue": "เข้าร่วมการประชุมวิชาการระดับชาติราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวแห่งประเทศไทย (NCFM 20-23 ต.ค.) วันที่ 2",
       "action": "ศึกษาและอัปเดตองค์ความรู้ด้านเวชศาสตร์ครอบครัวและระบบบริการปฐมภูมิ",
       "link_proj": "SYS-001",
-      "doc_url": "https://docs.google.com/document/d/1bZ30rNhCdxlJLEYzdc2HPoMh3Cpm8DN1akybxNzef6s/edit"
+      "doc_url": "2026-10-23_SYS_Weekly-Work-W43"
     },
     {
       "date": "2026-10-22",
@@ -542,7 +542,7 @@
       "issue": "เข้าร่วมการประชุมวิชาการระดับชาติราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวแห่งประเทศไทย (NCFM 20-23 ต.ค.) วันที่ 3",
       "action": "ศึกษาและอัปเดตองค์ความรู้ด้านเวชศาสตร์ครอบครัวและระบบบริการปฐมภูมิ",
       "link_proj": "SYS-001",
-      "doc_url": "https://docs.google.com/document/d/1bZ30rNhCdxlJLEYzdc2HPoMh3Cpm8DN1akybxNzef6s/edit"
+      "doc_url": "2026-10-23_SYS_Weekly-Work-W43"
     },
     {
       "date": "2026-10-23",
@@ -557,7 +557,7 @@
       "issue": "สิ้นสุดการประชุมวิชาการระดับชาติ NCFM (ครึ่งวันเช้า) และเดินทางกลับสุโขทัย ตรงกับวันหยุดปิยมหาราช (ไม่มีภาระงานตรวจผู้ป่วย)",
       "action": "เตรียมสรุปองค์ความรู้จาก NCFM เพื่อประยุกต์ใช้ในระบบบริการปฐมภูมิ รพ.สุโขทัย",
       "link_proj": "SYS-001",
-      "doc_url": "https://docs.google.com/document/d/1bZ30rNhCdxlJLEYzdc2HPoMh3Cpm8DN1akybxNzef6s/edit"
+      "doc_url": "2026-10-23_SYS_Weekly-Work-W43"
     },
     {
       "date": "2026-10-26",
@@ -572,7 +572,7 @@
       "issue": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายออกตรวจห้องตรวจโรคทั่วไป (OPD GP) 6 ราย (รวม 26 ราย)",
       "action": "บันทึกข้อมูลยอดผู้ป่วยลง Living Weekly W44 เรียบร้อยแล้ว",
       "link_proj": "SYS-001",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
     },
     {
       "date": "2026-10-27",
@@ -587,7 +587,7 @@
       "issue": "ช่วงเช้าออกตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน 10 ราย - ช่วงบ่ายไม่มีตรวจ (งานพัฒนาระบบ: วางแผนอัปเดต NCD Guideline และออกแบบระบบบริการ SMC สุโขทัย SMC-001)",
       "action": "วางแผนอัปเดต NCD Guideline และยกร่างระบบบริการศูนย์การแพทย์พิเศษ SMC สุโขทัย (SMC-001)",
       "link_proj": "SMC-001, NCD-002",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
     },
     {
       "date": "2026-10-28",
@@ -602,7 +602,7 @@
       "issue": "ช่วงเช้าตรวจ รพ.สต.บ้านคลองด่าน 20 ราย / บ่ายพัฒนางานระบบ: ระบบ Import Excel ผลแล็บเข้า HosXP สำเร็จและใช้งานจริงได้ผลดี (ทีมเวชกรรมเตรียมไฟล์ส่ง IT import) | สื่อออกกำลังกายผู้สูงอายุ GER-001 และคลินิก SMC-001 ยังไม่เสร็จ",
       "action": "1) ทีมเวชกรรมเตรียมไฟล์แล็บส่ง IT import 2) เตรียมร่าง NCD Flow (HT/DLP) 3) รวบรวมข้อมูลเชื่อมโยง Service Plan Sepsis/STEMI/Stroke กับเวชกรรมสังคมและพยาบาลชุมชน ก่อนประชุมทีม 2 พ.ย. 69",
       "link_proj": "PC-003, GER-001, SMC-001, NCD-002, SYS-002",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
     },
     {
       "date": "2026-10-29",
@@ -617,7 +617,7 @@
       "issue": "บ่ายตรวจ OPD LM และคุยเคส PC-ESRD รวม 6 ราย (Palliative: Y) | ปัญหาคลินิก Telemed บ่ายอังคาร: สปสช.ปรับเกณฑ์ต้องรับยาภายในวัน ทำให้ห้องยาส่งร้านยาใกล้บ้านไม่ทัน ไม่สามารถส่งคนไข้รับยาที่ร้านยาได้แล้ว",
       "action": "วางแผนปรับ Flow นัดหมาย Telemed ใหม่: นัดผู้ป่วยตามโซน รพ.สต. เดียวกันมาพร้อมกัน แล้วให้เวชกรรมสังคมรับยาไปส่ง รพ.สต. ให้คนไข้มารับที่อนามัยแทน (TM-001)",
       "link_proj": "PAL-001, PC-003, TM-001",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
     },
     {
       "date": "2026-10-30",
@@ -632,7 +632,7 @@
       "issue": "ช่วงเช้าตรวจโรคทั่วไป ณ รพ.สต.บ้านสวน หนาแน่นสูง 45 ราย / ช่วงบ่ายช่วยตรวจสุขภาพก่อนเริ่มงาน 1 ราย (รวม 46 ราย)",
       "action": "ประเมินผล Fit for Work และบันทึกปิดวันศุกร์สัปดาห์ที่ 44 สมบูรณ์",
       "link_proj": "PC-003",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
     },
     {
       "date": "2026-11-02",
@@ -647,7 +647,7 @@
       "issue": "ประชุม SAR กับพี่จา: รับผิดชอบเขียน SAR PCT NCD ส่วนงานปฐมภูมิตามมาตรฐาน HA ฉบับที่ 6 / SPA ฉบับที่ 5",
       "action": "จัดทำ Flow NCD HT/DM (DM-001, NCD-002) เสร็จสมบูรณ์ บรรจุเป็นหลักฐานใน SAR",
       "link_proj": "DM-001, NCD-002, HA-001",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "doc_url": "2026-11-06_SYS_Weekly-Work-W45"
     },
     {
       "date": "2026-11-03",
@@ -662,7 +662,7 @@
       "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย, ช่วงบ่ายตรวจ OPD GP 13 ราย (รวมทั้งวัน 33 ราย) การตรวจราบรื่น",
       "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
       "link_proj": "-",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "doc_url": "2026-11-06_SYS_Weekly-Work-W45"
     },
     {
       "date": "2026-11-04",
@@ -720,6 +720,21 @@
       "home_ward": "N",
       "palliative": "N",
       "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 30 ราย, ช่วงบ่ายปฏิบัติงานพัฒนางานระบบปฐมภูมิ (ไม่มีเคสตรวจช่วงบ่าย) การดำเนินงานราบรื่น",
+      "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
+      "link_proj": "HA-001, TM-001, SYS-002",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
+    },
+    {
+      "date": "2026-11-10",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "30",
+      "pm_work": "พัฒนางานระบบ",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "0",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 30 ราย, ช่วงบ่ายปฏิบัติงานพัฒนางานระบบปฐมภูมิ (ไม่มีเคสตรวจช่วงบ่าย)",
       "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
       "link_proj": "HA-001, TM-001, SYS-002",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
@@ -789,7 +804,7 @@
       "due": "2026-11-13",
       "last_update": "2026-10-28",
       "impact": "High",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
     },
     {
       "proj_id": "SYS-002",
@@ -802,7 +817,7 @@
       "due": "2026-11-02",
       "last_update": "2026-10-28",
       "impact": "High",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "doc_url": "2026-10-30_SYS_Weekly-Work-W44"
     },
     {
       "proj_id": "HA-001",
@@ -815,7 +830,7 @@
       "due": "2026-11-20",
       "last_update": "2026-11-02",
       "impact": "High",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "doc_url": "2026-11-06_SYS_Weekly-Work-W45"
     }
   ],
   "stock_master": [
@@ -1287,195 +1302,6 @@
     }
   ],
   "note_inbox": [
-    {
-      "captured": "2026-10-24",
-      "source_file": "แนวทางเวชปฏิบัติสำหรับโรคจมูกอักเสบภูมิแพ้ในคนไทย(ฉบับปรับปรุง พ.ศ.2565).pdf",
-      "origin": "literature",
-      "topic": "แนวทางเวชปฏิบัติสำหรับโรคจมูกอักเสบภูมิแพ้ในคนไทย (Allergic Rhinitis CPG ฉบับปรับปรุง พ.ศ. 2565)",
-      "processed": "Y",
-      "links_to": "Medical guideline",
-      "doc_url": "https://drive.google.com/file/d/1xfZRCflEt1G3ggiz-xAGUksb86zl5YUd/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "Clinic DPAC.pdf",
-      "origin": "literature",
-      "topic": "คู่มือกระบวนการจัดการคลินิกไร้พุง (Diet &amp; Physical Activity Clinic: DPAC) สำหรับสถานบริการสาธารณสุข กรมอนามัย",
-      "processed": "Y",
-      "links_to": "Fammed knowledge",
-      "doc_url": "https://drive.google.com/file/d/1hLnIoGndyKT0tiHo5Y3GDqpJNQZSTfMN/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "CPG-chronic constipation 2564.pdf",
-      "origin": "literature",
-      "topic": "แนวทางเวชปฏิบัติการดูแลรักษาผู้ป่วยท้องผูกเรื้อรังในประเทศไทย พ.ศ. 2564 (Thailand Chronic Constipation Guideline)",
-      "processed": "Y",
-      "links_to": "Medical guideline",
-      "doc_url": "https://drive.google.com/file/d/1agOZPW2CYX67W8_dXaZopYdFwp8XhZg3/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "แนวทางการดูแลรักษากลุ่มอาการสูงอายุ .pdf",
-      "origin": "literature",
-      "topic": "แนวทางการดูแลรักษากลุ่มอาการสูงอายุ (Geriatric Syndromes Management Guideline)",
-      "processed": "Y",
-      "links_to": "Geriatric Care",
-      "doc_url": "https://drive.google.com/file/d/1O-iSiml5NBeRKdHlH8KasyeFP1fYjDAC/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "คู่มือสิทธิผู้สูงอายุ.pdf",
-      "origin": "literature",
-      "topic": "คู่มือสิทธิผู้สูงอายุตามพระราชบัญญัติผู้สูงอายุ พ.ศ. 2546 (สิทธิการคุ้มครองและสวัสดิการผู้สูงอายุ 13 ด้าน)",
-      "processed": "Y",
-      "links_to": "Geriatric Care",
-      "doc_url": "https://drive.google.com/file/d/1wNAVGw2QzdtK9KZ2ksj8sztCdEq_EyOH/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "prison health.pdf",
-      "origin": "lecture",
-      "topic": "เอกสารบรรยายเรื่องระบบบริการสุขภาพผู้ต้องขังในเรือนจำและบทบาทของแพทย์เวชศาสตร์ครอบครัว (Prison Health)",
-      "processed": "Y",
-      "links_to": "Fammed knowledge",
-      "doc_url": "https://drive.google.com/file/d/1gVF179X4Q5rRLVUwt2hmwBTARZfvSnX_/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "Eng class topic Dec6.pdf",
-      "origin": "lecture",
-      "topic": "สไลด์นำเสนอคาบเรียนภาษาอังกฤษ Navigating the Hazards of Social Media (ข้อควรระวังในการใช้โซเชียลมีเดียของแพทย์)",
-      "processed": "Y",
-      "links_to": "99_Archive",
-      "doc_url": "https://drive.google.com/file/d/12ku17pdW5WOxiuigL8h_20Lj-YdU0F3w/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "CPG - Dyspepsia.pdf",
-      "origin": "literature",
-      "topic": "แนวทางในการวินิจฉัยและการรักษาภาวะอาหารไม่ย่อย (Dyspepsia) ในประเทศไทย พ.ศ. 2561 กลุ่มวิจัยโรคกระเพาะอาหาร",
-      "processed": "Y",
-      "links_to": "Medical guideline",
-      "doc_url": "https://drive.google.com/file/d/1QpbAzU3ZZk5CY2tyCcpZdU0mveHtaZ8Z/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "Wellness plan.pdf",
-      "origin": "literature",
-      "topic": "คู่มือแผนส่งเสริมสุขภาพดี (Wellness Plan) 6 องค์ประกอบสำหรับผู้สูงอายุ สำนักอนามัยผู้สูงอายุ กรมอนามัย",
-      "processed": "Y",
-      "links_to": "Geriatric Care",
-      "doc_url": "https://drive.google.com/file/d/1-FPwwrYoW1GxiJlNmL11eEW08juFLiuO/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "7weekCre-NEW2.pdf",
-      "origin": "literature",
-      "topic": "สมุดบันทึกและคู่มือ 7 สัปดาห์ สุขภาพดี หุ่นดี ที่บ้าน (Seven Weeks Fit at Home) สำหรับการปรับพฤติกรรมสุขภาพ กรมอนามัย",
-      "processed": "Y",
-      "links_to": "Fammed knowledge",
-      "doc_url": "https://drive.google.com/file/d/1l75EmiFr8A_MPRgTuN1TsvtpbrDHKqll/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "แนวทางการดูแลรักษาโรคติดต่อทางเพศสัมพันธ์ พ.ศ. 2567 (STI).pdf",
-      "origin": "literature",
-      "topic": "แนวทางการดูแลรักษาโรคติดต่อทางเพศสัมพันธ์ พ.ศ. 2567 (STI Management Guidelines 2024) กรมควบคุมโรค",
-      "processed": "Y",
-      "links_to": "Medical guideline",
-      "doc_url": "https://drive.google.com/file/d/1tXFC8FrBzghwx9AnIQcUiW_Lme8NAUrn/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "หนังสือ-ผู้ป่วยโรคไตวายเรื้อรัง-สีชมพู.pdf",
-      "origin": "literature",
-      "topic": "คู่มือการดูแลตนเองสำหรับผู้ป่วยโรคไตวายเรื้อรังที่ได้รับการฟอกเลือดด้วยเครื่องไตเทียม",
-      "processed": "Y",
-      "links_to": "Fammed knowledge",
-      "doc_url": "https://drive.google.com/file/d/1CrUYd7xO4XxegD3WGLE3vflPnEz4nl_s/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "CPG_มะเร็งเต้านม_2560.pdf",
-      "origin": "literature",
-      "topic": "แนวทางการตรวจคัดกรอง วินิจฉัย และรักษาโรคมะเร็งเต้านม พ.ศ. 2560 สถาบันมะเร็งแห่งชาติ กรมการแพทย์",
-      "processed": "Y",
-      "links_to": "Medical guideline",
-      "doc_url": "https://drive.google.com/file/d/1mwBhvX_UV3H6iNFSEwT_G06ydPJ6Ppgc/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "40Y FM CMU_190369.pdf",
-      "origin": "lecture",
-      "topic": "เอกสารบรรยายวิชาการ 40 ปี เวชศาสตร์ครอบครัว มช.: FM ต้องทำอย่างไร...เมื่องานด้านยาและสารเสพติดประชิดตัว โดย พญ.พัชรินทร์ ปิงเมืองแก้ว",
-      "processed": "Y",
-      "links_to": "Fammed knowledge",
-      "doc_url": "https://drive.google.com/file/d/17jttfQM-8Sfu6R6l9Y9YV61QqSeozR_C/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "Recommend_vaccinations_for_adults_102025.pdf",
-      "origin": "literature",
-      "topic": "คำแนะนำการให้วัคซีนป้องกันโรคสำหรับผู้ใหญ่และผู้สูงอายุ พ.ศ. 2568 สมาคมโรคติดเชื้อแห่งประเทศไทย",
-      "processed": "Y",
-      "links_to": "Medical guideline",
-      "doc_url": "https://drive.google.com/file/d/166m1rF9slYU3MiDyvak4haHp5T-_ywMV/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "paper-review_oto_meniere_disease_กุลนิดา_3_8_66.pdf",
-      "origin": "lecture",
-      "topic": "เอกสาร Paper Review สรุปแนวทางเวชปฏิบัติโรคน้ำในหูไม่เท่ากัน (Clinical Practice Guideline: M&eacute;ni&egrave;re&apos;s Disease - AAO-HNS 2020)",
-      "processed": "Y",
-      "links_to": "ENT",
-      "doc_url": "https://drive.google.com/file/d/10Xdo8Aies0JMZjoJ9ro9HXIe-RPbv3Z7/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "คู่มือการให้บริการสุขภาพคนข้ามเพศประเทศไทย LGBTQ+.pdf",
-      "origin": "literature",
-      "topic": "คู่มือการให้บริการสุขภาพคนข้ามเพศประเทศไทย พ.ศ. 2563 ศูนย์เชี่ยวชาญเฉพาะทางด้านสุขภาพคนข้ามเพศ จุฬาฯ และคลินิกแทนเจอรีน",
-      "processed": "Y",
-      "links_to": "Fammed knowledge",
-      "doc_url": "https://drive.google.com/file/d/1DtTYrsRGJ3VIIFHt8UUu7MMoJxGvDlza/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "Th-CPG-rabies-2561.pdf",
-      "origin": "literature",
-      "topic": "แนวทางการดูแลรักษาผู้สัมผัสโรคพิษสุนัขบ้า พ.ศ. 2561 และคำถามที่พบบ่อย สถานเสาวภา สภากาชาดไทย",
-      "processed": "Y",
-      "links_to": "Medical guideline",
-      "doc_url": "https://drive.google.com/file/d/1BlT89hufeGHtSuyyTWNDBp1cf2tePauS/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "แนวทางการรักษาภาวะโลหิตจางในผู้ป่วยโรคไตฯ-ปี-2564.pdf",
-      "origin": "literature",
-      "topic": "แนวทางการรักษาภาวะโลหิตจางในผู้ป่วยโรคไตเรื้อรัง พ.ศ. 2564 สมาคมโรคไตแห่งประเทศไทย",
-      "processed": "Y",
-      "links_to": "Medical guideline",
-      "doc_url": "https://drive.google.com/file/d/1HCYXc2jeMHn5bpFIQX2vTVqCTOOG61EN/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-24",
-      "source_file": "CF-1080-ผู้ป่วยโรคตับจากแอลกอฮอล์-2025-250526154636DIr7mJ.pdf",
-      "origin": "literature",
-      "topic": "แนวทางเวชปฏิบัติการดูแลรักษาผู้ป่วยโรคตับจากแอลกอฮอล์ในประเทศไทย พ.ศ. 2568 สมาคมโรคตับแห่งประเทศไทย",
-      "processed": "Y",
-      "links_to": "Medical guideline",
-      "doc_url": "https://drive.google.com/file/d/10QchgcKAezupNwzWexSiZOnq9hxtbkva/view?usp=drivesdk"
-    },
-    {
-      "captured": "2026-10-03",
-      "source_file": "update CME เผยแพร่ 260923 183417.pdf",
-      "origin": "notability",
-      "topic": "เอกสารวิชาการและการศึกษาต่อเนื่อง (CME) สมาคมโรคจากการประกอบอาชีพและสิ่งแวดล้อมแห่งประเทศไทย",
-      "processed": "Y",
-      "links_to": "Occmed",
-      "doc_url": "https://drive.google.com/file/d/1QcigM34kcSye8acdULl6wHbYIS2yAoJv/view?usp=drivesdk"
-    },
     {
       "captured": "2026-09-11",
       "source_file": "Recommended Adult and Elderly Immunization 2025.pdf",
@@ -8011,106 +7837,6 @@
       "doc_url": "https://drive.google.com/file/d/1Ma7rCdCxr4Cl5L2sQeP-1XqHQ0Buc6VR/view?usp=drivesdk"
     }
   ],
-  "w42_living_schedule": [
-    {
-      "date": "2026-11-09",
-      "day_label": "จันทร์ที่ 9 พ.ย. 2569 (2026-11-09)",
-      "short_day": "จ. 9 พ.ย.",
-      "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "30",
-      "pm_work": "พัฒนางานระบบ",
-      "pm_volume": "0",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "30",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 30 ราย - ช่วงบ่ายปฏิบัติงานพัฒนางานระบบปฐมภูมิ (ไม่มีเคสตรวจช่วงบ่าย) การดำเนินงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
-    },
-    {
-      "date": "2026-11-10",
-      "day_label": "อังคารที่ 10 พ.ย. 2569 (2026-11-10)",
-      "short_day": "อ. 10 พ.ย.",
-      "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "30",
-      "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
-      "pm_volume": "-",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "30",
-      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
-      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
-    },
-    {
-      "date": "2026-11-11",
-      "day_label": "พุธที่ 11 พ.ย. 2569 (2026-11-11)",
-      "short_day": "พ. 11 พ.ย.",
-      "am_work": "รพ.สต.ตาลเตี้ย",
-      "am_volume": "(รออัปเดต)",
-      "pm_work": "Telemed เรือนจำ",
-      "pm_volume": "(รออัปเดต)",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "(รอสรุปปิดวัน)",
-      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
-    },
-    {
-      "date": "2026-11-12",
-      "day_label": "พฤหัสบดีที่ 12 พ.ย. 2569 (2026-11-12)",
-      "short_day": "พฤ. 12 พ.ย.",
-      "am_work": "PCU รพ.สท. (OPD Fammed)",
-      "am_volume": "(รออัปเดต)",
-      "pm_work": "Academic (พี่มาชสอน intern 13:00–14:00 น.) / พัฒนางานระบบ",
-      "pm_volume": "-",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "(รอสรุปปิดวัน)",
-      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
-    },
-    {
-      "date": "2026-11-13",
-      "day_label": "ศุกร์ที่ 13 พ.ย. 2569 (2026-11-13)",
-      "short_day": "ศ. 13 พ.ย.",
-      "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "(รออัปเดต)",
-      "pm_work": "พัฒนางานระบบ / สรุปปิดสัปดาห์ W46",
-      "pm_volume": "-",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "(รอสรุปปิดสัปดาห์)",
-      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
-    },
-    {
-      "date": "2026-11-14",
-      "day_label": "เสาร์ที่ 14 พ.ย. 2569 (2026-11-14 — เวรวันหยุด)",
-      "short_day": "ส. 14 พ.ย.",
-      "am_work": "Home Ward (เวรวันหยุด)",
-      "am_volume": "(รออัปเดต)",
-      "pm_work": "วันหยุดสุดสัปดาห์",
-      "pm_volume": "-",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "เวร Home Ward วันหยุด",
-      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
-    },
-    {
-      "date": "2026-11-15",
-      "day_label": "อาทิตย์ที่ 15 พ.ย. 2569 (2026-11-15 — เวรวันหยุด)",
-      "short_day": "อา. 15 พ.ย.",
-      "am_work": "Home Ward (เวรวันหยุด)",
-      "am_volume": "(รออัปเดต)",
-      "pm_work": "วันหยุดสุดสัปดาห์",
-      "pm_volume": "-",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "เวร Home Ward วันหยุด",
-      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
-    }
-  ],
   "email_digest": [
     {
       "thread_id": "1a1c51de821658ee",
@@ -8277,11 +8003,11 @@
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "30",
       "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
-      "pm_volume": "-",
+      "pm_volume": "0",
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "30",
-      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 30 ราย - ช่วงบ่ายปฏิบัติงานพัฒนางานระบบปฐมภูมิ / ออกกำลังกาย Gym (17:00–18:00 น.) ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
@@ -8359,33 +8085,17 @@
     "week_code": "W46",
     "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit",
     "title": "สรุปประเด็นสำคัญประจำสัปดาห์แบบ 3x3 (The 3x3 Core Summary)",
-    "subtitle": "2026-11-13_SYS_Weekly-Work-W46 • สังเคราะห์จาก Living Weekly File",
+    "subtitle": "2026-11-13_SYS_Weekly-Work-W46 • Living Weekly File (อยู่ระหว่างสะสมข้อมูลรายวัน)",
     "bottlenecks": [
       {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
-      },
-      {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
-      },
-      {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
+        "title": "อยู่ระหว่างสะสมข้อมูลปฏิบัติงานรายวันสัปดาห์ W46",
+        "desc": "จะสังเคราะห์สรุป 3 ปัญหาคอขวดอัตโนมัติในวันศุกร์ที่ 13 พ.ย. 2569 เวลา 17:00 น."
       }
     ],
     "wins": [
       {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
-      },
-      {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
-      },
-      {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
+        "title": "เริ่มต้นสัปดาห์ W46: ออกตรวจ รพ.สต.บ้านสวน (30 ราย) และพัฒนางานระบบปฐมภูมิ",
+        "desc": "บันทึกข้อมูลรายวันและเชื่อมโยงตารางเวรล่วงหน้าครบทั้ง 7 วัน"
       }
     ],
     "actions": [
@@ -8403,37 +8113,121 @@
       }
     ]
   },
+  "w42_living_schedule": [
+    {
+      "date": "2026-11-09",
+      "day_label": "จันทร์ที่ 9 พ.ย. 2569 (2026-11-09)",
+      "short_day": "จ. 9 พ.ย.",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "30",
+      "pm_work": "พัฒนางานระบบ",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "30",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 30 ราย - ช่วงบ่ายปฏิบัติงานพัฒนางานระบบปฐมภูมิ (ไม่มีเคสตรวจช่วงบ่าย) การดำเนินงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
+    },
+    {
+      "date": "2026-11-10",
+      "day_label": "อังคารที่ 10 พ.ย. 2569 (2026-11-10)",
+      "short_day": "อ. 10 พ.ย.",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "30",
+      "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "30",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 30 ราย - ช่วงบ่ายปฏิบัติงานพัฒนางานระบบปฐมภูมิ / ออกกำลังกาย Gym (17:00–18:00 น.) ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
+    },
+    {
+      "date": "2026-11-11",
+      "day_label": "พุธที่ 11 พ.ย. 2569 (2026-11-11)",
+      "short_day": "พ. 11 พ.ย.",
+      "am_work": "รพ.สต.ตาลเตี้ย",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "Telemed เรือนจำ",
+      "pm_volume": "(รออัปเดต)",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "(รออัปเดต)",
+      "issue_action": "(รอสรุปปิดวัน)",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
+    },
+    {
+      "date": "2026-11-12",
+      "day_label": "พฤหัสบดีที่ 12 พ.ย. 2569 (2026-11-12)",
+      "short_day": "พฤ. 12 พ.ย.",
+      "am_work": "PCU รพ.สท. (OPD Fammed)",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "Academic (พี่มาชสอน intern 13:00–14:00 น.) / พัฒนางานระบบ",
+      "pm_volume": "-",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "(รออัปเดต)",
+      "issue_action": "(รอสรุปปิดวัน)",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
+    },
+    {
+      "date": "2026-11-13",
+      "day_label": "ศุกร์ที่ 13 พ.ย. 2569 (2026-11-13)",
+      "short_day": "ศ. 13 พ.ย.",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "พัฒนางานระบบ / สรุปปิดสัปดาห์ W46",
+      "pm_volume": "-",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "(รออัปเดต)",
+      "issue_action": "(รอสรุปปิดสัปดาห์)",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
+    },
+    {
+      "date": "2026-11-14",
+      "day_label": "เสาร์ที่ 14 พ.ย. 2569 (2026-11-14 — เวรวันหยุด)",
+      "short_day": "ส. 14 พ.ย.",
+      "am_work": "Home Ward (เวรวันหยุด)",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "วันหยุดสุดสัปดาห์",
+      "pm_volume": "-",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "(รออัปเดต)",
+      "issue_action": "เวร Home Ward วันหยุด",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
+    },
+    {
+      "date": "2026-11-15",
+      "day_label": "อาทิตย์ที่ 15 พ.ย. 2569 (2026-11-15 — เวรวันหยุด)",
+      "short_day": "อา. 15 พ.ย.",
+      "am_work": "Home Ward (เวรวันหยุด)",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "วันหยุดสุดสัปดาห์",
+      "pm_volume": "-",
+      "overtime": "ไม่มี",
+      "ot_volume": "-",
+      "total": "(รออัปเดต)",
+      "issue_action": "เวร Home Ward วันหยุด",
+      "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
+    }
+  ],
   "w42_summary_3x3": {
     "week_code": "W46",
     "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit",
     "title": "สรุปประเด็นสำคัญประจำสัปดาห์แบบ 3x3 (The 3x3 Core Summary)",
-    "subtitle": "2026-11-13_SYS_Weekly-Work-W46 • สังเคราะห์จาก Living Weekly File",
+    "subtitle": "2026-11-13_SYS_Weekly-Work-W46 • Living Weekly File (อยู่ระหว่างสะสมข้อมูลรายวัน)",
     "bottlenecks": [
       {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
-      },
-      {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
-      },
-      {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
+        "title": "อยู่ระหว่างสะสมข้อมูลปฏิบัติงานรายวันสัปดาห์ W46",
+        "desc": "จะสังเคราะห์สรุป 3 ปัญหาคอขวดอัตโนมัติในวันศุกร์ที่ 13 พ.ย. 2569 เวลา 17:00 น."
       }
     ],
     "wins": [
       {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
-      },
-      {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
-      },
-      {
-        "title": "(รอประมวลผลจากการปฏิบัติงานจริงตลอดสัปดาห์)",
-        "desc": ""
+        "title": "เริ่มต้นสัปดาห์ W46: ออกตรวจ รพ.สต.บ้านสวน (30 ราย) และพัฒนางานระบบปฐมภูมิ",
+        "desc": "บันทึกข้อมูลรายวันและเชื่อมโยงตารางเวรล่วงหน้าครบทั้ง 7 วัน"
       }
     ],
     "actions": [
@@ -8450,5 +8244,7 @@
         "desc": "ประสานระบบ Fast Track กับพยาบาลชุมชนและเครือข่าย รพ.สต. เพื่อการดูแลต่อเนื่องไร้รอยต่อ"
       }
     ]
-  }
+  },
+  "weekly_doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit",
+  "w42_doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
 }
