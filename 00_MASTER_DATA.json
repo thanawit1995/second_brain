@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-10 00:30:11",
+    "last_updated": "2026-11-10 12:29:53",
     "schema_version": "4.0-GitHub-AutoPush",
     "architecture": "GitHub-Native Static JSON over CDN"
   },
@@ -8031,13 +8031,13 @@
       "day_label": "อังคารที่ 10 พ.ย. 2569 (2026-11-10)",
       "short_day": "อ. 10 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "30",
       "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "(รอสรุปปิดวัน)",
+      "total": "30",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
@@ -8297,13 +8297,13 @@
       "day_label": "อังคารที่ 10 พ.ย. 2569 (2026-11-10)",
       "short_day": "อ. 10 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "30",
       "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "(รอสรุปปิดวัน)",
+      "total": "30",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
