@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-11 12:45:01",
+    "last_updated": "2026-11-11 17:14:58",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -729,12 +729,12 @@
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "30",
       "pm_work": "พัฒนางานระบบ",
-      "pm_volume": "0",
+      "pm_volume": "40",
       "overtime": "ไม่มี",
       "ot_volume": "0",
       "home_ward": "N",
       "palliative": "N",
-      "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 30 ราย, ช่วงบ่ายปฏิบัติงานพัฒนางานระบบปฐมภูมิ (ไม่มีเคสตรวจช่วงบ่าย)",
+      "issue": "ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 35 ราย, ช่วงบ่ายตรวจ Telemed เรือนจำ 40 ราย (รวมทั้งวัน 75 ราย) การตรวจราบรื่น",
       "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
       "link_proj": "HA-001, TM-001, SYS-002",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
@@ -8062,11 +8062,11 @@
       "am_work": "รพ.สต.ตาลเตี้ย",
       "am_volume": "35",
       "pm_work": "Telemed เรือนจำ",
-      "pm_volume": "(รออัปเดต)",
+      "pm_volume": "40",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "35",
-      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
+      "total": "75",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 35 ราย - ช่วงบ่ายตรวจ Telemed เรือนจำ 40 ราย การตรวจและการประสานงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
@@ -8308,11 +8308,11 @@
       "am_work": "รพ.สต.ตาลเตี้ย",
       "am_volume": "35",
       "pm_work": "Telemed เรือนจำ",
-      "pm_volume": "(รออัปเดต)",
+      "pm_volume": "40",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "35",
-      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
+      "total": "75",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 35 ราย - ช่วงบ่ายตรวจ Telemed เรือนจำ 40 ราย การตรวจและการประสานงานราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
