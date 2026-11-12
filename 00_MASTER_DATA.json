@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-11 19:29:56",
+    "last_updated": "2026-11-12 13:01:20",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -8074,13 +8074,13 @@
       "day_label": "พฤหัสบดีที่ 12 พ.ย. 2569 (2026-11-12)",
       "short_day": "พฤ. 12 พ.ย.",
       "am_work": "PCU รพ.สท. (OPD Fammed)",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "28",
       "pm_work": "Academic (พี่มาชสอน intern 13:00–14:00 น.) / พัฒนางานระบบ",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "(รอสรุปปิดวัน)",
+      "total": "28",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
@@ -8551,13 +8551,13 @@
       "day_label": "พฤหัสบดีที่ 12 พ.ย. 2569 (2026-11-12)",
       "short_day": "พฤ. 12 พ.ย.",
       "am_work": "PCU รพ.สท. (OPD Fammed)",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "28",
       "pm_work": "Academic (พี่มาชสอน intern 13:00–14:00 น.) / พัฒนางานระบบ",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "(รอสรุปปิดวัน)",
+      "total": "28",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
