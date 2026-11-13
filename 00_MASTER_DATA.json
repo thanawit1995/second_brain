@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-12 19:31:20",
+    "last_updated": "2026-11-13 17:30:06",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -8088,13 +8088,13 @@
       "day_label": "ศุกร์ที่ 13 พ.ย. 2569 (2026-11-13)",
       "short_day": "ศ. 13 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "45",
       "pm_work": "พัฒนางานระบบ / สรุปปิดสัปดาห์ W46",
-      "pm_volume": "-",
+      "pm_volume": "0",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "(รอสรุปปิดสัปดาห์)",
+      "total": "45",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน หนาแน่น 45 ราย - ช่วงบ่ายพัฒนางานระบบ (ไม่ได้ออกตรวจผู้ป่วย) ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
@@ -8444,13 +8444,13 @@
       "day_label": "ศุกร์ที่ 13 พ.ย. 2569 (2026-11-13)",
       "short_day": "ศ. 13 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "45",
       "pm_work": "พัฒนางานระบบ / สรุปปิดสัปดาห์ W46",
-      "pm_volume": "-",
+      "pm_volume": "0",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
-      "issue_action": "(รอสรุปปิดสัปดาห์)",
+      "total": "45",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน หนาแน่น 45 ราย - ช่วงบ่ายพัฒนางานระบบ (ไม่ได้ออกตรวจผู้ป่วย) ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     },
     {
