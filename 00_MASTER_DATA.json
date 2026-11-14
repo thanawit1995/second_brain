@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-13 20:00:06",
+    "last_updated": "2026-11-14 13:15:01",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -728,14 +728,14 @@
       "date": "2026-11-10",
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "30",
-      "pm_work": "พัฒนางานระบบ",
-      "pm_volume": "40",
+      "pm_work": "พยากรณ์งานระบบ / Gym (17:00–18:00 น.) / Gym (17:00–18:00 น.)",
+      "pm_volume": "0",
       "overtime": "ไม่มี",
       "ot_volume": "0",
       "home_ward": "N",
       "palliative": "N",
-      "issue": "ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 35 ราย, ช่วงบ่ายตรวจ Telemed เรือนจำ 40 ราย (รวมทั้งวัน 75 ราย) การตรวจราบรื่น",
-      "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
+      "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 30 ราย",
+      "action": "ช่วงบ่ายปฏิบัติงานพัฒนางานระบบปฐมภูมิ / ออกกำลังกาย Gym (17:00–18:00 น.) ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "link_proj": "HA-001, TM-001, SYS-002",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
     }
