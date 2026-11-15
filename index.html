@@ -198,12 +198,13 @@
   .btn-sm.gmail { background: #fef2f2; color: #b91c1c; border-color: #fecaca; }
   .btn-sm.gmail:hover { background: #fee2e2; }
 
-  /* 2-Row Slim Filter Bar */
+  /* 2-Row Slim Filter & Sort Bar */
   .filter-bar { margin-bottom: 10px; display: flex; flex-direction: column; gap: 7px; }
-  .search-row { display: flex; gap: 6px; align-items: center; }
+  .search-row { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
   .search-box {
     position: relative;
     flex: 1;
+    min-width: 180px;
     display: flex;
     align-items: center;
   }
@@ -228,6 +229,17 @@
     cursor: pointer;
     padding: 2px 5px;
     display: none;
+  }
+  .sort-select {
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 0.76rem;
+    font-weight: 700;
+    background: #f8fafc;
+    color: var(--text);
+    cursor: pointer;
+    outline: none;
   }
   .chip-row {
     display: flex;
@@ -283,7 +295,13 @@
     padding: 9px 10px;
     border-bottom: 2px solid var(--border);
     white-space: nowrap;
+    user-select: none;
   }
+  th.sortable { cursor: pointer; transition: background 0.12s; }
+  th.sortable:hover { background: #e2e8f0; }
+  th.sorted { color: var(--primary); background: #eff6ff; }
+  .sort-ind { font-size: 0.7rem; margin-left: 3px; opacity: 0.65; }
+  th.sorted .sort-ind { opacity: 1; }
   td { padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
   tr:hover td { background: #f8fafc; }
 
@@ -496,26 +514,21 @@
             <input type="text" id="clinic-search" placeholder="🔍 ค้นหาวันที่, สถานที่, ปัญหา, รหัสโปรเจกต์..." oninput="onFilterInput('clinic')">
             <button class="clear-x" id="clinic-clear" onclick="clearSearch('clinic')">✕</button>
           </div>
-          <button class="btn-sm" onclick="resetFilters('clinic')">ล้างตัวกรอง</button>
+          <select class="sort-select" id="clinic-sort" onchange="onSortSelect('clinic')">
+            <option value="date:desc">เรียง: วันที่ล่าสุด</option>
+            <option value="date:asc">เรียง: วันที่เก่าสุด</option>
+            <option value="total:desc">เรียง: ยอดรวมมาก→น้อย</option>
+            <option value="total:asc">เรียง: ยอดรวมน้อย→มาก</option>
+            <option value="am_work:asc">เรียง: งานเช้า (ก-ฮ)</option>
+          </select>
+          <button class="btn-sm" onclick="resetFilters('clinic')">ล้าง</button>
         </div>
         <div class="chip-row" id="clinic-chips"></div>
       </div>
       <div class="mobile-list" id="clinic-mobile"></div>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr>
-              <th>วันที่</th>
-              <th>งานเช้า</th>
-              <th>ยอดเช้า</th>
-              <th>งานบ่าย</th>
-              <th>ยอดบ่าย</th>
-              <th>OT</th>
-              <th>รวม</th>
-              <th>ปัญหา & การแก้ไข</th>
-              <th>โปรเจกต์</th>
-            </tr>
-          </thead>
+          <thead id="clinic-thead"></thead>
           <tbody id="clinic-tbody"></tbody>
         </table>
       </div>
@@ -537,26 +550,20 @@
             <input type="text" id="system-search" placeholder="🔍 ค้นหารหัส, ชื่อโครงการ, ผู้เกี่ยวข้อง, Blocker..." oninput="onFilterInput('system')">
             <button class="clear-x" id="system-clear" onclick="clearSearch('system')">✕</button>
           </div>
-          <button class="btn-sm" onclick="resetFilters('system')">ล้างตัวกรอง</button>
+          <select class="sort-select" id="system-sort" onchange="onSortSelect('system')">
+            <option value="proj_id:asc">เรียง: รหัส A→Z</option>
+            <option value="due:asc">เรียง: กำหนดส่งใกล้สุด</option>
+            <option value="impact:desc">เรียง: Impact สูง→ต่ำ</option>
+            <option value="phase:asc">เรียง: สถานะ Phase</option>
+          </select>
+          <button class="btn-sm" onclick="resetFilters('system')">ล้าง</button>
         </div>
         <div class="chip-row" id="system-chips"></div>
       </div>
       <div class="mobile-list" id="system-mobile"></div>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>ชื่อโครงการ</th>
-              <th>Domain</th>
-              <th>Phase</th>
-              <th>ผู้เกี่ยวข้อง</th>
-              <th>Blocker</th>
-              <th>Next Action</th>
-              <th>Due / Impact</th>
-              <th>เอกสาร</th>
-            </tr>
-          </thead>
+          <thead id="system-thead"></thead>
           <tbody id="system-tbody"></tbody>
         </table>
       </div>
@@ -577,25 +584,20 @@
             <input type="text" id="stock-search" placeholder="🔍 ค้นหา Ticker, ชื่อบริษัท, กลุ่มอุตสาหกรรม, Thesis..." oninput="onFilterInput('stock')">
             <button class="clear-x" id="stock-clear" onclick="clearSearch('stock')">✕</button>
           </div>
-          <button class="btn-sm" onclick="resetFilters('stock')">ล้างตัวกรอง</button>
+          <select class="sort-select" id="stock-sort" onchange="onSortSelect('stock')">
+            <option value="date_reviewed:desc">เรียง: วิเคราะห์ล่าสุด</option>
+            <option value="ticker:asc">เรียง: Ticker A→Z</option>
+            <option value="verdict:asc">เรียง: Verdict</option>
+            <option value="market:asc">เรียง: ตลาด</option>
+          </select>
+          <button class="btn-sm" onclick="resetFilters('stock')">ล้าง</button>
         </div>
         <div class="chip-row" id="stock-chips"></div>
       </div>
       <div class="mobile-list" id="stock-mobile"></div>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr>
-              <th>Ticker</th>
-              <th>ตลาด / กลุ่ม</th>
-              <th>Verdict / Conv.</th>
-              <th>ราคา / Fair Value</th>
-              <th>Entry Zone</th>
-              <th>Thesis & Catalyst</th>
-              <th>Risk / Review</th>
-              <th>เอกสาร</th>
-            </tr>
-          </thead>
+          <thead id="stock-thead"></thead>
           <tbody id="stock-tbody"></tbody>
         </table>
       </div>
@@ -619,22 +621,20 @@
             <input type="text" id="mail-search" placeholder="🔍 ค้นหาผู้ส่ง, หัวข้ออีเมล, สรุปเนื้อหา..." oninput="onFilterInput('mail')">
             <button class="clear-x" id="mail-clear" onclick="clearSearch('mail')">✕</button>
           </div>
-          <button class="btn-sm" onclick="resetFilters('mail')">ล้างตัวกรอง</button>
+          <select class="sort-select" id="mail-sort" onchange="onSortSelect('mail')">
+            <option value="time:desc">เรียง: เวลารับล่าสุด</option>
+            <option value="time:asc">เรียง: เวลารับเก่าสุด</option>
+            <option value="sender:asc">เรียง: ผู้ส่ง A→Z</option>
+            <option value="category:asc">เรียง: หมวดหมู่</option>
+          </select>
+          <button class="btn-sm" onclick="resetFilters('mail')">ล้าง</button>
         </div>
         <div class="chip-row" id="mail-chips"></div>
       </div>
       <div class="mobile-list" id="mail-mobile"></div>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr>
-              <th>วันที่ / เวลา</th>
-              <th>หมวดหมู่</th>
-              <th>ผู้ส่ง</th>
-              <th>หัวข้อ & สรุป</th>
-              <th>เปิดอ่าน</th>
-            </tr>
-          </thead>
+          <thead id="mail-thead"></thead>
           <tbody id="mail-tbody"></tbody>
         </table>
       </div>
@@ -654,24 +654,21 @@
             <input type="text" id="watchlist-search" placeholder="🔍 ค้นหา Ticker, ตลาด, เกณฑ์คัดกรอง..." oninput="onFilterInput('watchlist')">
             <button class="clear-x" id="watchlist-clear" onclick="clearSearch('watchlist')">✕</button>
           </div>
-          <button class="btn-sm" onclick="resetFilters('watchlist')">ล้างตัวกรอง</button>
+          <select class="sort-select" id="watchlist-sort" onchange="onSortSelect('watchlist')">
+            <option value="score:desc">เรียง: คะแนนมาก→น้อย</option>
+            <option value="score:asc">เรียง: คะแนนน้อย→มาก</option>
+            <option value="date_screened:desc">เรียง: วันที่คัดล่าสุด</option>
+            <option value="ticker:asc">เรียง: Ticker A→Z</option>
+            <option value="status:asc">เรียง: สถานะ</option>
+          </select>
+          <button class="btn-sm" onclick="resetFilters('watchlist')">ล้าง</button>
         </div>
         <div class="chip-row" id="watchlist-chips"></div>
       </div>
       <div class="mobile-list" id="watchlist-mobile"></div>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr>
-              <th>วันที่คัด</th>
-              <th>Ticker</th>
-              <th>ตลาด</th>
-              <th>เกณฑ์คัดกรอง (Criteria)</th>
-              <th>Score / Level</th>
-              <th>สถานะ</th>
-              <th>อ้างอิง</th>
-            </tr>
-          </thead>
+          <thead id="watchlist-thead"></thead>
           <tbody id="watchlist-tbody"></tbody>
         </table>
       </div>
@@ -692,24 +689,21 @@
             <input type="text" id="note-search" placeholder="🔍 ค้นหาชื่อไฟล์, หัวข้อ, แหล่งที่มา, Notebook..." oninput="onFilterInput('note')">
             <button class="clear-x" id="note-clear" onclick="clearSearch('note')">✕</button>
           </div>
-          <button class="btn-sm" onclick="resetFilters('note')">ล้างตัวกรอง</button>
+          <select class="sort-select" id="note-sort" onchange="onSortSelect('note')">
+            <option value="captured:desc">เรียง: วันที่ล่าสุด</option>
+            <option value="captured:asc">เรียง: วันที่เก่าสุด</option>
+            <option value="source_file:asc">เรียง: ชื่อไฟล์ A→Z</option>
+            <option value="links_to:asc">เรียง: ปลายทาง</option>
+            <option value="origin:asc">เรียง: แหล่งที่มา</option>
+          </select>
+          <button class="btn-sm" onclick="resetFilters('note')">ล้าง</button>
         </div>
         <div class="chip-row" id="note-chips"></div>
       </div>
       <div class="mobile-list" id="note-mobile"></div>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr>
-              <th>วันที่</th>
-              <th>ชื่อไฟล์</th>
-              <th>ที่มา</th>
-              <th>หัวข้อสรุป</th>
-              <th>สถานะ</th>
-              <th>ปลายทาง</th>
-              <th>เปิดดู</th>
-            </tr>
-          </thead>
+          <thead id="note-thead"></thead>
           <tbody id="note-tbody"></tbody>
         </table>
       </div>
@@ -719,7 +713,7 @@
 </div>
 
 <div class="footer-tools">
-  <div>Second Brain v9.2 • Offline-ready PWA</div>
+  <div>Second Brain v9.3 • Sortable Tables & Offline PWA</div>
   <div style="display:flex; gap:6px; flex-wrap:wrap;">
     <label class="btn-sm" style="cursor:pointer;">
       📤 นำเข้า JSON <input type="file" accept=".json" style="display:none" onchange="importJson(event)">
@@ -732,15 +726,16 @@
 
 <script>
 let DB = {};
-let viewMode = 'auto'; // 'auto' | 'desktop' | 'mobile'
+let viewMode = 'auto';
 let expandAllWeekly = false;
+
 const state = {
-  clinic: { chip: '', page: 1, pageSize: 15 },
-  system: { chip: '' },
-  stock: { chip: '' },
-  mail: { chip: '' },
-  watchlist: { chip: '' },
-  note: { chip: '', page: 1, pageSize: 25 }
+  clinic: { chip: '', page: 1, pageSize: 15, sortKey: 'date', sortDir: 'desc' },
+  system: { chip: '', sortKey: 'proj_id', sortDir: 'asc' },
+  stock: { chip: '', sortKey: 'date_reviewed', sortDir: 'desc' },
+  mail: { chip: '', sortKey: 'time', sortDir: 'desc' },
+  watchlist: { chip: '', sortKey: 'score', sortDir: 'desc' },
+  note: { chip: '', page: 1, pageSize: 25, sortKey: 'captured', sortDir: 'desc' }
 };
 
 function esc(s) {
@@ -807,6 +802,60 @@ function resetFilters(tab) {
   state[tab].chip = '';
   if (state[tab].page) state[tab].page = 1;
   renderTab(tab);
+}
+
+function onSortSelect(tab) {
+  const sel = document.getElementById(tab + '-sort');
+  if (!sel) return;
+  const [key, dir] = sel.value.split(':');
+  state[tab].sortKey = key;
+  state[tab].sortDir = dir || 'asc';
+  if (state[tab].page) state[tab].page = 1;
+  renderTab(tab);
+}
+
+function clickSortHeader(tab, key) {
+  const st = state[tab];
+  if (st.sortKey === key) {
+    st.sortDir = st.sortDir === 'asc' ? 'desc' : 'asc';
+  } else {
+    st.sortKey = key;
+    st.sortDir = (key === 'date' || key === 'captured' || key === 'date_reviewed' || key === 'date_screened' || key === 'score' || key === 'total' || key === 'time') ? 'desc' : 'asc';
+  }
+  const sel = document.getElementById(tab + '-sort');
+  if (sel) {
+    const optVal = st.sortKey + ':' + st.sortDir;
+    if ([...sel.options].some(o => o.value === optVal)) sel.value = optVal;
+  }
+  if (st.page) st.page = 1;
+  renderTab(tab);
+}
+
+function renderSortableThead(tab, cols) {
+  const thead = document.getElementById(tab + '-thead');
+  if (!thead) return;
+  const st = state[tab];
+  thead.innerHTML = '<tr>' + cols.map(c => {
+    if (!c.key) return `<th>${esc(c.label)}</th>`;
+    const isSorted = st.sortKey === c.key;
+    const ind = isSorted ? (st.sortDir === 'asc' ? '▲' : '▼') : '⇅';
+    return `<th class="sortable ${isSorted ? 'sorted' : ''}" onclick="clickSortHeader('${tab}', '${c.key}')">${esc(c.label)} <span class="sort-ind">${ind}</span></th>`;
+  }).join('') + '</tr>';
+}
+
+function sortRows(rows, key, dir, customGetter) {
+  const mult = dir === 'asc' ? 1 : -1;
+  return rows.slice().sort((a, b) => {
+    let va = customGetter ? customGetter(a, key) : a[key];
+    let vb = customGetter ? customGetter(b, key) : b[key];
+    if (va === null || va === undefined) va = '';
+    if (vb === null || vb === undefined) vb = '';
+    const na = Number(va), nb = Number(vb);
+    if (va !== '' && vb !== '' && Number.isFinite(na) && Number.isFinite(nb)) {
+      return (na - nb) * mult;
+    }
+    return String(va).localeCompare(String(vb), 'th') * mult;
+  });
 }
 
 function renderChips(tab, items) {
@@ -963,7 +1012,8 @@ function renderWeekly3x3() {
 }
 
 function renderClinic() {
-  const logs = (DB.brief_log || []).slice().sort((a,b) => String(b.date).localeCompare(String(a.date)));
+  const logs = DB.brief_log || [];
+  const sortedDate = logs.slice().sort((a,b) => String(b.date).localeCompare(String(a.date)));
   const totalDays = logs.length;
   const totalVol = logs.reduce((s, r) => s + num(r.am_volume ?? r.am_vol) + num(r.pm_volume ?? r.pm_vol) + num(r.ot_volume ?? r.ot_vol), 0);
   const hwDays = logs.filter(r => String(r.home_ward).toUpperCase() === 'Y').length;
@@ -988,7 +1038,7 @@ function renderClinic() {
     <div class="kpi-card amber">
       <div class="label">เฉลี่ยต่อวัน (สะสม)</div>
       <div class="value">${totalDays ? (totalVol / totalDays).toFixed(1) : '0'} ราย</div>
-      <div class="sub">ล่าสุด: ${esc(logs[0]?.date || '-')}</div>
+      <div class="sub">ล่าสุด: ${esc(sortedDate[0]?.date || '-')}</div>
     </div>
     <div class="kpi-card green">
       <div class="label">Home Ward / Pal</div>
@@ -1010,7 +1060,7 @@ function renderClinic() {
 
   const q = (document.getElementById('clinic-search').value || '').toLowerCase();
   const chip = state.clinic.chip;
-  const filtered = logs.filter(r => {
+  let filtered = logs.filter(r => {
     if (chip === '__HW__' && String(r.home_ward).toUpperCase() !== 'Y') return false;
     if (chip === '__OT__' && !num(r.ot_volume ?? r.ot_vol) && (!r.overtime || r.overtime === 'ไม่มี')) return false;
     if (chip && !chip.startsWith('__') && r.am_work !== chip) return false;
@@ -1020,6 +1070,25 @@ function renderClinic() {
     }
     return true;
   });
+
+  filtered = sortRows(filtered, state.clinic.sortKey, state.clinic.sortDir, (r, k) => {
+    if (k === 'total') return num(r.am_volume ?? r.am_vol) + num(r.pm_volume ?? r.pm_vol) + num(r.ot_volume ?? r.ot_vol);
+    if (k === 'am_volume') return num(r.am_volume ?? r.am_vol);
+    if (k === 'pm_volume') return num(r.pm_volume ?? r.pm_vol);
+    return r[k];
+  });
+
+  renderSortableThead('clinic', [
+    { key: 'date', label: 'วันที่' },
+    { key: 'am_work', label: 'งานเช้า' },
+    { key: 'am_volume', label: 'ยอดเช้า' },
+    { key: 'pm_work', label: 'งานบ่าย' },
+    { key: 'pm_volume', label: 'ยอดบ่าย' },
+    { key: 'overtime', label: 'OT' },
+    { key: 'total', label: 'รวม' },
+    { key: '', label: 'ปัญหา & การแก้ไข' },
+    { key: 'link_proj', label: 'โปรเจกต์' }
+  ]);
 
   const pg = state.clinic.page, ps = state.clinic.pageSize;
   const totalPages = Math.max(1, Math.ceil(filtered.length / ps));
@@ -1099,11 +1168,26 @@ function renderSystem() {
 
   const q = (document.getElementById('system-search').value || '').toLowerCase();
   const chip = state.system.chip;
-  const filtered = projs.filter(p => {
+  let filtered = projs.filter(p => {
     if (chip && p.phase !== chip) return false;
     if (q && ![p.proj_id, p.name, p.domain, p.stakeholder, p.blocker, p.next_action].join(' ').toLowerCase().includes(q)) return false;
     return true;
   });
+
+  const impRank = v => /high/i.test(v) ? 3 : (/med/i.test(v) ? 2 : 1);
+  filtered = sortRows(filtered, state.system.sortKey, state.system.sortDir, (p, k) => k === 'impact' ? impRank(p.impact) : p[k]);
+
+  renderSortableThead('system', [
+    { key: 'proj_id', label: 'ID' },
+    { key: 'name', label: 'ชื่อโครงการ' },
+    { key: 'domain', label: 'Domain' },
+    { key: 'phase', label: 'Phase' },
+    { key: 'stakeholder', label: 'ผู้เกี่ยวข้อง' },
+    { key: '', label: 'Blocker' },
+    { key: '', label: 'Next Action' },
+    { key: 'due', label: 'Due / Impact' },
+    { key: '', label: 'เอกสาร' }
+  ]);
 
   const phaseTag = ph => /done/i.test(ph) ? 'tag-green' : (/progress|active/i.test(ph) ? 'tag-amber' : 'tag-blue');
 
@@ -1175,12 +1259,25 @@ function renderStock() {
 
   const q = (document.getElementById('stock-search').value || '').toLowerCase();
   const chip = state.stock.chip;
-  const filtered = stocks.filter(s => {
+  let filtered = stocks.filter(s => {
     if (chip.startsWith('v:') && s.verdict !== chip.slice(2)) return false;
     if (chip.startsWith('m:') && s.market !== chip.slice(2)) return false;
     if (q && ![s.ticker, s.name, s.market, s.sector, s.thesis_1line, s.tags].join(' ').toLowerCase().includes(q)) return false;
     return true;
   });
+
+  filtered = sortRows(filtered, state.stock.sortKey, state.stock.sortDir);
+
+  renderSortableThead('stock', [
+    { key: 'ticker', label: 'Ticker' },
+    { key: 'market', label: 'ตลาด / กลุ่ม' },
+    { key: 'verdict', label: 'Verdict / Conv.' },
+    { key: 'date_reviewed', label: 'ราคา / FV (วันที่)' },
+    { key: '', label: 'Entry Zone' },
+    { key: '', label: 'Thesis & Catalyst' },
+    { key: 'review_next', label: 'Risk / Review' },
+    { key: '', label: 'เอกสาร' }
+  ]);
 
   const vTag = v => /buy/i.test(v) ? 'tag-green' : (/watch/i.test(v) ? 'tag-amber' : 'tag-gray');
 
@@ -1188,7 +1285,7 @@ function renderStock() {
     <td><b>${esc(s.ticker)}</b><br><span style="font-size:0.74rem;color:var(--muted);">${esc(s.name)}</span></td>
     <td><span class="tag tag-blue">${esc(s.market)}</span><br><span style="font-size:0.74rem;">${esc(s.sector)}</span></td>
     <td><span class="tag ${vTag(s.verdict)}">${esc(s.verdict)}</span> <span class="tag tag-gray">${esc(s.conviction)}</span></td>
-    <td>${esc(s.price_then)}<br><b style="color:var(--secondary);">FV: ${esc(s.fair_value)}</b></td>
+    <td>${esc(s.price_then)}<br><b style="color:var(--secondary);">FV: ${esc(s.fair_value)}</b><br><span style="font-size:0.7rem;color:var(--muted);">${esc(s.date_reviewed)}</span></td>
     <td>${esc(s.entry_zone)}</td>
     <td style="max-width:280px;">${esc(s.thesis_1line)}<br><span style="font-size:0.74rem;color:var(--muted);">⚡ ${esc(s.catalyst)}</span></td>
     <td style="max-width:220px;"><span style="color:#b91c1c;font-size:0.75rem;">⚠️ ${esc(s.key_risk)}</span><br><span style="font-size:0.73rem;">Next: ${esc(s.review_next)}</span></td>
@@ -1201,7 +1298,7 @@ function renderStock() {
       <div><span class="tag tag-blue">${esc(s.market)}</span> <span class="tag ${vTag(s.verdict)}">${esc(s.verdict)}</span></div>
     </div>
     <div class="m-row"><span>ราคาเดิม: <b>${esc(s.price_then)}</b></span><span>Fair Value: <b style="color:var(--secondary);">${esc(s.fair_value)}</b></span></div>
-    <div class="m-meta"><b>Entry:</b> ${esc(s.entry_zone)} • <b>Conviction:</b> ${esc(s.conviction)}</div>
+    <div class="m-meta"><b>Entry:</b> ${esc(s.entry_zone)} • <b>Conviction:</b> ${esc(s.conviction)} • <b>วันที่:</b> ${esc(s.date_reviewed)}</div>
     <div class="m-meta">${esc(s.thesis_1line)}</div>
     ${s.doc_url && String(s.doc_url).startsWith('http') ? `<div style="margin-top:6px;"><a class="btn-sm" href="${esc(s.doc_url)}" target="_blank" rel="noopener noreferrer">📄 อ่านบทวิเคราะห์</a></div>` : ''}
   </div>`).join('') || '<div class="m-card" style="text-align:center;color:var(--muted);">ไม่พบข้อมูลหุ้น</div>';
@@ -1246,11 +1343,21 @@ function renderMail() {
 
   const q = (document.getElementById('mail-search').value || '').toLowerCase();
   const chip = state.mail.chip;
-  const filtered = mails.filter(m => {
+  let filtered = mails.filter(m => {
     if (chip && m.category !== chip) return false;
     if (q && ![m.sender, m.subject, m.summary, m.category].join(' ').toLowerCase().includes(q)) return false;
     return true;
   });
+
+  filtered = sortRows(filtered, state.mail.sortKey, state.mail.sortDir, (m, k) => k === 'time' ? `${m.date || ''} ${m.time || ''}` : m[k]);
+
+  renderSortableThead('mail', [
+    { key: 'time', label: 'วันที่ / เวลา' },
+    { key: 'category', label: 'หมวดหมู่' },
+    { key: 'sender', label: 'ผู้ส่ง' },
+    { key: 'subject', label: 'หัวข้อ & สรุป' },
+    { key: '', label: 'เปิดอ่าน' }
+  ]);
 
   const catTag = c => /action|ดำเนินการ/i.test(c) ? 'tag-red' : (/ความปลอดภัย|ธนาคาร|ธุรกรรม/i.test(c) ? 'tag-amber' : (/ปฏิทิน/i.test(c) ? 'tag-green' : 'tag-blue'));
 
@@ -1319,11 +1426,23 @@ function renderWatchlist() {
 
   const q = (document.getElementById('watchlist-search').value || '').toLowerCase();
   const chip = state.watchlist.chip;
-  const filtered = wl.filter(w => {
+  let filtered = wl.filter(w => {
     if (chip && w.status !== chip) return false;
     if (q && ![w.ticker, w.market, w.criteria_summary, w.level, w.status].join(' ').toLowerCase().includes(q)) return false;
     return true;
   });
+
+  filtered = sortRows(filtered, state.watchlist.sortKey, state.watchlist.sortDir);
+
+  renderSortableThead('watchlist', [
+    { key: 'date_screened', label: 'วันที่คัด' },
+    { key: 'ticker', label: 'Ticker' },
+    { key: 'market', label: 'ตลาด' },
+    { key: '', label: 'เกณฑ์คัดกรอง (Criteria)' },
+    { key: 'score', label: 'Score / Level' },
+    { key: 'status', label: 'สถานะ' },
+    { key: '', label: 'อ้างอิง' }
+  ]);
 
   const stTag = s => /deep_dived/i.test(s) ? 'tag-green' : (/pending/i.test(s) ? 'tag-amber' : 'tag-gray');
 
@@ -1350,7 +1469,7 @@ function renderWatchlist() {
 
 /* ==================== RENDER NOTE ==================== */
 function renderNote() {
-  const notes = (DB.note_inbox || []).slice().sort((a,b) => String(b.captured).localeCompare(String(a.captured)));
+  const notes = DB.note_inbox || [];
   const procCnt = notes.filter(n => String(n.processed).toUpperCase() === 'Y').length;
   const originCounts = {};
   notes.forEach(n => { const o = n.origin || 'other'; originCounts[o] = (originCounts[o]||0)+1; });
@@ -1385,11 +1504,23 @@ function renderNote() {
 
   const q = (document.getElementById('note-search').value || '').toLowerCase();
   const chip = state.note.chip;
-  const filtered = notes.filter(n => {
+  let filtered = notes.filter(n => {
     if (chip && n.origin !== chip) return false;
     if (q && ![n.source_file, n.topic, n.origin, n.links_to].join(' ').toLowerCase().includes(q)) return false;
     return true;
   });
+
+  filtered = sortRows(filtered, state.note.sortKey, state.note.sortDir);
+
+  renderSortableThead('note', [
+    { key: 'captured', label: 'วันที่' },
+    { key: 'source_file', label: 'ชื่อไฟล์' },
+    { key: 'origin', label: 'ที่มา' },
+    { key: 'topic', label: 'หัวข้อสรุป' },
+    { key: 'processed', label: 'สถานะ' },
+    { key: 'links_to', label: 'ปลายทาง' },
+    { key: '', label: 'เปิดดู' }
+  ]);
 
   const pg = state.note.page, ps = state.note.pageSize;
   const totalPages = Math.max(1, Math.ceil(filtered.length / ps));
