@@ -1,9 +1,9 @@
 {
-  "name": "Second Brain — นพ.ธนวิชญ์",
+  "name": "Second Brain — FM Sukhothai",
   "short_name": "Second Brain",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f1f5f9",
   "theme_color": "#0f4c81",
-  "icons": []
+  "description": "Personal Knowledge & Clinical Management System — นพ.ธนวิชญ์"
 }
