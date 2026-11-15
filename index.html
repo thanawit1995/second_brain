@@ -858,11 +858,20 @@ function renderKPIs() {
   `;
 }
 
+function parseIssueActionToNotes(str) {
+  if (!str || str === '-' || str === 'ไม่มี') return [];
+  const parts = String(str).split(/\s+-\s+|^\s*-\s*/).map(s => s.trim()).filter(Boolean);
+  return parts.length ? parts : [String(str).trim()];
+}
+
 function renderWeekly() {
   const wk = DB.weekly_schedule || {};
-  const days = wk.days || [];
-  if (wk.week_label) document.getElementById("weeklyTitle").textContent = "📅 สัปดาห์นี้ (" + wk.week_label + ")";
-  if (wk.doc_url) document.getElementById("btnLivingWeekly").href = wk.doc_url;
+  const meta = DB.weekly_meta || {};
+  const days = (wk.days && wk.days.length) ? wk.days : (DB.weekly_living_schedule || DB.w42_living_schedule || []);
+  const weekLabel = wk.week_label || (meta.week_code ? (meta.week_code + (meta.date_range_short ? ': ' + meta.date_range_short : '')) : '');
+  const docUrl = wk.doc_url || meta.doc_url || DB.weekly_doc_url || '';
+  if (weekLabel) document.getElementById("weeklyTitle").textContent = "📅 สัปดาห์นี้ (" + weekLabel + ")";
+  if (docUrl) document.getElementById("btnLivingWeekly").href = docUrl;
 
   const briefMap = {};
   (DB.brief_log || []).forEach(b => { briefMap[b.date] = b; });
@@ -874,7 +883,10 @@ function renderWeekly() {
     const otVol = numOrNull(d.ot_volume ?? d.ot_vol ?? fb.ot_volume) || 0;
     const hasNums = (amVol !== null || pmVol !== null);
     const total = numOrNull(d.total) ?? (hasNums ? ((amVol || 0) + (pmVol || 0) + otVol) : null);
-    return { ...d, amVol, pmVol, otVol, total };
+    const dayLabel = d.short_day || d.day_label || d.date;
+    const notes = (d.notes && d.notes.length) ? d.notes : parseIssueActionToNotes(d.issue_action);
+    const status = d.status || (total === null ? 'pending' : 'done');
+    return { ...d, day_label: dayLabel, notes, status, amVol, pmVol, otVol, total };
   });
 
   // Mobile cards
