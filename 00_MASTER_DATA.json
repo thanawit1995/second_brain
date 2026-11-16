@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-16 07:44:53",
+    "last_updated": "2026-11-16 12:59:51",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -8107,13 +8107,13 @@
       "day_label": "จันทร์ที่ 16 พ.ย. 2569 (2026-11-16)",
       "short_day": "จ. 16 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "-",
+      "am_volume": "25",
       "pm_work": "OPD ตรวจสุขภาพ",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "รออัปเดต",
+      "total": "25",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
@@ -8331,13 +8331,13 @@
       "day_label": "จันทร์ที่ 16 พ.ย. 2569 (2026-11-16)",
       "short_day": "จ. 16 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "-",
+      "am_volume": "25",
       "pm_work": "OPD ตรวจสุขภาพ",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "รออัปเดต",
+      "total": "25",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
