@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-16 12:59:51",
+    "last_updated": "2026-11-16 18:00:13",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -8109,11 +8109,11 @@
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "25",
       "pm_work": "OPD ตรวจสุขภาพ",
-      "pm_volume": "-",
+      "pm_volume": "5",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "25",
-      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
+      "total": "30",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 25 ราย - ช่วงบ่ายตรวจ OPD ตรวจสุขภาพ 5 ราย การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
@@ -8333,11 +8333,11 @@
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "25",
       "pm_work": "OPD ตรวจสุขภาพ",
-      "pm_volume": "-",
+      "pm_volume": "5",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "25",
-      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
+      "total": "30",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 25 ราย - ช่วงบ่ายตรวจ OPD ตรวจสุขภาพ 5 ราย การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
