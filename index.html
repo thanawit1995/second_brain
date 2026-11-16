@@ -713,7 +713,7 @@
 </div>
 
 <div class="footer-tools">
-  <div>Second Brain v9.3 • Sortable Tables & Offline PWA</div>
+  <div>Second Brain v9.4 • Sortable Tables & Offline PWA</div>
   <div style="display:flex; gap:6px; flex-wrap:wrap;">
     <label class="btn-sm" style="cursor:pointer;">
       📤 นำเข้า JSON <input type="file" accept=".json" style="display:none" onchange="importJson(event)">
@@ -872,11 +872,31 @@ function num(v) {
 }
 
 function getGmailUrl(m) {
-  const u = String(m.gmail_url || '').trim();
+  const u = String(m.gmail_url || m.url || m.link || '').trim();
   if (u.startsWith('http')) return u;
-  const tid = String(m.thread_id || '').trim();
+  const tid = String(m.thread_id || m.threadId || m.id || '').trim();
   if (tid) return 'https://mail.google.com/mail/u/0/#all/' + encodeURIComponent(tid);
   return 'https://mail.google.com/mail/u/0/#inbox';
+}
+
+function findMailList() {
+  const candidates = ['email_digest_log', 'email_digest', 'email_log', 'emails', 'mail_log', 'mail_digest', 'mail', 'mails'];
+  for (const k of candidates) {
+    const v = DB[k];
+    if (Array.isArray(v)) return v;
+    if (v && typeof v === 'object') {
+      for (const sub of ['items', 'emails', 'logs', 'list', 'data', 'rows']) {
+        if (Array.isArray(v[sub])) return v[sub];
+      }
+    }
+  }
+  for (const k of Object.keys(DB)) {
+    const v = DB[k];
+    if (Array.isArray(v) && v.length && typeof v[0] === 'object') {
+      if ('thread_id' in v[0] || 'gmail_url' in v[0] || ('sender' in v[0] && 'subject' in v[0])) return v;
+    }
+  }
+  return [];
 }
 
 function findWeeklySchedule() {
@@ -1306,7 +1326,7 @@ function renderStock() {
 
 /* ==================== RENDER MAIL ==================== */
 function renderMail() {
-  const mails = DB.email_digest_log || [];
+  const mails = findMailList();
   const batchDate = mails[0]?.digest_batch || mails[0]?.date || '-';
   document.getElementById('mail-batch-sub').textContent = `Batch ล่าสุด: ${batchDate} (${mails.length} ฉบับ)`;
 
@@ -1571,7 +1591,7 @@ function renderAll() {
   document.getElementById('cnt-clinic').textContent = (DB.brief_log || []).length;
   document.getElementById('cnt-system').textContent = (DB.project_board || []).length;
   document.getElementById('cnt-stock').textContent = (DB.stock_master || []).length;
-  document.getElementById('cnt-mail').textContent = (DB.email_digest_log || []).length;
+  document.getElementById('cnt-mail').textContent = findMailList().length;
   document.getElementById('cnt-watchlist').textContent = (DB.watchlist || []).length;
   document.getElementById('cnt-note').textContent = (DB.note_inbox || []).length;
 
