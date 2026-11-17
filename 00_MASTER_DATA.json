@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-17 12:44:49",
+    "last_updated": "2026-11-17 16:44:53",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -8123,11 +8123,11 @@
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "20",
       "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
-      "pm_volume": "-",
+      "pm_volume": "0",
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "20",
-      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายพัฒนางานระบบ (ไม่มีเคสตรวจ): 1) เขียน SAR NCD (HA-001) เสร็จแล้วและส่งต่อให้พี่นิกเวชกรรมรับช่วงต่อ 2) ประชุมกับทีม IT เรื่องระบบ Smart COC อยู่ระหว่างพัฒนา Flow และความเป็นไปได้ของฟีเจอร์ต่างๆ ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
@@ -8424,11 +8424,11 @@
       "am_work": "รพ.สต.บ้านสวน",
       "am_volume": "20",
       "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
-      "pm_volume": "-",
+      "pm_volume": "0",
       "overtime": "ไม่มี",
       "ot_volume": "-",
       "total": "20",
-      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
+      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายพัฒนางานระบบ (ไม่มีเคสตรวจ): 1) เขียน SAR NCD (HA-001) เสร็จแล้วและส่งต่อให้พี่นิกเวชกรรมรับช่วงต่อ 2) ประชุมกับทีม IT เรื่องระบบ Smart COC อยู่ระหว่างพัฒนา Flow และความเป็นไปได้ของฟีเจอร์ต่างๆ ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
