@@ -158,7 +158,6 @@
   .pill-btn.primary { background: linear-gradient(135deg, #0284c7, #0ea5e9); color: #fff; border-color: transparent; }
   .pill-btn.syncing .spin-icon { display: inline-block; animation: spin 0.9s linear infinite; }
   @keyframes spin { 100% { transform: rotate(360deg); } }
-  .notif-badge { background: #ef4444; color: #fff; font-size: 0.66rem; padding: 1px 5px; border-radius: 99px; font-weight: 800; }
 
   /* Seamless Hero Greeting Row (Unified Speech Bubble) */
   .hero-banner {
@@ -433,7 +432,6 @@
         <input type="text" id="global-search" placeholder="ค้นหาในแท็บปัจจุบัน (Ctrl + K)..." oninput="syncGlobalSearch(this.value)">
       </div>
       <div class="top-actions">
-        <button class="pill-btn" onclick="switchTab('mail')" title="แจ้งเตือนอีเมลสำคัญ">🔔 <span class="notif-badge" id="notif-cnt">0</span></button>
         <button class="pill-btn primary" id="sync-btn" onclick="syncData()"><span class="spin-icon">🔄</span> ซิงก์</button>
         <button class="pill-btn" id="view-btn" onclick="cycleViewMode()">⚡ Auto</button>
       </div>
@@ -622,7 +620,7 @@
             <div class="card-title">📧 สรุปอีเมลประจำวัน (Email Digest Log)</div>
             <div class="card-sub" id="mail-batch-sub">รอบล่าสุด</div>
           </div>
-          <button class="btn-sm gmail" onclick="openGmailApp('')">✉️ เปิดแอป Gmail</button>
+          <a class="btn-sm gmail" href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">✉️ กล่องจดหมาย</a>
         </div>
         <div class="filter-bar">
           <div class="search-row">
@@ -729,7 +727,7 @@
     </div>
 
     <div class="footer-tools">
-      <div>Second Brain v9.9.3 • Pastel Healthcare UI</div>
+      <div>Second Brain v9.9.5 • Pastel Healthcare UI</div>
       <div style="display:flex; gap:6px; flex-wrap:wrap;">
         <label class="btn-sm" style="cursor:pointer;">
           📤 นำเข้า JSON <input type="file" accept=".json" style="display:none" onchange="importJson(event)">
@@ -955,29 +953,6 @@ function getGmailUrl(m) {
   const tid = String(m.thread_id || m.threadId || m.id || '').trim();
   if (tid) return 'https://mail.google.com/mail/u/0/#all/' + encodeURIComponent(tid);
   return 'https://mail.google.com/mail/u/0/#inbox';
-}
-
-function openGmailApp(subjectText) {
-  if (subjectText) {
-    try {
-      if (navigator.clipboard) navigator.clipboard.writeText(subjectText);
-      else {
-        const ta = document.createElement('textarea');
-        ta.value = subjectText; document.body.appendChild(ta); ta.select();
-        document.execCommand('copy'); document.body.removeChild(ta);
-      }
-      showToast('📋 คัดลอกหัวข้ออีเมลแล้ว กำลังเปิดแอป Gmail...');
-    } catch (e) {}
-  }
-  const ua = navigator.userAgent || '';
-  if (/Android/i.test(ua)) {
-    window.location.href = 'intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=com.google.android.gm;S.browser_fallback_url=' + encodeURIComponent('https://mail.google.com/mail/u/0/#inbox') + ';end';
-  } else if (/iPhone|iPad|iPod/i.test(ua)) {
-    window.location.href = 'googlegmail://';
-    setTimeout(() => window.open('https://mail.google.com/mail/u/0/#inbox', '_blank'), 700);
-  } else {
-    window.open('https://mail.google.com/mail/u/0/#inbox', '_blank', 'noopener,noreferrer');
-  }
 }
 
 function findMailList() {
@@ -1348,29 +1323,25 @@ function renderMail() {
 
   document.getElementById('mail-tbody').innerHTML = filtered.map(m => {
     const url = getGmailUrl(m);
-    const subj = esc(m.subject || '').replace(/'/g, "\\'");
     return `<tr>
       <td style="white-space:nowrap;">${esc(m.date)}<br><span style="font-size:0.74rem;color:var(--muted);">${esc(m.time)}</span></td>
       <td><span class="tag ${catTag(m.category)}" title="${esc(m.category)}">${esc(shortMailCat(m.category))}</span></td>
       <td><b>${esc(m.sender)}</b></td>
       <td><b>${esc(m.subject)}</b><br><span style="font-size:0.77rem;color:var(--muted);">${esc(m.summary)}</span></td>
-      <td style="white-space:nowrap;display:flex;gap:4px;flex-wrap:wrap;">
-        <button class="btn-sm gmail" onclick="openGmailApp('${subj}')">✉️ แอป Gmail</button>
-        <a class="btn-sm" href="${esc(url)}" target="_blank" rel="noopener noreferrer">🌐 เว็บ</a>
+      <td style="white-space:nowrap;">
+        <a class="btn-sm gmail" href="${esc(url)}" target="_blank" rel="noopener noreferrer">✉️ เปิดอ่าน</a>
       </td>
     </tr>`;
   }).join('') || '<tr><td colspan="5" style="text-align:center;color:var(--muted);">ไม่พบอีเมล</td></tr>';
 
   document.getElementById('mail-mobile').innerHTML = filtered.map(m => {
     const url = getGmailUrl(m);
-    const subj = esc(m.subject || '').replace(/'/g, "\\'");
     return `<div class="m-card">
       <div class="m-card-top"><div class="m-card-title">${esc(m.sender)} <span style="font-weight:500;font-size:0.74rem;color:var(--muted);">${esc(m.time)}</span></div><span class="tag ${catTag(m.category)}" title="${esc(m.category)}">${esc(shortMailCat(m.category))}</span></div>
       <div style="font-size:0.82rem;font-weight:700;margin-bottom:3px;">${esc(m.subject)}</div>
       <div class="m-meta">${esc(m.summary)}</div>
-      <div style="margin-top:7px;display:flex;gap:6px;flex-wrap:wrap;">
-        <button class="btn-sm gmail" onclick="openGmailApp('${subj}')">✉️ เปิดแอป Gmail</button>
-        <a class="btn-sm" href="${esc(url)}" target="_blank" rel="noopener noreferrer">🌐 อ่านบนเว็บ</a>
+      <div style="margin-top:7px;">
+        <a class="btn-sm gmail" href="${esc(url)}" target="_blank" rel="noopener noreferrer">✉️ เปิดอ่านอีเมล</a>
       </div>
     </div>`;
   }).join('') || '<div class="m-card" style="text-align:center;color:var(--muted);">ไม่พบอีเมล</div>';
@@ -1507,8 +1478,6 @@ function renderAll() {
     if (el1) el1.textContent = v;
     if (el2) el2.textContent = v;
   });
-  const actionMail = findMailList().filter(m => /action|ดำเนินการ/i.test(m.category)).length;
-  document.getElementById('notif-cnt').textContent = actionMail;
 
   renderClinic(); renderSystem(); renderStock(); renderMail(); renderWatchlist(); renderNote();
 }
