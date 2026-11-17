@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-17 21:07:08",
+    "last_updated": "2026-11-17 21:11:08",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -1212,7 +1212,7 @@
       "fair_value": "275.00-305.00",
       "entry_zone": "245.00-265.00",
       "catalyst": "งบ 3Q26 (30 ต.ค. 26 คาด EPS $3.76 +102% YoY), FDA อนุมัติ Skyrizi SC Induction ใน Crohn's, ยาพาร์กินสัน Juvmo และมะเร็ง ADC (Temab-A/Epkinly)",
-      "key_risk": "รายได้กระจุกตัวใน Skyrizi+Rinvoq เสี่ยงการแข่งขันจากยารับประทาน IL-23 ของ JNJ, หนี้สินสูง $70.8B บนส่วนผู้ถือหุ้นติดลบจาก M&A, และการต่อรองราคายา IRA",
+      "key_risk": "รายได้กระจุกตัวใน Skyrizi+Rinvoq เสี่ยงการแข่งขันจากยารับประทาน IL-23 ของ JNJ, หหนี้สินสูง $70.8B บนส่วนผู้ถือหุ้นติดลบจาก M&A, และการต่อรองราคายา IRA",
       "review_next": "2027-01-24",
       "status": "active",
       "doc_url": "https://docs.google.com/document/d/1TpSZxl6Ys4rdtDDeUjtoTws8OQJMbIyNHBAF1rxL9a0/edit",
@@ -1255,6 +1255,25 @@
       "status": "active",
       "doc_url": "https://docs.google.com/document/d/14vNEDXudu2m3PdWJdHuB9OK0cuAF611D0ieCotFvSWQ/edit",
       "tags": "US,NYSE,Healthcare,Pharma,Biotech,GLP-1,GIP,Mounjaro,Zepbound,Foundayo,Retatrutide,Wide Moat,Growth"
+    },
+    {
+      "date_reviewed": "2026-11-17",
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation (NASDAQ:NVDA)",
+      "market": "US",
+      "sector": "Semiconductors / AI Infrastructure",
+      "verdict": "watch",
+      "conviction": "medium",
+      "thesis_1line": "ผู้นำ AI Infrastructure อันดับ 1 (TTM Rev $303B, GM 74.7%) ร่วง 35% หลัง Jensen Huang ลาออกกะทันหัน (12 พ.ย. 26) จน Forward P/E เหลือ 10x แต่รอความชัดเจนงบ Q3 คืนนี้และ Permanent CEO",
+      "price_then": "157.36",
+      "fair_value": "195.00-235.00",
+      "entry_zone": "140.00-160.00",
+      "catalyst": "งบ Q3 FY27 คืนนี้ (17 พ.ย. 26) แถลงครั้งแรกโดย Colette Kress, แต่งตั้ง Permanent CEO, ปิดดีล Hugging Face ($11.9B) ใน 1H27, ซื้อหุ้นคืน $99.3B",
+      "key_risk": "สุญญากาศผู้นำและแรงกดดันคุมส่งออก/คองเกรส, ภาระผูกพันนอกงบดุล $366B และค้ำประกัน $108.5B (SB Energy/OpenAI), คู่แข่ง Custom ASICs",
+      "review_next": "2026-11-18",
+      "status": "active",
+      "doc_url": "https://docs.google.com/document/d/1b7BWdTPS1ulG2DRuMaAgbrhfkOS2ukW-4w7b1d6VK7A/edit",
+      "tags": "US,NASDAQ,NVDA,Semiconductors,AI,GPU,CUDA,CEO Transition,Wide Moat,Watch"
     }
   ],
   "watchlist": [
