@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-17 18:46:12",
+    "last_updated": "2026-11-17 18:50:58",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -1433,6 +1433,186 @@
     }
   ],
   "note_inbox": [
+    {
+      "captured": "2026-11-15",
+      "source_file": "เฉลยข้อสอบข้าราชการที่ดี.pdf",
+      "origin": "notability",
+      "topic": "Civil servant e-learning assessment answer key",
+      "processed": "Y",
+      "links_to": "99_Archive",
+      "doc_url": "https://drive.google.com/file/d/1TI7ca_U6RAhb9Ou0_Sqy1SkM76KWfgF_/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "หลักประกันสุขภาพ intern.pdf",
+      "origin": "notability",
+      "topic": "Overview of Thailand's 3 health insurance schemes and NHSO budget",
+      "processed": "Y",
+      "links_to": "others",
+      "doc_url": "https://drive.google.com/file/d/1RLt8L3wTkrEBE_LjwWRt3xI6t1cINHgO/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "Basic course 2565.pdf",
+      "origin": "notability",
+      "topic": "Basic Course of Family Medicine for Primary Care Doctor curriculum (2565)",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1YmyLcEKJrX6EeXrZWq3J_dKPjCJEPsbb/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "Plan PCU Hankha.pdf",
+      "origin": "notability",
+      "topic": "PCU operational planning notes for Hankha",
+      "processed": "Y",
+      "links_to": "99_Archive",
+      "doc_url": "https://drive.google.com/file/d/19jBHorDJvWQ5Qxsic0cVVBNCKrKsr-Ew/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "การดูแลผู้ป่วยเรื้อรังชากังราว.pdf",
+      "origin": "notability",
+      "topic": "Chronic care and Primary Care Cluster (PCC) model slides (PCU Chakangrao)",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1uICVYvkb1wW-rkrOvNyEk-4s8x2BBCe6/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "แจ้งแพทย์ใช้ทุน2563คลังยา.pdf",
+      "origin": "notability",
+      "topic": "Pharmacy orientation slides for 2563 interns (Chainat Narenthorn Hospital)",
+      "processed": "Y",
+      "links_to": "99_Archive",
+      "doc_url": "https://drive.google.com/file/d/1mjcbsAxNHctpaasVAHrNj3kF-Cw1sfTO/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "Patient Safety.pdf",
+      "origin": "notability",
+      "topic": "Presentation on Patient Safety, Human Factors, and Swiss Cheese Model",
+      "processed": "Y",
+      "links_to": "others",
+      "doc_url": "https://drive.google.com/file/d/1TG4RE_QBgqDArXcKMfSiTkvy0toySTHv/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "ICD Coding For Summary Discharge.pdf",
+      "origin": "notability",
+      "topic": "NHSO ICD-10 coding audit guidelines (SIRS, Sepsis, Septic Shock, Diarrhea)",
+      "processed": "Y",
+      "links_to": "others",
+      "doc_url": "https://drive.google.com/file/d/1BUPWoHklWX2P0H1zI65colmgfwhWImyF/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "บัญชียาโรงพยาบาลชัยนาทนเรนทร ปีงบประมาณ 2563.pdf",
+      "origin": "notability",
+      "topic": "Chainat Narenthorn Hospital drug formulary for FY 2563",
+      "processed": "Y",
+      "links_to": "99_Archive",
+      "doc_url": "https://drive.google.com/file/d/12a2NDPo3pnEMY3sYe9-a5I0CE8-Vap-W/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "52_Hospital accreditation for Hankha V2_221031_130032.pdf",
+      "origin": "notability",
+      "topic": "HA Accreditation 5th Edition overview slides (Hankha Hospital, 2022)",
+      "processed": "Y",
+      "links_to": "others",
+      "doc_url": "https://drive.google.com/file/d/1z6cYEFualz9FvgtA3rPYE8AGZ1uwrBr9/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "FM's Tools.pdf",
+      "origin": "notability",
+      "topic": "Essential Family Practice tools (Genogram, Home Visit, INHOMESSS, BADL/IADL)",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1A33vuNyZXCCmr1F3cMl0mE04zwYBDuPs/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "Consultation_Referral.pdf",
+      "origin": "notability",
+      "topic": "Lecture slides on consultation and referral principles in Family Medicine",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1v8O4WbDEax4G3AiV2aXC_A0hFLUJW24p/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "NG tube feeding.pdf",
+      "origin": "notability",
+      "topic": "Teaching handout on home NG tube feeding care (CMU Family Medicine)",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1Ed9XUETHRanRa-ZwuRQOFF7oWgl9D7bc/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "Basic course of Family medicine for Primary care doctor.pdf",
+      "origin": "notability",
+      "topic": "Comprehensive primary care notes covering holistic care, home visits, and geriatrics",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1FWS_fW_eBO06Gw8La0X4NBTZUSzdy9BE/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "The principles of health promotion.pdf",
+      "origin": "notability",
+      "topic": "Lecture notes on health promotion, disease prevention, and Stages of Change",
+      "processed": "Y",
+      "links_to": "Fammed knowledge",
+      "doc_url": "https://drive.google.com/file/d/1_BQo_pgOv8caILJ5ee_FgpJ31F31moy1/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "Yr6_Advice__Cut_Down_2014.pdf",
+      "origin": "notability",
+      "topic": "Venous cut-down procedure advice and consent form (Lampang Hospital, 2014)",
+      "processed": "Y",
+      "links_to": "99_Archive",
+      "doc_url": "https://drive.google.com/file/d/12Wvcq6zS9e6bzobwn9ohDLFs7-Qkyd7w/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "A ก4 IV FINAL V 1.0.pdf",
+      "origin": "notability",
+      "topic": "Medical student workplace-based assessment form for peripheral IV access",
+      "processed": "Y",
+      "links_to": "99_Archive",
+      "doc_url": "https://drive.google.com/file/d/1_iHqzfysgB4ScIl8fieYuNRVWSefiLbi/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "lumbar CSF 4th year.pdf",
+      "origin": "notability",
+      "topic": "Lecture slides on lumbar puncture and CSF analysis (CMU)",
+      "processed": "Y",
+      "links_to": "Internal medicine",
+      "doc_url": "https://drive.google.com/file/d/1Cy-JmRDHm6eCCuRp5LS6h0xTdTnWF_Ap/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "Knot handing.pdf",
+      "origin": "notability",
+      "topic": "Guide on surgical knot tying and suturing techniques",
+      "processed": "Y",
+      "links_to": "Surgery",
+      "doc_url": "https://drive.google.com/file/d/1xGN4ChWoh1yWN51d0OXAYiEZJIdHJhR4/view?usp=drivesdk"
+    },
+    {
+      "captured": "2026-11-15",
+      "source_file": "Yr6_Advice__Diarrhea_2014.pdf",
+      "origin": "notability",
+      "topic": "Patient education sheet on acute diarrhea (CMU ER, 2014)",
+      "processed": "Y",
+      "links_to": "others",
+      "doc_url": "https://drive.google.com/file/d/1huxBxEi4lquDZNFSQ68Sb_1Gb10r50xb/view?usp=drivesdk"
+    },
     {
       "captured": "2026-11-17",
       "source_file": "Arthrocentesis.pdf",
