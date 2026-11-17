@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-17 16:59:55",
+    "last_updated": "2026-11-17 17:14:53",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -902,14 +902,14 @@
       "proj_id": "NCD-002",
       "name": "พัฒนา Flow การดูแลผู้ป่วย Hypertension & Dyslipidemia ในระบบปฐมภูมิ",
       "domain": "ncd-clinic",
-      "phase": "in-progress",
+      "phase": "done",
       "stakeholder": "นพ.ธนวิชญ์, พญ.กัญญกมล (พี่จิ๊บ), ทีมห้องตรวจสุขภาพ, ทีม รพ.สต.",
       "blocker": "-",
-      "next_action": "ยกร่าง Flow การดูแลและแนวทางปรับเปลี่ยนพฤติกรรมสุขภาพร่วมกับทีมสหวิชาชีพ",
+      "next_action": "นำไปใช้งานจริงในระบบปฐมภูมิและบรรจุเป็นหลักฐานใน SAR PCT NCD",
       "due": "2026-11-13",
-      "last_update": "2026-10-28",
+      "last_update": "2026-11-02",
       "impact": "High",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
+      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
       "proj_id": "SYS-002",
@@ -928,14 +928,40 @@
       "proj_id": "HA-001",
       "name": "จัดทำ SAR PCT NCD & ระบบบริการปฐมภูมิตามมาตรฐาน HA ฉบับที่ 6 และ SPA ฉบับที่ 5",
       "domain": "others",
-      "phase": "in-progress",
+      "phase": "done",
       "stakeholder": "นพ.ธนวิชญ์, พยาบาล PCT NCD, ทีมเวชกรรมสังคม, ทีมคุณภาพ (พี่จา) รพ.สุโขทัย",
       "blocker": "-",
-      "next_action": "ยกร่างเนื้อหา SAR ตอนที่ III (PCP NCD) และตอนที่ II (II-9, II-10) พร้อมรวบรวมตัวชี้วัด ตอนที่ IV",
+      "next_action": "ส่งต่อให้พี่นิก (เวชกรรมสังคม) รับช่วงต่อเรียบร้อยแล้ว ติดตามการทบทวนภาพรวม รพ.",
       "due": "2026-11-20",
-      "last_update": "2026-11-02",
+      "last_update": "2026-11-17",
       "impact": "High",
-      "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
+      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+    },
+    {
+      "proj_id": "COC-001",
+      "name": "พัฒนาระบบ Smart COC เชื่อมโยงข้อมูลเยี่ยมบ้าน (HOSxP – Google Apps Script – LINE – Looker Studio)",
+      "domain": "pcu-service",
+      "phase": "in-progress",
+      "stakeholder": "นพ.ธนวิชญ์, ทีม IT, ทีมเวชกรรมสังคม, เครือข่าย รพ.สต.",
+      "blocker": "-",
+      "next_action": "ประชุมกับ IT เรียบร้อย อยู่ระหว่างพัฒนา Flow การทำงานและความเป็นไปได้ของฟีเจอร์ต่างๆ",
+      "due": "2026-11-30",
+      "last_update": "2026-11-17",
+      "impact": "High",
+      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+    },
+    {
+      "proj_id": "TM-001",
+      "name": "ปรับปรุง Flow การนัดหมายและส่งยาคลินิก Telemedicine สู่ รพ.สต. เครือข่าย",
+      "domain": "pcu-service",
+      "phase": "in-progress",
+      "stakeholder": "นพ.ธนวิชญ์, กลุ่มงานเภสัชกรรม, เวชกรรมสังคม, รพ.สต. เครือข่าย",
+      "blocker": "เกณฑ์ สปสช. กำหนดรับยาภายในวัน",
+      "next_action": "ทดสอบ Flow นัดหมายตามโซน รพ.สต. และรอบรถส่งยาอนามัย",
+      "due": "2026-11-27",
+      "last_update": "2026-11-17",
+      "impact": "High",
+      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     }
   ],
   "stock_master": [
