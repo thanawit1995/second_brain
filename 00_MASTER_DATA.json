@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-17 18:50:58",
+    "last_updated": "2026-11-17 19:00:59",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -912,19 +912,6 @@
       "doc_url": "https://docs.google.com/document/d/1UNdflJKC4bUdXPURqMI9gKJ6aiHuUDMo1gTkuQkg6aw/edit"
     },
     {
-      "proj_id": "SYS-002",
-      "name": "เชื่อมโยง Service Plan Sepsis / STEMI / Stroke กับเวชกรรมสังคมและพยาบาลชุมชน",
-      "domain": "pcu-service",
-      "phase": "in-progress",
-      "stakeholder": "นพ.ธนวิชญ์, กลุ่มงานเวชกรรมสังคม, พยาบาลชุมชน, ทีม Service Plan รพ.สุโขทัย",
-      "blocker": "-",
-      "next_action": "รวบรวมข้อมูลสถิติและแนวทางส่งต่อการดูแลต่อเนื่องเพื่อเตรียมประชุมทีม 2 พ.ย. 69",
-      "due": "2026-11-02",
-      "last_update": "2026-10-28",
-      "impact": "High",
-      "doc_url": "https://docs.google.com/document/d/17POARD_UYjvM_IqIymYiOOdrpvH6imPusDcr73mxI-Q/edit"
-    },
-    {
       "proj_id": "HA-001",
       "name": "จัดทำ SAR PCT NCD & ระบบบริการปฐมภูมิตามมาตรฐาน HA ฉบับที่ 6 และ SPA ฉบับที่ 5",
       "domain": "others",
@@ -939,12 +926,12 @@
     },
     {
       "proj_id": "COC-001",
-      "name": "พัฒนาระบบ Smart COC เชื่อมโยงข้อมูลเยี่ยมบ้าน (HOSxP – Google Apps Script – LINE – Looker Studio)",
+      "name": "พัฒนาระบบ Smart COC เชื่อมโยงข้อมูลเยี่ยมบ้านและ Service Plan (Sepsis / STEMI / Stroke) ร่วมกับเวชกรรมสังคมและพยาบาลชุมชน",
       "domain": "pcu-service",
       "phase": "in-progress",
-      "stakeholder": "นพ.ธนวิชญ์, ทีม IT, ทีมเวชกรรมสังคม, เครือข่าย รพ.สต.",
+      "stakeholder": "นพ.ธนวิชญ์, ทีม IT, กลุ่มงานเวชกรรมสังคม, พยาบาลชุมชน, ทีม Service Plan, เครือข่าย รพ.สต.",
       "blocker": "-",
-      "next_action": "ประชุมกับ IT เรียบร้อย อยู่ระหว่างพัฒนา Flow การทำงานและความเป็นไปได้ของฟีเจอร์ต่างๆ",
+      "next_action": "ประชุมกับ IT เรียบร้อย อยู่ระหว่างพัฒนา Flow การทำงาน, ฟีเจอร์ต่างๆ และเชื่อมโยงส่งต่อ Service Plan (Sepsis / STEMI / Stroke)",
       "due": "2026-11-30",
       "last_update": "2026-11-17",
       "impact": "High",
