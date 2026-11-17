@@ -1,4 +1,4 @@
-const CACHE_NAME = 'second-brain-v9.9.1';
+const CACHE_NAME = 'second-brain-v9.9.2';
 const ASSETS = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', event => {
