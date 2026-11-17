@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-17 16:44:53",
+    "last_updated": "2026-11-17 16:59:55",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -813,6 +813,36 @@
       "action": "สรุปปิดเวรวันหยุดและปิดสัปดาห์ W46 สมบูรณ์",
       "link_proj": "-",
       "doc_url": "https://docs.google.com/document/d/1NoMDqlOdm0ORqL01k5ajmKAVsIyZ2SnCly5CbVi76yw/edit"
+    },
+    {
+      "date": "2026-11-16",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "25",
+      "pm_work": "OPD ตรวจสุขภาพ",
+      "pm_volume": "5",
+      "overtime": "ไม่มี",
+      "ot_volume": "0",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 25 ราย, ช่วงบ่ายตรวจ OPD ตรวจสุขภาพ 5 ราย (รวมทั้งวัน 30 ราย) การตรวจราบรื่น",
+      "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
+      "link_proj": "-",
+      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+    },
+    {
+      "date": "2026-11-17",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "20",
+      "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "0",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย, ช่วงบ่ายพัฒนางานระบบ (ไม่มีเคสตรวจ)",
+      "action": "1) เขียน SAR NCD เสร็จแล้ว ส่งต่อพี่นิกเวชกรรมรับช่วงต่อ 2) ประชุม IT ระบบ Smart COC อยู่ระหว่างพัฒนา Flow และฟีเจอร์ต่างๆ สรุปปิดวันสมบูรณ์",
+      "link_proj": "HA-001, HW-001",
+      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     }
   ],
   "project_board": [
