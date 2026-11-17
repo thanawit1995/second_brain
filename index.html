@@ -361,7 +361,7 @@
   body.mode-mobile .table-wrap { display: none !important; }
   body.mode-mobile .mobile-list { display: flex !important; }
 
-  .tag { display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: 0.71rem; font-weight: 700; max-width: 100%; white-space: normal; word-break: break-word; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: 0.71rem; font-weight: 700; white-space: nowrap; }
   .tag-green { background: #d1fae5; color: #065f46; }
   .tag-amber { background: #fef3c7; color: #92400e; }
   .tag-red { background: #fee2e2; color: #991b1b; }
@@ -729,7 +729,7 @@
     </div>
 
     <div class="footer-tools">
-      <div>Second Brain v9.9.2 • Pastel Healthcare UI</div>
+      <div>Second Brain v9.9.3 • Pastel Healthcare UI</div>
       <div style="display:flex; gap:6px; flex-wrap:wrap;">
         <label class="btn-sm" style="cursor:pointer;">
           📤 นำเข้า JSON <input type="file" accept=".json" style="display:none" onchange="importJson(event)">
@@ -757,6 +757,23 @@ const state = {
   watchlist: { chip: '', sortKey: 'score', sortDir: 'desc' },
   note: { chip: '', page: 1, pageSize: 25, sortKey: 'captured', sortDir: 'desc' }
 };
+
+function renderProjTags(str) {
+  const parts = String(str || '').split(/[,;]+/).map(s => s.trim()).filter(Boolean);
+  if (!parts.length) return '';
+  return '<div style="display:flex;flex-wrap:wrap;gap:4px;">' + parts.map(p => `<span class="tag tag-blue">${esc(p)}</span>`).join('') + '</div>';
+}
+
+function shortMailCat(cat) {
+  const c = String(cat || '').trim();
+  if (/แอปพลิเคชันและข่าวสาร/i.test(c)) return 'แอป & ข่าวสาร';
+  if (/ธนาคารและช้อปปิ้ง/i.test(c)) return 'ธนาคาร & ช้อปปิ้ง';
+  if (/ความปลอดภัย/i.test(c)) return 'ความปลอดภัย';
+  if (/โฆษณาและโปรโมชั่น/i.test(c)) return 'โปรโมชั่น';
+  if (/ต้องดำเนินการ|action/i.test(c)) return 'ต้องดำเนินการ';
+  if (/ปฏิทิน/i.test(c)) return 'ปฏิทิน';
+  return c;
+}
 
 function formatDayLabel(label) {
   const s = String(label || '').trim();
@@ -1169,14 +1186,14 @@ function renderClinic() {
       <td>${esc(r.overtime || 'ไม่มี')}${ot ? ` (${ot})` : ''}</td>
       <td><span class="vol-badge total">${am+pm+ot}</span></td>
       <td style="max-width:300px;">${esc([r.issue, r.action].filter(Boolean).join(' • '))}</td>
-      <td>${r.link_proj ? `<span class="tag tag-blue">${esc(r.link_proj)}</span>` : ''} ${r.doc_url && String(r.doc_url).startsWith('http') ? `<a class="btn-sm" href="${esc(r.doc_url)}" target="_blank" rel="noopener noreferrer">📄</a>` : ''}</td>
+      <td>${r.link_proj ? renderProjTags(r.link_proj) : ''} ${r.doc_url && String(r.doc_url).startsWith('http') ? `<a class="btn-sm" href="${esc(r.doc_url)}" target="_blank" rel="noopener noreferrer">📄</a>` : ''}</td>
     </tr>`;
   }).join('') || '<tr><td colspan="9" style="text-align:center;color:var(--muted);">ไม่พบข้อมูล</td></tr>';
 
   document.getElementById('clinic-mobile').innerHTML = slice.map(r => {
     const am = num(r.am_volume ?? r.am_vol), pm = num(r.pm_volume ?? r.pm_vol), ot = num(r.ot_volume ?? r.ot_vol);
     return `<div class="m-card">
-      <div class="m-card-top"><div class="m-card-title">📅 ${esc(r.date)} ${r.link_proj ? `<span class="tag tag-blue">${esc(r.link_proj)}</span>` : ''}</div><span class="vol-badge total">${am+pm+ot} ราย</span></div>
+      <div class="m-card-top"><div class="m-card-title">📅 ${esc(r.date)} ${r.link_proj ? renderProjTags(r.link_proj) : ''}</div><span class="vol-badge total">${am+pm+ot} ราย</span></div>
       <div class="m-row"><span>🌅 ${esc(r.am_work || '-')}</span><span class="vol-badge">${am}</span></div>
       <div class="m-row"><span>🌇 ${esc(r.pm_work || '-')}</span><span class="vol-badge">${pm}</span></div>
       ${ot ? `<div class="m-row"><span>🌙 ${esc(r.overtime || 'OT')}</span><span class="vol-badge">${ot}</span></div>` : ''}
@@ -1315,7 +1332,7 @@ function renderMail() {
   `;
 
   const cats = [...new Set(mails.map(m => m.category).filter(Boolean))];
-  renderChips('mail', [{ val: '', label: `ทั้งหมด (${mails.length})` }, ...cats.map(c => ({ val: c, label: c }))]);
+  renderChips('mail', [{ val: '', label: `ทั้งหมด (${mails.length})` }, ...cats.map(c => ({ val: c, label: shortMailCat(c) }))]);
 
   const q = (document.getElementById('mail-search').value || '').toLowerCase();
   const chip = state.mail.chip;
@@ -1334,7 +1351,7 @@ function renderMail() {
     const subj = esc(m.subject || '').replace(/'/g, "\\'");
     return `<tr>
       <td style="white-space:nowrap;">${esc(m.date)}<br><span style="font-size:0.74rem;color:var(--muted);">${esc(m.time)}</span></td>
-      <td><span class="tag ${catTag(m.category)}">${esc(m.category)}</span></td>
+      <td><span class="tag ${catTag(m.category)}" title="${esc(m.category)}">${esc(shortMailCat(m.category))}</span></td>
       <td><b>${esc(m.sender)}</b></td>
       <td><b>${esc(m.subject)}</b><br><span style="font-size:0.77rem;color:var(--muted);">${esc(m.summary)}</span></td>
       <td style="white-space:nowrap;display:flex;gap:4px;flex-wrap:wrap;">
@@ -1348,7 +1365,7 @@ function renderMail() {
     const url = getGmailUrl(m);
     const subj = esc(m.subject || '').replace(/'/g, "\\'");
     return `<div class="m-card">
-      <div class="m-card-top"><div class="m-card-title">${esc(m.sender)} <span style="font-weight:500;font-size:0.74rem;color:var(--muted);">${esc(m.time)}</span></div><span class="tag ${catTag(m.category)}">${esc(m.category)}</span></div>
+      <div class="m-card-top"><div class="m-card-title">${esc(m.sender)} <span style="font-weight:500;font-size:0.74rem;color:var(--muted);">${esc(m.time)}</span></div><span class="tag ${catTag(m.category)}" title="${esc(m.category)}">${esc(shortMailCat(m.category))}</span></div>
       <div style="font-size:0.82rem;font-weight:700;margin-bottom:3px;">${esc(m.subject)}</div>
       <div class="m-meta">${esc(m.summary)}</div>
       <div style="margin-top:7px;display:flex;gap:6px;flex-wrap:wrap;">
