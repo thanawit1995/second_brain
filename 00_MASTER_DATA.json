@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-17 21:11:08",
+    "last_updated": "2026-11-18 15:36:03",
     "schema_version": "5.0-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Direct Live API Fallback"
   },
@@ -8368,13 +8368,13 @@
       "day_label": "พุธที่ 18 พ.ย. 2569 (2026-11-18)",
       "short_day": "พ. 18 พ.ย.",
       "am_work": "รพ.สต.ตาลเตี้ย",
-      "am_volume": "-",
+      "am_volume": "40",
       "pm_work": "Telemed เรือนจำ / Gym (17:00–18:00 น.)",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "รออัปเดต",
+      "total": "40",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
@@ -8768,13 +8768,13 @@
       "day_label": "พุธที่ 18 พ.ย. 2569 (2026-11-18)",
       "short_day": "พ. 18 พ.ย.",
       "am_work": "รพ.สต.ตาลเตี้ย",
-      "am_volume": "-",
+      "am_volume": "40",
       "pm_work": "Telemed เรือนจำ / Gym (17:00–18:00 น.)",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "รออัปเดต",
+      "total": "40",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
