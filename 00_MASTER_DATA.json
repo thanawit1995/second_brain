@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-19 12:21:38",
+    "last_updated": "2026-11-19 12:31:04",
     "schema_version": "5.1-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Base History Merge"
   },
@@ -8397,13 +8397,13 @@
       "day_label": "พฤหัสบดีที่ 19 พ.ย. 2569 (2026-11-19)",
       "short_day": "พฤ. 19 พ.ย.",
       "am_work": "PCU รพ.สท. (OPD Fammed) / อบรม HA",
-      "am_volume": "-",
+      "am_volume": "9",
       "pm_work": "อบรม HA (ถึง 15:00 น.) / พัฒนางานระบบ",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "รออัปเดต",
+      "total": "9",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
@@ -8709,13 +8709,13 @@
       "day_label": "พฤหัสบดีที่ 19 พ.ย. 2569 (2026-11-19)",
       "short_day": "พฤ. 19 พ.ย.",
       "am_work": "PCU รพ.สท. (OPD Fammed) / อบรม HA",
-      "am_volume": "-",
+      "am_volume": "9",
       "pm_work": "อบรม HA (ถึง 15:00 น.) / พัฒนางานระบบ",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "รออัปเดต",
+      "total": "9",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
