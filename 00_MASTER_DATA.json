@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-19 12:36:07",
+    "last_updated": "2026-11-20 12:56:00",
     "schema_version": "5.1-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Base History Merge"
   },
@@ -856,6 +856,36 @@
       "palliative": "N",
       "issue": "ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 40 ราย, ช่วงบ่ายตรวจ Telemed เรือนจำ 30 ราย (รวมทั้งวัน 70 ราย) การตรวจราบรื่น",
       "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
+      "link_proj": "-",
+      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+    },
+    {
+      "date": "2026-11-19",
+      "am_work": "PCU รพ.สท. (OPD Fammed) / อบรม HA",
+      "am_volume": "9",
+      "pm_work": "อบรม HA (ถึง 15:00 น.) / พัฒนางานระบบ",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "0",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "ช่วงเช้าออกตรวจ PCU รพ.สท. 9 ราย / อบรม HA, ช่วงบ่ายอบรม HA และพัฒนางานระบบ",
+      "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
+      "link_proj": "HA-001",
+      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+    },
+    {
+      "date": "2026-11-20",
+      "am_work": "รพ.สต.บ้านสวน / อบรม HA",
+      "am_volume": "10",
+      "pm_work": "OPD GP / อบรม HA (ถึง 15:00 น.) / Yoga (18:00–19:00 น.)",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "0",
+      "home_ward": "N",
+      "palliative": "N",
+      "issue": "(รอสรุปปิดวัน)",
+      "action": "(รอสรุปปิดวัน)",
       "link_proj": "-",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     }
@@ -8411,13 +8441,13 @@
       "day_label": "ศุกร์ที่ 20 พ.ย. 2569 (2026-11-20)",
       "short_day": "ศ. 20 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน / อบรม HA",
-      "am_volume": "-",
+      "am_volume": "10",
       "pm_work": "OPD GP / อบรม HA (ถึง 15:00 น.) / Yoga (18:00–19:00 น.)",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "รออัปเดต",
+      "total": "10",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
@@ -8723,13 +8753,13 @@
       "day_label": "ศุกร์ที่ 20 พ.ย. 2569 (2026-11-20)",
       "short_day": "ศ. 20 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน / อบรม HA",
-      "am_volume": "-",
+      "am_volume": "10",
       "pm_work": "OPD GP / อบรม HA (ถึง 15:00 น.) / Yoga (18:00–19:00 น.)",
       "pm_volume": "-",
       "overtime": "ไม่มี",
       "ot_volume": "-",
-      "total": "-",
-      "issue_action": "รออัปเดต",
+      "total": "10",
+      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
     },
     {
