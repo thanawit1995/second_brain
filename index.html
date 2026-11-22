@@ -786,7 +786,18 @@ function esc(s) {
   if (s === null || s === undefined) return '';
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
-
+  
+function format3x3Item(i) {
+  if (!i) return '';
+  if (typeof i === 'string') return esc(i);
+  if (typeof i === 'object') {
+    const t = i.title ? esc(i.title) : '';
+    const d = i.desc ? esc(i.desc) : '';
+    return d ? (t ? `<b>${t}:</b> ${d}` : d) : t;
+  }
+  return esc(i);
+}
+  
 function showToast(msg) {
   const t = document.getElementById('toast');
   t.textContent = msg;
@@ -1006,10 +1017,13 @@ function renderWeekly() {
   (DB.brief_log || []).forEach(b => { if (b.date) briefMap[b.date] = b; });
 
   const meta = DB.metadata || {};
-  const wk = meta.current_week || (findWeekly3x3()?.week) || 'ปัจจุบัน';
-  const wkRange = meta.current_week_range || (findWeekly3x3()?.date_range) || '';
+  const wmeta = DB.weekly_meta || {};
+  const w3 = findWeekly3x3() || {};
+  const wk = meta.current_week || wmeta.week_code || w3.week_code || w3.week || 'ปัจจุบัน';
+  const wkRange = meta.current_week_range || wmeta.date_range_short || w3.date_range || '';
+  const wkDocUrl = meta.current_week_doc_url || wmeta.doc_url || DB.weekly_doc_url || '';
   document.getElementById('weekly-title').textContent = `📅 ตารางงานสัปดาห์ ${wk}${wkRange ? ' (' + wkRange + ')' : ''}`;
-  if (meta.current_week_doc_url) document.getElementById('weekly-doc-link').href = meta.current_week_doc_url;
+  if (wkDocUrl) document.getElementById('weekly-doc-link').href = wkDocUrl;
 
   const tbody = document.getElementById('weekly-tbody');
   const mob = document.getElementById('weekly-mobile');
@@ -1068,8 +1082,10 @@ function renderWeekly3x3() {
   const bottlenecks = w3.bottlenecks || w3['3_bottlenecks'] || w3.Bottlenecks || [];
   const wins = w3.systems_wins || w3.wins || w3['3_systems_wins'] || w3['Systems Wins'] || [];
   const actions = w3.next_actions || w3.actions || w3['3_next_actions'] || w3['Next Actions'] || [];
-  sub.textContent = `สัปดาห์ ${w3.week || ''} ${w3.date_range ? '(' + w3.date_range + ')' : ''}`.trim();
-  const renderList = (arr, emptyText) => (!Array.isArray(arr) || !arr.length) ? `<p style="font-size:0.78rem;color:var(--muted);">${emptyText}</p>` : `<ol>${arr.map(i => `<li>${esc(i)}</li>`).join('')}</ol>`;
+  const w3Week = w3.week || w3.week_code || DB.weekly_meta?.week_code || DB.metadata?.current_week || '';
+  const w3Range = w3.date_range || DB.weekly_meta?.date_range_short || DB.metadata?.current_week_range || '';
+  sub.textContent = `สัปดาห์ ${w3Week} ${w3Range ? '(' + w3Range + ')' : ''}`.trim();
+  const renderList = (arr, emptyText) => (!Array.isArray(arr) || !arr.length) ? `<p style="font-size:0.78rem;color:var(--muted);">${emptyText}</p>` : `<ol>${arr.map(i => `<li>${format3x3Item(i)}</li>`).join('')}</ol>`;
 
   body.innerHTML = `
     <div class="box-3x3 bottleneck"><h4>🔴 3 Bottlenecks (ปัญหาคอขวด)</h4>${renderList(bottlenecks, 'ยังไม่มีรายการ')}</div>
@@ -1091,6 +1107,7 @@ function renderClinic() {
   const wVol = sched.reduce((s, r) => s + (num(r.total) || (num(r.am_volume)+num(r.pm_volume)+num(r.ot_volume))), 0);
   const wAm = sched.reduce((s, r) => s + num(r.am_volume ?? r.am_vol), 0);
   const wPm = sched.reduce((s, r) => s + num(r.pm_volume ?? r.pm_vol), 0);
+  const currentWeekCode = DB.weekly_meta?.week_code || DB.metadata?.current_week || findWeekly3x3()?.week_code || findWeekly3x3()?.week || 'ปัจจุบัน';
 
   document.getElementById('kpi-clinic').innerHTML = `
     <div class="kpi-card blue">
@@ -1098,7 +1115,7 @@ function renderClinic() {
       <div class="kpi-viz">${svgBars('#0284c7')}</div>
     </div>
     <div class="kpi-card teal">
-      <div class="kpi-left"><div class="label">สัปดาห์นี้ (${esc(DB.metadata?.current_week || 'W46')})</div><div class="value">${wVol.toLocaleString()} ราย</div><div class="sub">เช้า ${wAm} • บ่าย ${wPm}</div></div>
+      <div class="kpi-left"><div class="kpi-left"><div class="label">สัปดาห์นี้ (${esc(currentWeekCode)})</div><div class="value">${wVol.toLocaleString()} ราย</div><div class="sub">เช้า ${wAm} • บ่าย ${wPm}</div></div><div class="value">${wVol.toLocaleString()} ราย</div><div class="sub">เช้า ${wAm} • บ่าย ${wPm}</div></div>
       <div class="kpi-viz">${svgBars('#10b981')}</div>
     </div>
     <div class="kpi-card amber">
