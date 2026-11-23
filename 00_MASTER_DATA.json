@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-23 07:41:00",
+    "last_updated": "2026-11-23 12:31:00",
     "schema_version": "5.1-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Base History Merge"
   },
@@ -888,6 +888,21 @@
       "action": "สรุปปิดวันสมบูรณ์ ไม่มีเวรนอกเวลา",
       "link_proj": "-",
       "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+    },
+    {
+      "date": "2026-11-23",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "20",
+      "pm_work": "คลินิกตรวจสุขภาพ / พัฒนางานระบบ",
+      "pm_volume": "0",
+      "overtime": "ไม่มี",
+      "ot_volume": "0",
+      "home_ward": "N",
+      "palliative": "Y",
+      "issue": "(รอสรุปปิดวัน)",
+      "action": "(รอสรุปปิดวัน)",
+      "link_proj": "-",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     }
   ],
   "project_board": [
@@ -8385,12 +8400,12 @@
       "day_label": "จันทร์ 23 พ.ย. 2569 (2026-11-23)",
       "short_day": "จ. 23 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "20",
       "pm_work": "คลินิกตรวจสุขภาพ / พัฒนางานระบบ",
       "pm_volume": "(รออัปเดต)",
       "overtime": "-",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
+      "total": "20",
       "issue_action": "N / Y (IPD Palliative)",
       "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
@@ -8587,12 +8602,12 @@
       "day_label": "จันทร์ 23 พ.ย. 2569 (2026-11-23)",
       "short_day": "จ. 23 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "20",
       "pm_work": "คลินิกตรวจสุขภาพ / พัฒนางานระบบ",
       "pm_volume": "(รออัปเดต)",
       "overtime": "-",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
+      "total": "20",
       "issue_action": "N / Y (IPD Palliative)",
       "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
