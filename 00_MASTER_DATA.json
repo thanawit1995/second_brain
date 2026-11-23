@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-22 19:05:58",
+    "last_updated": "2026-11-23 07:37:34",
     "schema_version": "5.1-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Base History Merge"
   },
@@ -8381,102 +8381,102 @@
   ],
   "w42_living_schedule": [
     {
-      "date": "2026-11-16",
-      "day_label": "จันทร์ที่ 16 พ.ย. 2569 (2026-11-16)",
-      "short_day": "จ. 16 พ.ย.",
+      "date": "2026-11-23",
+      "day_label": "จันทร์ 23 พ.ย. 2569 (2026-11-23)",
+      "short_day": "จ. 23 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "25",
-      "pm_work": "OPD ตรวจสุขภาพ",
-      "pm_volume": "5",
-      "overtime": "ไม่มี",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "คลินิกตรวจสุขภาพ / พัฒนางานระบบ",
+      "pm_volume": "(รออัปเดต)",
+      "overtime": "-",
       "ot_volume": "-",
-      "total": "30",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 25 ราย - ช่วงบ่ายตรวจ OPD ตรวจสุขภาพ 5 ราย การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "N / Y (IPD Palliative)",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
     {
-      "date": "2026-11-17",
-      "day_label": "อังคารที่ 17 พ.ย. 2569 (2026-11-17)",
-      "short_day": "อ. 17 พ.ย.",
+      "date": "2026-11-24",
+      "day_label": "อังคาร 24 พ.ย. 2569 (2026-11-24)",
+      "short_day": "อ. 24 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "20",
-      "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
-      "pm_volume": "0",
-      "overtime": "ไม่มี",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "ออกหน่วยลอยกระทง (13:00–16:30)",
+      "pm_volume": "(รออัปเดต)",
+      "overtime": "-",
       "ot_volume": "-",
-      "total": "20",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายพัฒนางานระบบ (ไม่มีเคสตรวจ): 1) เขียน SAR NCD (HA-001) เสร็จแล้วและส่งต่อให้พี่นิกเวชกรรมรับช่วงต่อ 2) ประชุมกับทีม IT เรื่องระบบ Smart COC อยู่ระหว่างพัฒนา Flow และความเป็นไปได้ของฟีเจอร์ต่างๆ ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "N / Y (IPD Palliative)",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
     {
-      "date": "2026-11-18",
-      "day_label": "พุธที่ 18 พ.ย. 2569 (2026-11-18)",
-      "short_day": "พ. 18 พ.ย.",
-      "am_work": "รพ.สต.ตาลเตี้ย",
-      "am_volume": "40",
-      "pm_work": "Telemed เรือนจำ / Gym (17:00–18:00 น.)",
-      "pm_volume": "30",
-      "overtime": "ไม่มี",
+      "date": "2026-11-25",
+      "day_label": "พุธ 25 พ.ย. 2569 (2026-11-25)",
+      "short_day": "พ. 25 พ.ย.",
+      "am_work": "รพ.สต.บ้านคลองด่าน",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "ประชุมเตรียมรับ สสจ. นิเทศ คปสอ.เมือง (14:00–15:00 ห้องเขาหลวง) / งานระบบ",
+      "pm_volume": "(รออัปเดต)",
+      "overtime": "-",
       "ot_volume": "-",
-      "total": "70",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 40 ราย - ช่วงบ่ายตรวจ Telemed เรือนจำ 30 ราย / Gym (17:00–18:00 น.) การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "N / Y (IPD Palliative)",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
     {
-      "date": "2026-11-19",
-      "day_label": "พฤหัสบดีที่ 19 พ.ย. 2569 (2026-11-19)",
-      "short_day": "พฤ. 19 พ.ย.",
-      "am_work": "PCU รพ.สท. (OPD Fammed) / อบรม HA",
-      "am_volume": "9",
-      "pm_work": "อบรม HA (ถึง 15:00 น.) / พัฒนางานระบบ",
+      "date": "2026-11-26",
+      "day_label": "พฤหัสบดี 26 พ.ย. 2569 (2026-11-26)",
+      "short_day": "พฤ. 26 พ.ย.",
+      "am_work": "PCU รพ.สุโขทัย",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "พัฒนางานระบบ / คลินิกช่วงบ่าย",
+      "pm_volume": "(รออัปเดต)",
+      "overtime": "-",
+      "ot_volume": "-",
+      "total": "(รออัปเดต)",
+      "issue_action": "N / Y (IPD Palliative)",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
+    },
+    {
+      "date": "2026-11-27",
+      "day_label": "ศุกร์ 27 พ.ย. 2569 (2026-11-27)",
+      "short_day": "ศ. 27 พ.ย.",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "พัฒนางานระบบ / คลินิกช่วงบ่าย",
+      "pm_volume": "(รออัปเดต)",
+      "overtime": "-",
+      "ot_volume": "-",
+      "total": "(รออัปเดต)",
+      "issue_action": "N / Y (IPD Palliative)",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
+    },
+    {
+      "date": "2026-11-28",
+      "day_label": "เสาร์ 28 พ.ย. 2569 (2026-11-28)",
+      "short_day": "ส. 28 พ.ย.",
+      "am_work": "วันหยุดสุดสัปดาห์ (ตรวจสอบเวร Home Ward)",
+      "am_volume": "-",
+      "pm_work": "วันหยุดสุดสัปดาห์ (14:00 น. นำรถเข้าศูนย์)",
       "pm_volume": "-",
-      "overtime": "ไม่มี",
+      "overtime": "-",
       "ot_volume": "-",
-      "total": "9",
-      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+      "total": "-",
+      "issue_action": "N / N",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
     {
-      "date": "2026-11-20",
-      "day_label": "ศุกร์ที่ 20 พ.ย. 2569 (2026-11-20)",
-      "short_day": "ศ. 20 พ.ย.",
-      "am_work": "รพ.สต.บ้านสวน / อบรม HA",
-      "am_volume": "10",
-      "pm_work": "OPD GP / อบรม HA (ถึง 15:00 น.) / Yoga (18:00–19:00 น.)",
-      "pm_volume": "10",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "20",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 10 ราย / อบรม HA - ช่วงบ่ายตรวจ OPD GP 10 ราย / อบรม HA (ถึง 15:00 น.) / Yoga (18:00–19:00 น.) การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
-    },
-    {
-      "date": "2026-11-21",
-      "day_label": "เสาร์ที่ 21 พ.ย. 2569 (2026-11-21 — วันหยุด)",
-      "short_day": "ส. 21 พ.ย.",
-      "am_work": "วันหยุดสุดสัปดาห์",
+      "date": "2026-11-29",
+      "day_label": "อาทิตย์ 29 พ.ย. 2569 (2026-11-29)",
+      "short_day": "อา. 29 พ.ย.",
+      "am_work": "วันหยุดสุดสัปดาห์ (ตรวจสอบเวร Home Ward)",
       "am_volume": "-",
       "pm_work": "วันหยุดสุดสัปดาห์",
       "pm_volume": "-",
-      "overtime": "ไม่มี",
+      "overtime": "-",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "วันหยุดสุดสัปดาห์ (ภารกิจ จ.ชัยนาท เริ่ม 12:00 น.)",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
-    },
-    {
-      "date": "2026-11-22",
-      "day_label": "อาทิตย์ที่ 22 พ.ย. 2569 (2026-11-22 — วันหยุด)",
-      "short_day": "อา. 22 พ.ย.",
-      "am_work": "วันหยุดสุดสัปดาห์",
-      "am_volume": "-",
-      "pm_work": "วันหยุดสุดสัปดาห์",
-      "pm_volume": "-",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "-",
-      "issue_action": "วันหยุดสุดสัปดาห์ (ภารกิจ จ.ชัยนาท ถึง 13:00 น.)",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+      "issue_action": "N / N",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     }
   ],
   "email_digest": [
@@ -8570,211 +8570,133 @@
     }
   ],
   "weekly_meta": {
-    "week_code": "W47",
-    "week_num": "W47",
-    "doc_id": "1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4",
-    "doc_title": "2026-11-20_SYS_Weekly-Work-W47",
-    "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit",
-    "date_range": "16 พ.ย. – 22 พ.ย.",
-    "date_range_short": "16 พ.ย. – 22 พ.ย.",
-    "header_title": "สัปดาห์นี้ (W47: 16 พ.ย. – 22 พ.ย.)"
+    "week_code": "W48",
+    "week_num": "W48",
+    "doc_id": "1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o",
+    "doc_title": "2026-11-27_SYS_Weekly-Work-W48",
+    "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit",
+    "date_range": "",
+    "date_range_short": "",
+    "header_title": "สัปดาห์นี้ (W48)"
   },
-  "weekly_doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit",
-  "w42_doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit",
+  "weekly_doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit",
+  "w42_doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit",
   "weekly_living_schedule": [
     {
-      "date": "2026-11-16",
-      "day_label": "จันทร์ที่ 16 พ.ย. 2569 (2026-11-16)",
-      "short_day": "จ. 16 พ.ย.",
+      "date": "2026-11-23",
+      "day_label": "จันทร์ 23 พ.ย. 2569 (2026-11-23)",
+      "short_day": "จ. 23 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "25",
-      "pm_work": "OPD ตรวจสุขภาพ",
-      "pm_volume": "5",
-      "overtime": "ไม่มี",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "คลินิกตรวจสุขภาพ / พัฒนางานระบบ",
+      "pm_volume": "(รออัปเดต)",
+      "overtime": "-",
       "ot_volume": "-",
-      "total": "30",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 25 ราย - ช่วงบ่ายตรวจ OPD ตรวจสุขภาพ 5 ราย การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "N / Y (IPD Palliative)",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
     {
-      "date": "2026-11-17",
-      "day_label": "อังคารที่ 17 พ.ย. 2569 (2026-11-17)",
-      "short_day": "อ. 17 พ.ย.",
+      "date": "2026-11-24",
+      "day_label": "อังคาร 24 พ.ย. 2569 (2026-11-24)",
+      "short_day": "อ. 24 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "20",
-      "pm_work": "พัฒนางานระบบ / Gym (17:00–18:00 น.)",
-      "pm_volume": "0",
-      "overtime": "ไม่มี",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "ออกหน่วยลอยกระทง (13:00–16:30)",
+      "pm_volume": "(รออัปเดต)",
+      "overtime": "-",
       "ot_volume": "-",
-      "total": "20",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 20 ราย - ช่วงบ่ายพัฒนางานระบบ (ไม่มีเคสตรวจ): 1) เขียน SAR NCD (HA-001) เสร็จแล้วและส่งต่อให้พี่นิกเวชกรรมรับช่วงต่อ 2) ประชุมกับทีม IT เรื่องระบบ Smart COC อยู่ระหว่างพัฒนา Flow และความเป็นไปได้ของฟีเจอร์ต่างๆ ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "N / Y (IPD Palliative)",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
     {
-      "date": "2026-11-18",
-      "day_label": "พุธที่ 18 พ.ย. 2569 (2026-11-18)",
-      "short_day": "พ. 18 พ.ย.",
-      "am_work": "รพ.สต.ตาลเตี้ย",
-      "am_volume": "40",
-      "pm_work": "Telemed เรือนจำ / Gym (17:00–18:00 น.)",
-      "pm_volume": "30",
-      "overtime": "ไม่มี",
+      "date": "2026-11-25",
+      "day_label": "พุธ 25 พ.ย. 2569 (2026-11-25)",
+      "short_day": "พ. 25 พ.ย.",
+      "am_work": "รพ.สต.บ้านคลองด่าน",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "ประชุมเตรียมรับ สสจ. นิเทศ คปสอ.เมือง (14:00–15:00 ห้องเขาหลวง) / งานระบบ",
+      "pm_volume": "(รออัปเดต)",
+      "overtime": "-",
       "ot_volume": "-",
-      "total": "70",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.ตาลเตี้ย 40 ราย - ช่วงบ่ายตรวจ Telemed เรือนจำ 30 ราย / Gym (17:00–18:00 น.) การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+      "total": "(รออัปเดต)",
+      "issue_action": "N / Y (IPD Palliative)",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
     {
-      "date": "2026-11-19",
-      "day_label": "พฤหัสบดีที่ 19 พ.ย. 2569 (2026-11-19)",
-      "short_day": "พฤ. 19 พ.ย.",
-      "am_work": "PCU รพ.สท. (OPD Fammed) / อบรม HA",
-      "am_volume": "9",
-      "pm_work": "อบรม HA (ถึง 15:00 น.) / พัฒนางานระบบ",
+      "date": "2026-11-26",
+      "day_label": "พฤหัสบดี 26 พ.ย. 2569 (2026-11-26)",
+      "short_day": "พฤ. 26 พ.ย.",
+      "am_work": "PCU รพ.สุโขทัย",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "พัฒนางานระบบ / คลินิกช่วงบ่าย",
+      "pm_volume": "(รออัปเดต)",
+      "overtime": "-",
+      "ot_volume": "-",
+      "total": "(รออัปเดต)",
+      "issue_action": "N / Y (IPD Palliative)",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
+    },
+    {
+      "date": "2026-11-27",
+      "day_label": "ศุกร์ 27 พ.ย. 2569 (2026-11-27)",
+      "short_day": "ศ. 27 พ.ย.",
+      "am_work": "รพ.สต.บ้านสวน",
+      "am_volume": "(รออัปเดต)",
+      "pm_work": "พัฒนางานระบบ / คลินิกช่วงบ่าย",
+      "pm_volume": "(รออัปเดต)",
+      "overtime": "-",
+      "ot_volume": "-",
+      "total": "(รออัปเดต)",
+      "issue_action": "N / Y (IPD Palliative)",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
+    },
+    {
+      "date": "2026-11-28",
+      "day_label": "เสาร์ 28 พ.ย. 2569 (2026-11-28)",
+      "short_day": "ส. 28 พ.ย.",
+      "am_work": "วันหยุดสุดสัปดาห์ (ตรวจสอบเวร Home Ward)",
+      "am_volume": "-",
+      "pm_work": "วันหยุดสุดสัปดาห์ (14:00 น. นำรถเข้าศูนย์)",
       "pm_volume": "-",
-      "overtime": "ไม่มี",
+      "overtime": "-",
       "ot_volume": "-",
-      "total": "9",
-      "issue_action": "(รออัปเดตช่วงบ่าย / ปิดวัน)",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+      "total": "-",
+      "issue_action": "N / N",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
     {
-      "date": "2026-11-20",
-      "day_label": "ศุกร์ที่ 20 พ.ย. 2569 (2026-11-20)",
-      "short_day": "ศ. 20 พ.ย.",
-      "am_work": "รพ.สต.บ้านสวน / อบรม HA",
-      "am_volume": "10",
-      "pm_work": "OPD GP / อบรม HA (ถึง 15:00 น.) / Yoga (18:00–19:00 น.)",
-      "pm_volume": "10",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "20",
-      "issue_action": "- ช่วงเช้าออกตรวจ รพ.สต.บ้านสวน 10 ราย / อบรม HA - ช่วงบ่ายตรวจ OPD GP 10 ราย / อบรม HA (ถึง 15:00 น.) / Yoga (18:00–19:00 น.) การตรวจราบรื่น ไม่มีเวรนอกเวลา สรุปปิดวันสมบูรณ์",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
-    },
-    {
-      "date": "2026-11-21",
-      "day_label": "เสาร์ที่ 21 พ.ย. 2569 (2026-11-21 — วันหยุด)",
-      "short_day": "ส. 21 พ.ย.",
-      "am_work": "วันหยุดสุดสัปดาห์",
+      "date": "2026-11-29",
+      "day_label": "อาทิตย์ 29 พ.ย. 2569 (2026-11-29)",
+      "short_day": "อา. 29 พ.ย.",
+      "am_work": "วันหยุดสุดสัปดาห์ (ตรวจสอบเวร Home Ward)",
       "am_volume": "-",
       "pm_work": "วันหยุดสุดสัปดาห์",
       "pm_volume": "-",
-      "overtime": "ไม่มี",
+      "overtime": "-",
       "ot_volume": "-",
       "total": "-",
-      "issue_action": "วันหยุดสุดสัปดาห์ (ภารกิจ จ.ชัยนาท เริ่ม 12:00 น.)",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
-    },
-    {
-      "date": "2026-11-22",
-      "day_label": "อาทิตย์ที่ 22 พ.ย. 2569 (2026-11-22 — วันหยุด)",
-      "short_day": "อา. 22 พ.ย.",
-      "am_work": "วันหยุดสุดสัปดาห์",
-      "am_volume": "-",
-      "pm_work": "วันหยุดสุดสัปดาห์",
-      "pm_volume": "-",
-      "overtime": "ไม่มี",
-      "ot_volume": "-",
-      "total": "-",
-      "issue_action": "วันหยุดสุดสัปดาห์ (ภารกิจ จ.ชัยนาท ถึง 13:00 น.)",
-      "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit"
+      "issue_action": "N / N",
+      "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     }
   ],
   "weekly_summary_3x3": {
-    "week_code": "W47",
-    "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit",
+    "week_code": "W48",
+    "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit",
     "title": "สรุปประเด็นสำคัญประจำสัปดาห์แบบ 3x3 (The 3x3 Core Summary)",
-    "subtitle": "2026-11-20_SYS_Weekly-Work-W47 • สังเคราะห์จาก Living Weekly File",
-    "bottlenecks": [
-      {
-        "title": "ภาระงานกระจุกตัวสูงในวันพุธที่ 18 พ.ย. (รวม 70 ราย",
-        "desc": "รพ.สต.ตาลเตี้ย 40 ราย + Telemed เรือนจำ 30 ราย) เทียบกับวันอื่นที่ 9–30 ราย"
-      },
-      {
-        "title": "ตารางตรวจคลินิกช่วงปลายสัปดาห์ (19–20 พ.ย.) ซ้อนทับกับการอบรม HA ทำให้ต้องบริหารเวลาตรวจช่วงเช้าที่ PCU รพ.สท. (9 ราย) และ รพ.สต.บ้านสวน (10 ราย) อย่างกระชับ",
-        "desc": ""
-      },
-      {
-        "title": "ข้อจำกัดเกณฑ์ สปสช. เรื่องการรับยา Telemedicine ภายในวัน (TM-001) และการออกแบบ Flow เชื่อมโยงระบบ Smart COC กับทีม IT (COC-001)",
-        "desc": ""
-      }
-    ],
-    "wins": [
-      {
-        "title": "ปิดงาน SAR PCT NCD (HA-001) ส่วนปฐมภูมิตามมาตรฐาน HA ฉบับที่ 6 / SPA ฉบับที่ 5 เสร็จสมบูรณ์และส่งต่อให้พี่นิก (เวชกรรมสังคม) รับช่วงต่อเรียบร้อยแล้ว",
-        "desc": ""
-      },
-      {
-        "title": "ประชุมร่วมกับทีม IT เพื่อออกแบบ Flow และประเมินความเป็นไปได้ของฟีเจอร์ระบบ Smart COC (COC-001) เชื่อมโยงการเยี่ยมบ้านและ Service Plan (Sepsis / STEMI / Stroke)",
-        "desc": ""
-      },
-      {
-        "title": "ดูแลผู้ป่วยต่อเนื่องครบทุกไซต์รวม 149 ราย (รวม Telemed เรือนจำ 30 ราย) ควบคู่กับการเข้าอบรม HA ครบทั้ง 2 วัน (19–20 พ.ย.)",
-        "desc": ""
-      }
-    ],
-    "actions": [
-      {
-        "title": "ติดตามความคืบหน้าการพัฒนา Flow และฟีเจอร์ระบบ Smart COC (COC-001) ร่วมกับทีม IT และเวชกรรมสังคม (เป้าหมาย 30 พ.ย.)",
-        "desc": ""
-      },
-      {
-        "title": "ทดสอบ Flow การนัดหมายตามโซน รพ.สต. และรอบรถส่งยาอนามัยของคลินิก Telemedicine (TM-001) ให้สอดคล้องกับเกณฑ์ สปสช. (เป้าหมาย 27 พ.ย.)",
-        "desc": ""
-      },
-      {
-        "title": "ผลักดันงานค้างใน Project Board ต่อเนื่อง ได้แก่ One-Page ประชาสัมพันธ์แพ็กเกจ SMC (SMC-001) และสื่อออกกำลังกายผู้สูงอายุกลุ่มเปราะบาง (GER-001)",
-        "desc": ""
-      }
-    ]
+    "subtitle": "2026-11-27_SYS_Weekly-Work-W48 • สังเคราะห์จาก Living Weekly File",
+    "bottlenecks": [],
+    "wins": [],
+    "actions": []
   },
   "w42_summary_3x3": {
-    "week_code": "W47",
-    "doc_url": "https://docs.google.com/document/d/1tsVWzlSCTxZbEvF8xOe5r1AUCzpDiW_seh66xzeJQo4/edit",
+    "week_code": "W48",
+    "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit",
     "title": "สรุปประเด็นสำคัญประจำสัปดาห์แบบ 3x3 (The 3x3 Core Summary)",
-    "subtitle": "2026-11-20_SYS_Weekly-Work-W47 • สังเคราะห์จาก Living Weekly File",
-    "bottlenecks": [
-      {
-        "title": "ภาระงานกระจุกตัวสูงในวันพุธที่ 18 พ.ย. (รวม 70 ราย",
-        "desc": "รพ.สต.ตาลเตี้ย 40 ราย + Telemed เรือนจำ 30 ราย) เทียบกับวันอื่นที่ 9–30 ราย"
-      },
-      {
-        "title": "ตารางตรวจคลินิกช่วงปลายสัปดาห์ (19–20 พ.ย.) ซ้อนทับกับการอบรม HA ทำให้ต้องบริหารเวลาตรวจช่วงเช้าที่ PCU รพ.สท. (9 ราย) และ รพ.สต.บ้านสวน (10 ราย) อย่างกระชับ",
-        "desc": ""
-      },
-      {
-        "title": "ข้อจำกัดเกณฑ์ สปสช. เรื่องการรับยา Telemedicine ภายในวัน (TM-001) และการออกแบบ Flow เชื่อมโยงระบบ Smart COC กับทีม IT (COC-001)",
-        "desc": ""
-      }
-    ],
-    "wins": [
-      {
-        "title": "ปิดงาน SAR PCT NCD (HA-001) ส่วนปฐมภูมิตามมาตรฐาน HA ฉบับที่ 6 / SPA ฉบับที่ 5 เสร็จสมบูรณ์และส่งต่อให้พี่นิก (เวชกรรมสังคม) รับช่วงต่อเรียบร้อยแล้ว",
-        "desc": ""
-      },
-      {
-        "title": "ประชุมร่วมกับทีม IT เพื่อออกแบบ Flow และประเมินความเป็นไปได้ของฟีเจอร์ระบบ Smart COC (COC-001) เชื่อมโยงการเยี่ยมบ้านและ Service Plan (Sepsis / STEMI / Stroke)",
-        "desc": ""
-      },
-      {
-        "title": "ดูแลผู้ป่วยต่อเนื่องครบทุกไซต์รวม 149 ราย (รวม Telemed เรือนจำ 30 ราย) ควบคู่กับการเข้าอบรม HA ครบทั้ง 2 วัน (19–20 พ.ย.)",
-        "desc": ""
-      }
-    ],
-    "actions": [
-      {
-        "title": "ติดตามความคืบหน้าการพัฒนา Flow และฟีเจอร์ระบบ Smart COC (COC-001) ร่วมกับทีม IT และเวชกรรมสังคม (เป้าหมาย 30 พ.ย.)",
-        "desc": ""
-      },
-      {
-        "title": "ทดสอบ Flow การนัดหมายตามโซน รพ.สต. และรอบรถส่งยาอนามัยของคลินิก Telemedicine (TM-001) ให้สอดคล้องกับเกณฑ์ สปสช. (เป้าหมาย 27 พ.ย.)",
-        "desc": ""
-      },
-      {
-        "title": "ผลักดันงานค้างใน Project Board ต่อเนื่อง ได้แก่ One-Page ประชาสัมพันธ์แพ็กเกจ SMC (SMC-001) และสื่อออกกำลังกายผู้สูงอายุกลุ่มเปราะบาง (GER-001)",
-        "desc": ""
-      }
-    ]
+    "subtitle": "2026-11-27_SYS_Weekly-Work-W48 • สังเคราะห์จาก Living Weekly File",
+    "bottlenecks": [],
+    "wins": [],
+    "actions": []
   }
 }
