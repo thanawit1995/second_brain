@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-24 19:35:59",
+    "last_updated": "2026-11-25 12:56:00",
     "schema_version": "5.1-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Base History Merge"
   },
@@ -8428,12 +8428,12 @@
       "day_label": "พุธ 25 พ.ย. 2569 (2026-11-25)",
       "short_day": "พ. 25 พ.ย.",
       "am_work": "รพ.สต.บ้านคลองด่าน",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "45",
       "pm_work": "ประชุมเตรียมรับ สสจ. นิเทศ คปสอ.เมือง (14:00–15:00 ห้องเขาหลวง) / งานระบบ",
       "pm_volume": "(รออัปเดต)",
       "overtime": "-",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
+      "total": "45",
       "issue_action": "N / Y (IPD Palliative)",
       "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
@@ -8729,12 +8729,12 @@
       "day_label": "พุธ 25 พ.ย. 2569 (2026-11-25)",
       "short_day": "พ. 25 พ.ย.",
       "am_work": "รพ.สต.บ้านคลองด่าน",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "45",
       "pm_work": "ประชุมเตรียมรับ สสจ. นิเทศ คปสอ.เมือง (14:00–15:00 ห้องเขาหลวง) / งานระบบ",
       "pm_volume": "(รออัปเดต)",
       "overtime": "-",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
+      "total": "45",
       "issue_action": "N / Y (IPD Palliative)",
       "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
