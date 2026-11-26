@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-25 19:41:05",
+    "last_updated": "2026-11-26 12:40:25",
     "schema_version": "5.1-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Base History Merge"
   },
@@ -8442,12 +8442,12 @@
       "day_label": "พฤหัสบดี 26 พ.ย. 2569 (2026-11-26)",
       "short_day": "พฤ. 26 พ.ย.",
       "am_work": "PCU รพ.สุโขทัย",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "39",
       "pm_work": "พัฒนางานระบบ / คลินิกช่วงบ่าย",
       "pm_volume": "(รออัปเดต)",
       "overtime": "-",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
+      "total": "39",
       "issue_action": "N / Y (IPD Palliative)",
       "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
@@ -8776,12 +8776,12 @@
       "day_label": "พฤหัสบดี 26 พ.ย. 2569 (2026-11-26)",
       "short_day": "พฤ. 26 พ.ย.",
       "am_work": "PCU รพ.สุโขทัย",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "39",
       "pm_work": "พัฒนางานระบบ / คลินิกช่วงบ่าย",
       "pm_volume": "(รออัปเดต)",
       "overtime": "-",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
+      "total": "39",
       "issue_action": "N / Y (IPD Palliative)",
       "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
