@@ -2,7 +2,7 @@
   "metadata": {
     "title": "00_MASTER_DATA (Second Brain Master Database)",
     "owner": "นพ.ธนวิชญ์",
-    "last_updated": "2026-11-26 19:11:26",
+    "last_updated": "2026-11-27 12:31:45",
     "schema_version": "5.1-AutoSync-PWA",
     "architecture": "GitHub-Native Static JSON + Base History Merge"
   },
@@ -8456,12 +8456,12 @@
       "day_label": "ศุกร์ 27 พ.ย. 2569 (2026-11-27)",
       "short_day": "ศ. 27 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "45",
       "pm_work": "พัฒนางานระบบ / คลินิกช่วงบ่าย",
       "pm_volume": "(รออัปเดต)",
       "overtime": "-",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
+      "total": "45",
       "issue_action": "N / Y (IPD Palliative)",
       "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
@@ -8779,12 +8779,12 @@
       "day_label": "ศุกร์ 27 พ.ย. 2569 (2026-11-27)",
       "short_day": "ศ. 27 พ.ย.",
       "am_work": "รพ.สต.บ้านสวน",
-      "am_volume": "(รออัปเดต)",
+      "am_volume": "45",
       "pm_work": "พัฒนางานระบบ / คลินิกช่วงบ่าย",
       "pm_volume": "(รออัปเดต)",
       "overtime": "-",
       "ot_volume": "-",
-      "total": "(รออัปเดต)",
+      "total": "45",
       "issue_action": "N / Y (IPD Palliative)",
       "doc_url": "https://docs.google.com/document/d/1XYFYPcoENJhc02YSocfAUomCBzf0N6X6uI5sB8op1-o/edit"
     },
